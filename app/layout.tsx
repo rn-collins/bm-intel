@@ -1,1 +1,39 @@
-{"data":"aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwppbXBvcnQgTmF2IGZyb20gIkAvY29tcG9uZW50cy9OYXYiOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogIkJ1cmdlcm1laXN0ZXIgRXhwYW5zaW9uIEludGVsIiwKICBkZXNjcmlwdGlvbjogIkxlZ2FsIGFuZCByZWd1bGF0b3J5IGludGVsbGlnZW5jZSBmb3IgQnVyZ2VybWVpc3RlciBpbnRlcm5hdGlvbmFsIGV4cGFuc2lvbi4gTm90IGxlZ2FsIGFkdmljZS4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH06IFJlYWRvbmx5PHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9PikgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJlbiIgY2xhc3NOYW1lPSJoLWZ1bGwiPgogICAgICA8Ym9keSBjbGFzc05hbWU9Im1pbi1oLWZ1bGwgZmxleCBmbGV4LWNvbCBiZy1bI0Y2RjNFQ10gdGV4dC1bIzFDMUIxRl0gYW50aWFsaWFzZWQiPgogICAgICAgIDxOYXYgLz4KICAgICAgICA8bWFpbiBjbGFzc05hbWU9ImZsZXgtMSB3LWZ1bGwgbWF4LXctN3hsIG14LWF1dG8gcHgtNiBweS04Ij4KICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICA8L21haW4+CiAgICAgICAgPGZvb3RlciBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQteHMgdGV4dC1bIzk5OV0gcHktNCBib3JkZXItdCBib3JkZXItWyNFMERERDZdIj4KICAgICAgICAgIEJ1cmdlcm1laXN0ZXIgRXhwYW5zaW9uIEludGVsIMK3IEJ1aWx0IGJ5IFJOIENvbGxpbnMgwrcgQWxvaGEgQUkgQ29uc3VsdGluZyDCtyBOb3QgTGVnYWwgQWR2aWNlIMK3IGNvbGxpbnMucmFAbm9ydGhlYXN0ZXJuLmVkdSDCtyBsaW5rZWRpbi5jb20vaW4vcm4tY29sbGlucwogICAgICAgIDwvZm9vdGVyPgogICAgICA8L2JvZHk+CiAgICA8L2h0bWw+CiAgKTsKfQo="}
+import type { Metadata } from "next";
+import "./globals.css";
+import Nav from "@/components/Nav";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Burgermeister Expansion Intel",
+    template: "%s | Burgermeister Expansion Intel",
+  },
+  description: "Legal and regulatory intelligence for Burgermeister international expansion. Not legal advice.",
+  openGraph: {
+    title: "Burgermeister Expansion Intel",
+    description: "Legal and regulatory intelligence for Burgermeister international expansion. Not legal advice.",
+    url: "https://bm-intel-ivory.vercel.app",
+    siteName: "Burgermeister Expansion Intel",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Burgermeister Expansion Intel",
+    description: "Legal and regulatory intelligence for Burgermeister international expansion. Not legal advice.",
+  },
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en" className="h-full">
+      <body className="min-h-full flex flex-col bg-[#F6F3EC] text-[#1C1B1F] antialiased">
+        <Nav />
+        <main className="flex-1 w-full max-w-7xl mx-auto px-6 py-8">
+          {children}
+        </main>
+        <footer className="text-center text-xs text-[#999] py-4 border-t border-[#E0DDD6]">
+          Burgermeister Expansion Intel · Built by RN Collins · Aloha AI Consulting · Not Legal Advice ·{" "}<a href="mailto:collins.ra@northeastern.edu" className="hover:text-[#B8842A] transition-colors">collins.ra@northeastern.edu</a>{" "}·{" "}<a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">linkedin.com/in/rn-collins</a>
+        </footer>
+      </body>
+    </html>
+  );
+}

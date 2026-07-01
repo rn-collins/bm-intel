@@ -1,1 +1,102 @@
-{"data":"aW1wb3J0IHsgbGlzdFNvdXJjZXMgfSBmcm9tICJAL2xpYi9zb3VyY2VzIjsKCmV4cG9ydCBjb25zdCByZXZhbGlkYXRlID0gNjA7Cgpjb25zdCBUSUVSX0NPTkZJRyA9IHsKICAxOiB7IGxhYmVsOiAiVGllciAxIOKAlCBQcmltYXJ5IExlZ2FsIFNvdXJjZSIsICAgIGJnOiAiYmctWyMxRTM2NTFdIiwgdGV4dDogInRleHQtd2hpdGUiIH0sCiAgMjogeyBsYWJlbDogIlRpZXIgMiDigJQgUmVwdXRhYmxlIFNlY29uZGFyeSIsICAgICBiZzogImJnLVsjQjg4NDJBXSIsIHRleHQ6ICJ0ZXh0LXdoaXRlIiB9LAogIDM6IHsgbGFiZWw6ICJUaWVyIDMg4oCUIEJ1c2luZXNzIEludGVsbGlnZW5jZSIsICAgYmc6ICJiZy1bI0Y2RjNFQ10iLCB0ZXh0OiAidGV4dC1bIzY2Nl0iIH0sCiAgNDogeyBsYWJlbDogIlRpZXIgNCDigJQgV2VhayBTaWduYWwiLCAgICAgICAgICAgICBiZzogImJnLVsjZWVlXSIsICAgIHRleHQ6ICJ0ZXh0LVsjOTk5XSIgfSwKfTsKCmNvbnN0IEZSRVFfQ09MT1I6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgZGFpbHk6ICAgInRleHQtWyM3QjAwMDBdIGZvbnQtc2VtaWJvbGQiLAogIHdlZWtseTogICJ0ZXh0LVsjOEI0NTEzXSBmb250LXNlbWlib2xkIiwKICBtb250aGx5OiAidGV4dC1bIzJGNTQ5Nl0iLAogIG1hbnVhbDogICJ0ZXh0LVsjODg4XSIsCn07CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBTb3VyY2VzUGFnZSgpIHsKICBjb25zdCBzb3VyY2VzID0gYXdhaXQgbGlzdFNvdXJjZXMoKTsKCiAgY29uc3QgYnlUaWVyID0gWzEsIDIsIDMsIDRdLm1hcCgodGllcikgPT4gKHsKICAgIHRpZXIsCiAgICBzb3VyY2VzOiBzb3VyY2VzLmZpbHRlcigocykgPT4gcy50aWVyID09PSB0aWVyKSwKICB9KSkuZmlsdGVyKChnKSA9PiBnLnNvdXJjZXMubGVuZ3RoID4gMCk7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS04Ij4KICAgICAgPGRpdj4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0iPlNvdXJjZSBMaWJyYXJ5PC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1bIzY2Nl0gbXQtMSI+CiAgICAgICAgICB7c291cmNlcy5sZW5ndGh9IG1vbml0b3JlZCBzb3VyY2VzIGFjcm9zcyBVLlMuLCBVSywgRVUsIGFuZCBnbG9iYWwganVyaXNkaWN0aW9ucyDCtwogICAgICAgICAgVGllciAxID0gcHJpbWFyeSBsZWdhbC9yZWd1bGF0b3J5IMK3IFRpZXIgMiA9IHJlcHV0YWJsZSBzZWNvbmRhcnkgwrcgVGllciAzID0gYnVzaW5lc3MgaW50ZWxsaWdlbmNlCiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBUaWVyIGxlZ2VuZCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0zIj4KICAgICAgICB7T2JqZWN0LmVudHJpZXMoVElFUl9DT05GSUcpLm1hcCgoW3RpZXIsIGNmZ10pID0+ICgKICAgICAgICAgIDxzcGFuIGtleT17dGllcn0gY2xhc3NOYW1lPXtgdGV4dC14cyBweC0zIHB5LTEuNSByb3VuZGVkLWZ1bGwgZm9udC1zZW1pYm9sZCAke2NmZy5iZ30gJHtjZmcudGV4dH1gfT4KICAgICAgICAgICAge2NmZy5sYWJlbH0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICApKX0KICAgICAgPC9kaXY+CgogICAgICB7YnlUaWVyLm1hcCgoeyB0aWVyLCBzb3VyY2VzOiB0aWVyU291cmNlcyB9KSA9PiB7CiAgICAgICAgY29uc3QgY2ZnID0gVElFUl9DT05GSUdbdGllciBhcyBrZXlvZiB0eXBlb2YgVElFUl9DT05GSUddOwogICAgICAgIHJldHVybiAoCiAgICAgICAgICA8ZGl2IGtleT17dGllcn0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgaW5saW5lLWJsb2NrIHRleHQteHMgcHgtMyBweS0xIHJvdW5kZWQgZm9udC1ib2xkIG1iLTQgJHtjZmcuYmd9ICR7Y2ZnLnRleHR9YH0+CiAgICAgICAgICAgICAge2NmZy5sYWJlbH0gKHt0aWVyU291cmNlcy5sZW5ndGh9KQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgICAgICAgIHt0aWVyU291cmNlcy5tYXAoKHNvdXJjZSkgPT4gKAogICAgICAgICAgICAgICAgPGRpdiBrZXk9e3NvdXJjZS5pZH0gY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItWyNFMERERDZdIHAtNCBob3Zlcjpib3JkZXItWyNCODg0MkFdIGhvdmVyOnNoYWRvdy1zbSB0cmFuc2l0aW9uLWFsbCI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMiBtYi0yIj4KICAgICAgICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgICAgICAgaHJlZj17c291cmNlLnVybH0KICAgICAgICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSBob3Zlcjp0ZXh0LVsjQjg4NDJBXSB0cmFuc2l0aW9uLWNvbG9ycyBsZWFkaW5nLXNudWciCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3NvdXJjZS5uYW1lfSDihpIKICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC1bMTBweF0gcHgtMiBweS0wLjUgcm91bmRlZC1mdWxsIGZsZXgtc2hyaW5rLTAgZm9udC1zZW1pYm9sZCAke2NmZy5iZ30gJHtjZmcudGV4dH1gfT4KICAgICAgICAgICAgICAgICAgICAgIFR7dGllcn0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTIgdGV4dC1bMTBweF0gdGV4dC1bIzg4OF0iPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmctWyNGNkYzRUNdIHB4LTIgcHktMC41IHJvdW5kZWQiPntzb3VyY2UuanVyaXNkaWN0aW9ufTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJnLVsjRjZGM0VDXSBweC0yIHB5LTAuNSByb3VuZGVkIHRydW5jYXRlIG1heC13LVsyMDBweF0iPntzb3VyY2UuY2F0ZWdvcnl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YCR7RlJFUV9DT0xPUltzb3VyY2UudXBkYXRlRnJlcXVlbmN5XX1gfT4KICAgICAgICAgICAgICAgICAgICAgIE1vbml0b3I6IHtzb3VyY2UudXBkYXRlRnJlcXVlbmN5fQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIHtzb3VyY2Uubm90ZXMgJiYgKAogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjNjY2XSBtdC0yIGxlYWRpbmctcmVsYXhlZCI+e3NvdXJjZS5ub3Rlc308L3A+CiAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgIHtzb3VyY2UubGFzdENoZWNrZWQgJiYgKAogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1bI2FhYV0gbXQtMSI+CiAgICAgICAgICAgICAgICAgICAgICBMYXN0IGNoZWNrZWQ6IHtuZXcgRGF0ZShzb3VyY2UubGFzdENoZWNrZWQpLnRvTG9jYWxlRGF0ZVN0cmluZygiZW4tR0IiLCB7IGRheTogIm51bWVyaWMiLCBtb250aDogInNob3J0IiwgeWVhcjogIm51bWVyaWMiIH0pfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICAgIH0pfQoKICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLVsjRjZGM0VDXSBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkLWxnIHAtNCB0ZXh0LXhzIHRleHQtWyM2NjZdIj4KICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1bIzFFMzY1MV0iPlNvdXJjZSBoaWVyYXJjaHk6PC9zdHJvbmc+IFRpZXIgMSBzb3VyY2VzIGFyZSBwcmltYXJ5IGxlZ2FsIGFuZCByZWd1bGF0b3J5IGF1dGhvcml0aWVzIChzdGF0dXRlcywgcmVndWxhdGlvbnMsIG9mZmljaWFsIGdvdmVybm1lbnQgZ3VpZGFuY2UpLiBUaWVyIDIgYXJlIHJlcHV0YWJsZSBzZWNvbmRhcnkgc291cmNlcyAobGF3IGZpcm0gYWR2aXNvcmllcywgcHJvZmVzc2lvbmFsIGFzc29jaWF0aW9ucykuIFRpZXIgMyBhcmUgYnVzaW5lc3MgaW50ZWxsaWdlbmNlIHNvdXJjZXMgKGNvbXBhbnkgYW5ub3VuY2VtZW50cywgdHJhZGUgcHJlc3MpLiBBbGwgbGVnYWwgY2xhaW1zIGluIHNpZ25hbHMgYXJlIHNvdXJjZWQgdG8gVGllciAxIG9yIFRpZXIgMiB3aGVyZSBwb3NzaWJsZS4gVGllciAzIHNvdXJjZXMgYXJlIHVzZWQgZm9yIGJ1c2luZXNzIGNvbnRleHQgb25seSwgbmV2ZXIgZm9yIGxlZ2FsIGNvbmNsdXNpb25zLgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K"}
+import type { Metadata } from "next";
+import { listSources } from "@/lib/sources";
+
+export const revalidate = 60;
+
+export const metadata: Metadata = {
+  title: "Source Library",
+  description: "Monitored legal and regulatory sources for Burgermeister's international expansion intelligence.",
+};
+
+const TIER_CONFIG = {
+  1: { label: "Tier 1 — Primary Legal Source",    bg: "bg-[#1E3651]", text: "text-white" },
+  2: { label: "Tier 2 — Reputable Secondary",     bg: "bg-[#B8842A]", text: "text-white" },
+  3: { label: "Tier 3 — Business Intelligence",   bg: "bg-[#F6F3EC]", text: "text-[#666]" },
+  4: { label: "Tier 4 — Weak Signal",             bg: "bg-[#eee]",    text: "text-[#999]" },
+};
+
+const FREQ_COLOR: Record<string, string> = {
+  daily:   "text-[#7B0000] font-semibold",
+  weekly:  "text-[#8B4513] font-semibold",
+  monthly: "text-[#2F5496]",
+  manual:  "text-[#888]",
+};
+
+export default async function SourcesPage() {
+  const sources = await listSources();
+
+  const byTier = [1, 2, 3, 4].map((tier) => ({
+    tier,
+    sources: sources.filter((s) => s.tier === tier),
+  })).filter((g) => g.sources.length > 0);
+
+  return (
+    <div className="space-y-8">
+      <div>
+        <h1 className="text-2xl font-bold text-[#1E3651]">Source Library</h1>
+        <p className="text-sm text-[#666] mt-1">
+          {sources.length} monitored sources across U.S., UK, EU, and global jurisdictions ·
+          Tier 1 = primary legal/regulatory · Tier 2 = reputable secondary · Tier 3 = business intelligence
+        </p>
+      </div>
+
+      {/* Tier legend */}
+      <div className="flex flex-wrap gap-3">
+        {Object.entries(TIER_CONFIG).map(([tier, cfg]) => (
+          <span key={tier} className={`text-xs px-3 py-1.5 rounded-full font-semibold ${cfg.bg} ${cfg.text}`}>
+            {cfg.label}
+          </span>
+        ))}
+      </div>
+
+      {byTier.map(({ tier, sources: tierSources }) => {
+        const cfg = TIER_CONFIG[tier as keyof typeof TIER_CONFIG];
+        return (
+          <div key={tier}>
+            <div className={`inline-block text-xs px-3 py-1 rounded font-bold mb-4 ${cfg.bg} ${cfg.text}`}>
+              {cfg.label} ({tierSources.length})
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {tierSources.map((source) => (
+                <div key={source.id} className="bg-white rounded-lg border border-[#E0DDD6] p-4 hover:border-[#B8842A] hover:shadow-sm transition-all">
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <a
+                      href={source.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-bold text-[#1E3651] hover:text-[#B8842A] transition-colors leading-snug"
+                    >
+                      {source.name} →
+                    </a>
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full flex-shrink-0 font-semibold ${cfg.bg} ${cfg.text}`}>
+                      T{tier}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-2 text-[10px] text-[#888]">
+                    <span className="bg-[#F6F3EC] px-2 py-0.5 rounded">{source.jurisdiction}</span>
+                    <span className="bg-[#F6F3EC] px-2 py-0.5 rounded truncate max-w-[200px]">{source.category}</span>
+                    <span className={`${FREQ_COLOR[source.updateFrequency]}`}>
+                      Monitor: {source.updateFrequency}
+                    </span>
+                  </div>
+                  {source.notes && (
+                    <p className="text-xs text-[#666] mt-2 leading-relaxed">{source.notes}</p>
+                  )}
+                  {source.lastChecked && (
+                    <p className="text-[10px] text-[#aaa] mt-1">
+                      Last checked: {new Date(source.lastChecked).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
+                    </p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+
+      <div className="bg-[#F6F3EC] border border-[#E0DDD6] rounded-lg p-4 text-xs text-[#666]">
+        <strong className="text-[#1E3651]">Source hierarchy:</strong> Tier 1 sources are primary legal and regulatory authorities (statutes, regulations, official government guidance). Tier 2 are reputable secondary sources (law firm advisories, professional associations). Tier 3 are business intelligence sources (company announcements, trade press). All legal claims in signals are sourced to Tier 1 or Tier 2 where possible. Tier 3 sources are used for business context only, never for legal conclusions.
+      </div>
+    </div>
+  );
+}

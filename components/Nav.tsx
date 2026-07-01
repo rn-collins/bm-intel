@@ -1,1 +1,78 @@
-{"data":"InVzZSBjbGllbnQiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgeyB1c2VQYXRobmFtZSB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwoKY29uc3QgTkFWID0gWwogIHsgaHJlZjogIi8iLCAgICAgICAgbGFiZWw6ICJPdmVydmlldyIgICB9LAogIHsgaHJlZjogIi9zaWduYWxzIiwgbGFiZWw6ICJTaWduYWxzIiAgICB9LAogIHsgaHJlZjogIi9zb3VyY2VzIiwgbGFiZWw6ICJTb3VyY2VzIiAgICB9LAogIHsgaHJlZjogIi9hZG1pbiIsICAgbGFiZWw6ICJBZGQgU2lnbmFsIiB9LApdOwoKY29uc3QgRU1BSUwgPSAiY29sbGlucy5yYUBub3J0aGVhc3Rlcm4uZWR1IjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE5hdigpIHsKICBjb25zdCBwYXRoID0gdXNlUGF0aG5hbWUoKTsKICBjb25zdCBbc3RhdGUsIHNldFN0YXRlXSA9IHVzZVN0YXRlPCJpZGxlIiB8ICJjb3BpZWQiIHwgImZhaWxlZCI+KCJpZGxlIik7CgogIGZ1bmN0aW9uIGhhbmRsZUNvbnRhY3QoKSB7CiAgICBpZiAobmF2aWdhdG9yLmNsaXBib2FyZCkgewogICAgICBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dChFTUFJTCkKICAgICAgICAudGhlbigoKSA9PiB7CiAgICAgICAgICBzZXRTdGF0ZSgiY29waWVkIik7CiAgICAgICAgICB3aW5kb3cub3BlbihgbWFpbHRvOiR7RU1BSUx9YCk7CiAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHNldFN0YXRlKCJpZGxlIiksIDI1MDApOwogICAgICAgIH0pCiAgICAgICAgLmNhdGNoKCgpID0+IHsKICAgICAgICAgIC8vIEZhbGxiYWNrOiBvcGVuIG1haWx0byBsaW5rCiAgICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9IGBtYWlsdG86JHtFTUFJTH1gOwogICAgICAgIH0pOwogICAgfSBlbHNlIHsKICAgICAgLy8gTm8gY2xpcGJvYXJkIEFQSSDigJQgb3BlbiBtYWlsdG8gZGlyZWN0bHkKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBgbWFpbHRvOiR7RU1BSUx9YDsKICAgIH0KICB9CgogIHJldHVybiAoCiAgICA8PgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIGJnLVsjMUUzNjUxXSB0ZXh0LXdoaXRlIHRleHQtY2VudGVyIHRleHQteHMgcHktMiBweC00IGZvbnQtbWVkaXVtIHRyYWNraW5nLXdpZGUiPgogICAgICAgIOKalu+4jyBOb3QgbGVnYWwgYWR2aWNlIOKAlCBpc3N1ZS1zcG90dGluZyBhbmQgcmVndWxhdG9yeSBpbnRlbGxpZ2VuY2Ugb25seSDCtyBJdGVtcyBtYXJrZWQgJnF1b3Q7T3V0c2lkZSBDb3Vuc2VsOiBZZXMmcXVvdDsgcmVxdWlyZSBhdHRvcm5leSBjb25maXJtYXRpb24gYmVmb3JlIGFjdGlvbgogICAgICA8L2Rpdj4KICAgICAgPG5hdiBjbGFzc05hbWU9InctZnVsbCBiZy13aGl0ZSBib3JkZXItYiBib3JkZXItWyNFMERERDZdIHB4LTYgcHktMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweS0zIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bIzFFMzY1MV0gZm9udC1ib2xkIHRleHQtYmFzZSB0cmFja2luZy10aWdodCI+QnVyZ2VybWVpc3Rlcjwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bI0I4ODQyQV0gZm9udC1ib2xkIHRleHQtYmFzZSB0cmFja2luZy10aWdodCI+RXhwYW5zaW9uIEludGVsPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICB7TkFWLm1hcCgobikgPT4gKAogICAgICAgICAgICA8TGluayBrZXk9e24uaHJlZn0gaHJlZj17bi5ocmVmfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHB4LTQgcHktMyB0ZXh0LXNtIGZvbnQtbWVkaXVtIGJvcmRlci1iLTIgdHJhbnNpdGlvbi1jb2xvcnMgJHsKICAgICAgICAgICAgICAgIHBhdGggPT09IG4uaHJlZgogICAgICAgICAgICAgICAgICA/ICJib3JkZXItWyNCODg0MkFdIHRleHQtWyMxRTM2NTFdIgogICAgICAgICAgICAgICAgICA6ICJib3JkZXItdHJhbnNwYXJlbnQgdGV4dC1bIzY2Nl0gaG92ZXI6dGV4dC1bIzFFMzY1MV0iCiAgICAgICAgICAgICAgfWB9PgogICAgICAgICAgICAgIHtuLmxhYmVsfQogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICApKX0KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlQ29udGFjdH0KICAgICAgICAgICAgdGl0bGU9e2BDb3B5ICR7RU1BSUx9IHRvIGNsaXBib2FyZGB9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YG1sLTMgcHgtNCBweS0xLjUgcm91bmRlZC1mdWxsIHRleHQteHMgZm9udC1ib2xkIHRyYW5zaXRpb24tYWxsIGJvcmRlciAkewogICAgICAgICAgICAgIHN0YXRlID09PSAiY29waWVkIgogICAgICAgICAgICAgICAgPyAiYmctWyMzNzU2MjNdIHRleHQtd2hpdGUgYm9yZGVyLVsjMzc1NjIzXSIKICAgICAgICAgICAgICAgIDogc3RhdGUgPT09ICJmYWlsZWQiCiAgICAgICAgICAgICAgICA/ICJiZy1bIzhCNDUxM10gdGV4dC13aGl0ZSBib3JkZXItWyM4QjQ1MTNdIgogICAgICAgICAgICAgICAgOiAiYmctWyNGNkYzRUNdIHRleHQtWyMxRTM2NTFdIGJvcmRlci1bI0UwRERENl0gaG92ZXI6YmctWyNCODg0MkFdIGhvdmVyOnRleHQtd2hpdGUgaG92ZXI6Ym9yZGVyLVsjQjg4NDJBXSIKICAgICAgICAgICAgfWB9PgogICAgICAgICAgICB7c3RhdGUgPT09ICJjb3BpZWQiCiAgICAgICAgICAgICAgPyBg4pyTIENvcGllZDogJHtFTUFJTH1gCiAgICAgICAgICAgICAgOiBzdGF0ZSA9PT0gImZhaWxlZCIKICAgICAgICAgICAgICA/ICJPcGVuaW5nIGVtYWlsLi4uIgogICAgICAgICAgICAgIDogIkNvbnRhY3QgdGhlIEFyY2hpdGVjdCJ9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9uYXY+CiAgICA8Lz4KICApOwp9Cg=="}
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
+
+const NAV = [
+  { href: "/",        label: "Overview"   },
+  { href: "/signals", label: "Signals"    },
+  { href: "/sources", label: "Sources"    },
+  { href: "/admin",   label: "Add Signal" },
+];
+
+const EMAIL = "collins.ra@northeastern.edu";
+
+export default function Nav() {
+  const path = usePathname();
+  const [state, setState] = useState<"idle" | "copied" | "failed">("idle");
+
+  function handleContact() {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(EMAIL)
+        .then(() => {
+          setState("copied");
+          window.open(`mailto:${EMAIL}`);
+          setTimeout(() => setState("idle"), 2500);
+        })
+        .catch(() => {
+          // Fallback: open mailto link
+          window.location.href = `mailto:${EMAIL}`;
+        });
+    } else {
+      // No clipboard API — open mailto directly
+      window.location.href = `mailto:${EMAIL}`;
+    }
+  }
+
+  return (
+    <>
+      <div className="w-full bg-[#1E3651] text-white text-center text-xs py-2 px-4 font-medium tracking-wide">
+        ⚖️ Not legal advice — issue-spotting and regulatory intelligence only · Items marked &quot;Outside Counsel: Yes&quot; require attorney confirmation before action
+      </div>
+      <nav aria-label="Main navigation" className="w-full bg-white border-b border-[#E0DDD6] px-6 py-0 flex items-center justify-between">
+        <div className="flex items-center gap-2 py-3">
+          <span className="text-[#1E3651] font-bold text-base tracking-tight">Burgermeister</span>
+          <span className="text-[#B8842A] font-bold text-base tracking-tight">Expansion Intel</span>
+        </div>
+        <div className="flex items-center gap-1">
+          {NAV.map((n) => (
+            <Link key={n.href} href={n.href}
+              className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
+                path === n.href
+                  ? "border-[#B8842A] text-[#1E3651]"
+                  : "border-transparent text-[#666] hover:text-[#1E3651]"
+              }`}>
+              {n.label}
+            </Link>
+          ))}
+          <button
+            onClick={handleContact}
+            title={`Copy ${EMAIL} to clipboard`}
+            className={`ml-3 px-4 py-1.5 rounded-full text-xs font-bold transition-all border ${
+              state === "copied"
+                ? "bg-[#375623] text-white border-[#375623]"
+                : state === "failed"
+                ? "bg-[#8B4513] text-white border-[#8B4513]"
+                : "bg-[#F6F3EC] text-[#1E3651] border-[#E0DDD6] hover:bg-[#B8842A] hover:text-white hover:border-[#B8842A]"
+            }`}>
+            {state === "copied"
+              ? `✓ Copied: ${EMAIL}`
+              : state === "failed"
+              ? "Opening email..."
+              : "Contact the Architect"}
+          </button>
+        </div>
+      </nav>
+    </>
+  );
+}

@@ -1,1 +1,236 @@
-{"data":"aW1wb3J0IHsgZ2V0U2lnbmFsIH0gZnJvbSAiQC9saWIvc2lnbmFscyI7CmltcG9ydCB7IG5vdEZvdW5kIH0gZnJvbSAibmV4dC9uYXZpZ2F0aW9uIjsKaW1wb3J0IFByaW9yaXR5QmFkZ2UgZnJvbSAiQC9jb21wb25lbnRzL1ByaW9yaXR5QmFkZ2UiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgeyBmcmVzaG5lc3NMYWJlbCB9IGZyb20gIkAvbGliL3Njb3JpbmciOwoKZXhwb3J0IGNvbnN0IHJldmFsaWRhdGUgPSA2MDsKCmNvbnN0IFNDT1JFX01FQU5JTkc6IFJlY29yZDxzdHJpbmcsIFJlY29yZDxudW1iZXIsIHN0cmluZz4+ID0gewogIGJ1c2luZXNzSW1wYWN0U2NvcmU6IHsKICAgIDE6Ik1pbmltYWwg4oCUIHVubGlrZWx5IHRvIGFmZmVjdCBleHBhbnNpb24gdGltZWxpbmUgb3IgY29zdHMiLAogICAgMjoiTG93IOKAlCBtaW5vciBmcmljdGlvbiwgbWFuYWdlYWJsZSB3aXRob3V0IHNwZWNpYWxpc3QgaGVscCIsCiAgICAzOiJNb2RlcmF0ZSDigJQgY291bGQgY2F1c2UgbWVhbmluZ2Z1bCBkZWxheSBvciBhZGRlZCBjb3N0IiwKICAgIDQ6IkhpZ2gg4oCUIHNpZ25pZmljYW50IHJpc2sgdG8gbWFya2V0IGVudHJ5IHNwZWVkIG9yIGJ1ZGdldCIsCiAgICA1OiJDcml0aWNhbCDigJQgY291bGQgYmxvY2sgbWFya2V0IGVudHJ5IGVudGlyZWx5IG9yIGNyZWF0ZSBtYWpvciBsaWFiaWxpdHkiLAogIH0sCiAgbGVnYWxDb21wbGV4aXR5U2NvcmU6IHsKICAgIDE6IkNoZWNrbGlzdCBpdGVtIOKAlCBjYW4gYmUgaGFuZGxlZCBpbnRlcm5hbGx5IHdpdGhvdXQgc3BlY2lhbGlzdCBjb3Vuc2VsIiwKICAgIDI6IkxvdyBjb21wbGV4aXR5IOKAlCBzdGFuZGFyZCBsZWdhbCByZXZpZXcgc3VmZmljaWVudCIsCiAgICAzOiJNb2RlcmF0ZSDigJQgYSBsYXd5ZXIgc2hvdWxkIHJldmlldyB0aGlzIGJlZm9yZSBhY3Rpb24iLAogICAgNDoiSGlnaCDigJQgc3BlY2lhbGlzdCBsZWdhbCBpbnB1dCByZXF1aXJlZCIsCiAgICA1OiJTcGVjaWFsaXN0IHJlcXVpcmVkIOKAlCBkZWRpY2F0ZWQgZXhwZXJ0IGNvdW5zZWwgaW4gdGhpcyBhcmVhIG9mIGxhdyIsCiAgfSwKICB1cmdlbmN5U2NvcmU6IHsKICAgIDE6Ik1vbml0b3Ig4oCUIG5vIGltbWVkaWF0ZSBhY3Rpb24gbmVlZGVkLCB0cmFjayBmb3IgZGV2ZWxvcG1lbnRzIiwKICAgIDI6IkxvdyB1cmdlbmN5IOKAlCBhZGRyZXNzIGluIHBsYW5uaW5nIHBoYXNlIiwKICAgIDM6IlBsYW4gYmVmb3JlIGxhdW5jaCDigJQgbXVzdCBiZSByZXNvbHZlZCBiZWZvcmUgZW50ZXJpbmcgdGhpcyBtYXJrZXQiLAogICAgNDoiSGlnaCB1cmdlbmN5IOKAlCB0aW1lLXNlbnNpdGl2ZSwgc2hvdWxkIGJlIGFkZHJlc3NlZCBzb29uIiwKICAgIDU6IkltbWVkaWF0ZSDigJQgYSBkZWFkbGluZSBpcyBsaXZlIG9yIHRoZSBvYmxpZ2F0aW9uIGlzIGFscmVhZHkgdHJpZ2dlcmVkIiwKICB9LAogIGNvbmZpZGVuY2VTY29yZTogewogICAgMToiV2VhayBzaWduYWwg4oCUIHVudmVyaWZpZWQgb3Igc3BlY3VsYXRpdmUiLAogICAgMjoiTG93IGNvbmZpZGVuY2Ug4oCUIGluZm9ybWFsIG9yIHNlY29uZGFyeSBzb3VyY2UiLAogICAgMzoiTW9kZXJhdGUg4oCUIHJlcHV0YWJsZSBzZWNvbmRhcnkgc291cmNlIChsYXcgZmlybSBhbGVydCwgaW5kdXN0cnkgYm9keSkiLAogICAgNDoiSGlnaCDigJQgd2VsbC1lc3RhYmxpc2hlZCBzZWNvbmRhcnkgc291cmNlIG9yIG9mZmljaWFsIGd1aWRhbmNlIiwKICAgIDU6IlByaW1hcnkgbGF3IOKAlCBhIHN0YXR1dGUsIHJlZ3VsYXRpb24sIG9yIG9mZmljaWFsIGdvdmVybm1lbnQgcHVibGljYXRpb24iLAogIH0sCn07Cgpjb25zdCBBQ1RJT05fTUVBTklORzogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAiSW1tZWRpYXRlIEFjdGlvbiI6ICAgICAgIkEgbGVnYWwgZGVhZGxpbmUgaXMgbGl2ZSBvciBhbiBvYmxpZ2F0aW9uIGlzIGFscmVhZHkgdHJpZ2dlcmVkLiBBY3Qgbm93LiIsCiAgIk91dHNpZGUgQ291bnNlbCBSZXZpZXciOiJGbGFnIHRoaXMgZm9yIHlvdXIgYXR0b3JuZXkgYmVmb3JlIHRha2luZyBhbnkgYWN0aW9uLiBEbyBub3QgcHJvY2VlZCB3aXRob3V0IGxlZ2FsIGNvbmZpcm1hdGlvbi4iLAogICJBZGQgdG8gUGxheWJvb2siOiAgICAgICAiRG9jdW1lbnQgdGhpcyBpbiB5b3VyIG1hcmtldC1lbnRyeSBjaGVja2xpc3QuIEFkZHJlc3MgaXQgYXMgcGFydCBvZiBsYXVuY2ggcHJlcGFyYXRpb24uIiwKICAiRXhlY3V0aXZlIEJyaWVmaW5nIjogICAgIkVzY2FsYXRlIHRvIGxlYWRlcnNoaXAuIFRoaXMgc2lnbmFsIGhhcyBzdHJhdGVnaWMgaW1wbGljYXRpb25zIGJleW9uZCBkYXktdG8tZGF5IGxlZ2FsIG9wcy4iLAogICJNb25pdG9yIjogICAgICAgICAgICAgICAiTm8gaW1tZWRpYXRlIGFjdGlvbiByZXF1aXJlZC4gVHJhY2sgZm9yIHJlZ3VsYXRvcnkgb3IgbGVnYWwgZGV2ZWxvcG1lbnRzLiIsCn07Cgpjb25zdCBTVEFUVVNfQ09MT1JTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICJOZXciOiAgICAgICAgICAgICAgICJiZy1bI0YwRjRGQl0gdGV4dC1bIzJGNTQ5Nl0iLAogICJOZWVkcyBSZXZpZXciOiAgICAgICJiZy1bI0ZGRjhGMF0gdGV4dC1bIzhCNDUxM10iLAogICJNb25pdG9yIjogICAgICAgICAgICJiZy1bI0Y2RjNFQ10gdGV4dC1bIzY2Nl0iLAogICJBZGQgdG8gUGxheWJvb2siOiAgICJiZy1bI0YwRjdGMF0gdGV4dC1bIzM3NTYyM10iLAogICJPdXRzaWRlIENvdW5zZWwiOiAgICJiZy1bI0ZERjBGMF0gdGV4dC1bIzdCMDAwMF0iLAogICJFeGVjdXRpdmUgQnJpZWZpbmciOiJiZy1bIzFFMzY1MV0gdGV4dC13aGl0ZSIsCiAgIkNsb3NlZCI6ICAgICAgICAgICAgImJnLVsjZWVlXSB0ZXh0LVsjOTk5XSIsCiAgIkFyY2hpdmVkIjogICAgICAgICAgImJnLVsjZWVlXSB0ZXh0LVsjOTk5XSIsCn07Cgpjb25zdCBUSUVSX01FQU5JTkc6IFJlY29yZDxudW1iZXIsIHN0cmluZz4gPSB7CiAgMToiUHJpbWFyeSBsZWdhbCBzb3VyY2Ug4oCUIGEgc3RhdHV0ZSwgcmVndWxhdGlvbiwgb3Igb2ZmaWNpYWwgZ292ZXJubWVudCBwdWJsaWNhdGlvbi4gSGlnaGVzdCByZWxpYWJpbGl0eS4iLAogIDI6IlJlcHV0YWJsZSBzZWNvbmRhcnkgc291cmNlIOKAlCBhIGxhdyBmaXJtIGFkdmlzb3J5LCBwcm9mZXNzaW9uYWwgYXNzb2NpYXRpb24sIG9yIGVzdGFibGlzaGVkIGluZHVzdHJ5IGJvZHkuIiwKICAzOiJCdXNpbmVzcyBpbnRlbGxpZ2VuY2Ug4oCUIGEgY29tcGFueSBhbm5vdW5jZW1lbnQsIHRyYWRlIHB1YmxpY2F0aW9uLCBvciBwcmVzcyByZXBvcnQuIFVzZWQgZm9yIGNvbnRleHQgb25seSwgbm90IGxlZ2FsIGNvbmNsdXNpb25zLiIsCiAgNDoiV2VhayBzaWduYWwg4oCUIGluZm9ybWFsIG9yIHVudmVyaWZpZWQuIFRyZWF0IHdpdGggY2F1dGlvbi4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gU2lnbmFsRGV0YWlsUGFnZSh7CiAgcGFyYW1zLAp9OiB7CiAgcGFyYW1zOiBQcm9taXNlPHsgaWQ6IHN0cmluZyB9PjsKfSkgewogIGNvbnN0IHsgaWQgfSA9IGF3YWl0IHBhcmFtczsKICBjb25zdCBzaWduYWwgPSBhd2FpdCBnZXRTaWduYWwoaWQpOwogIGlmICghc2lnbmFsKSBub3RGb3VuZCgpOwoKICBjb25zdCBmcmVzaG5lc3MgPSBmcmVzaG5lc3NMYWJlbChzaWduYWwuZGF0ZUZvdW5kLCBzaWduYWwuZGF0ZVB1Ymxpc2hlZCk7CiAgY29uc3QgZGF5c1NpbmNlID0gTWF0aC5yb3VuZCgoRGF0ZS5ub3coKSAtIG5ldyBEYXRlKHNpZ25hbC5kYXRlRm91bmQpLmdldFRpbWUoKSkgLyAoMTAwMCo2MCo2MCoyNCkpOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTR4bCBzcGFjZS15LTUiPgogICAgICA8TGluayBocmVmPSIvc2lnbmFscyIgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyNCODg0MkFdIGZvbnQtc2VtaWJvbGQgaG92ZXI6dW5kZXJsaW5lIj4KICAgICAgICDihpAgQmFjayB0byBhbGwgc2lnbmFscwogICAgICA8L0xpbms+CgogICAgICB7LyogSGVhZGVyICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSBwLTYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCBtYi0zIj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIGxlYWRpbmctc251ZyI+e3NpZ25hbC50aXRsZX08L2gxPgogICAgICAgICAgPFByaW9yaXR5QmFkZ2UgcHJpb3JpdHk9e3NpZ25hbC5wcmlvcml0eUxhYmVsfSAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVsjNDQ0XSBsZWFkaW5nLXJlbGF4ZWQgbWItNCI+e3NpZ25hbC5zdW1tYXJ5fTwvcD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTIgdGV4dC14cyBmb250LW1lZGl1bSI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJnLVsjRjZGM0VDXSBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSBweC0zIHB5LTEgcm91bmRlZC1mdWxsIHRleHQtWyM0NDRdIj4KICAgICAgICAgICAg8J+TjSB7c2lnbmFsLmp1cmlzZGljdGlvbiA9PT0gIlVTIiA/ICJVbml0ZWQgU3RhdGVzIiA6IHNpZ25hbC5qdXJpc2RpY3Rpb24gPT09ICJVSyIgPyAiVW5pdGVkIEtpbmdkb20iIDogc2lnbmFsLmp1cmlzZGljdGlvbiA9PT0gIkVVIiA/ICJFdXJvcGVhbiBVbmlvbiIgOiBzaWduYWwuanVyaXNkaWN0aW9uID09PSAiREUiID8gIkdlcm1hbnkiIDogc2lnbmFsLmp1cmlzZGljdGlvbiA9PT0gIlBMIiA/ICJQb2xhbmQiIDogc2lnbmFsLmp1cmlzZGljdGlvbn0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmctWyNGNkYzRUNdIGJvcmRlciBib3JkZXItWyNFMERERDZdIHB4LTMgcHktMSByb3VuZGVkLWZ1bGwgdGV4dC1bIzQ0NF0iPgogICAgICAgICAgICB7c2lnbmFsLmNhdGVnb3J5fQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgcHgtMyBweS0xIHJvdW5kZWQtZnVsbCAke1NUQVRVU19DT0xPUlNbc2lnbmFsLnN0YXR1c10gPz8gImJnLVsjRjZGM0VDXSB0ZXh0LVsjNDQ0XSJ9YH0+CiAgICAgICAgICAgIFN0YXR1czoge3NpZ25hbC5zdGF0dXN9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICB7c2lnbmFsLm91dHNpZGVDb3Vuc2VsTmVlZGVkICYmICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJiZy1bI0ZERjBGMF0gdGV4dC1bIzdCMDAwMF0gYm9yZGVyIGJvcmRlci1bI2Y1YzBjMF0gcHgtMyBweS0xIHJvdW5kZWQtZnVsbCBmb250LWJvbGQiPgogICAgICAgICAgICAgIOKaoO+4jyBPdXRzaWRlIENvdW5zZWwgUmVxdWlyZWQKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7LyogUmVjb21tZW5kZWQgQWN0aW9uIOKAlCBwcm9taW5lbnQgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPXtgcm91bmRlZC1sZyBib3JkZXItbC00IHAtNSAkewogICAgICAgIHNpZ25hbC5wcmlvcml0eUxhYmVsID09PSAiQ3JpdGljYWwiID8gImJvcmRlci1bIzdCMDAwMF0gYmctWyNGREYwRjBdIiA6CiAgICAgICAgc2lnbmFsLnByaW9yaXR5TGFiZWwgPT09ICJIaWdoIiAgICAgPyAiYm9yZGVyLVsjOEI0NTEzXSBiZy1bI0ZGRjhGMF0iIDoKICAgICAgICBzaWduYWwucHJpb3JpdHlMYWJlbCA9PT0gIk1lZGl1bSIgICA/ICJib3JkZXItWyMyRjU0OTZdIGJnLVsjRjBGNEZCXSIgOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImJvcmRlci1bIzM3NTYyM10gYmctWyNGMEY3RjBdIgogICAgICB9YH0+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtWyM2NjZdIG1iLTEiPlJlY29tbWVuZGVkIEFjdGlvbjwvcD4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIG1iLTEiPntzaWduYWwucmVjb21tZW5kZWRBY3Rpb259PC9wPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVsjNTU1XSI+e0FDVElPTl9NRUFOSU5HW3NpZ25hbC5yZWNvbW1lbmRlZEFjdGlvbl0gPz8gIiJ9PC9wPgogICAgICAgIHtzaWduYWwub3V0c2lkZUNvdW5zZWxOZWVkZWQgJiYgKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM3QjAwMDBdIGZvbnQtc2VtaWJvbGQgbXQtMiI+CiAgICAgICAgICAgIOKaoO+4jyBUaGlzIHNpZ25hbCBpcyBtYXJrZWQgT3V0c2lkZSBDb3Vuc2VsIFJlcXVpcmVkIOKAlCBkbyBub3QgdGFrZSBhY3Rpb24gd2l0aG91dCBhdHRvcm5leSBjb25maXJtYXRpb24uCiAgICAgICAgICA8L3A+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBnYXAtNSI+CiAgICAgICAgey8qIFJpc2sgU2NvcmVzICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItWyNFMERERDZdIHAtNSI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtWyM2NjZdIG1iLTEiPlJpc2sgU2NvcmVzPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjODg4XSBtYi00Ij4KICAgICAgICAgICAgUHJpb3JpdHkgU2NvcmUgPSBCdXNpbmVzcyBJbXBhY3QgKyBMZWdhbCBDb21wbGV4aXR5ICsgVXJnZW5jeS4gTWF4aW11bSBpcyAxNS4KICAgICAgICAgICAgQ29uZmlkZW5jZSBpcyBub3QgaW5jbHVkZWQgaW4gdGhlIHNjb3JlIOKAlCBpdCByZWZsZWN0cyBob3cgcmVsaWFibGUgdGhlIHNvdXJjZSBpcy4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICAgICAgICB7WwogICAgICAgICAgICAgIHsga2V5OiJidXNpbmVzc0ltcGFjdFNjb3JlIiwgIGxhYmVsOiJCdXNpbmVzcyBJbXBhY3QiICB9LAogICAgICAgICAgICAgIHsga2V5OiJsZWdhbENvbXBsZXhpdHlTY29yZSIsIGxhYmVsOiJMZWdhbCBDb21wbGV4aXR5IiAgfSwKICAgICAgICAgICAgICB7IGtleToidXJnZW5jeVNjb3JlIiwgICAgICAgICBsYWJlbDoiVXJnZW5jeSIgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgeyBrZXk6ImNvbmZpZGVuY2VTY29yZSIsICAgICAgbGFiZWw6IkNvbmZpZGVuY2UgKHNvdXJjZSByZWxpYWJpbGl0eSkiIH0sCiAgICAgICAgICAgIF0ubWFwKCh7IGtleSwgbGFiZWwgfSkgPT4gewogICAgICAgICAgICAgIGNvbnN0IHZhbCA9IHNpZ25hbFtrZXkgYXMga2V5b2YgdHlwZW9mIHNpZ25hbF0gYXMgbnVtYmVyOwogICAgICAgICAgICAgIGNvbnN0IG1lYW5pbmcgPSBTQ09SRV9NRUFOSU5HW2tleV0/Llt2YWxdID8/ICIiOwogICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICA8ZGl2IGtleT17a2V5fT4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIG1iLTEiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtWyM0NDRdIj57bGFiZWx9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdGV4dC1bI0I4ODQyQV0iPnt2YWx9LzU8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC0yIGJnLVsjRjZGM0VDXSByb3VuZGVkLWZ1bGwgbWItMSI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMiBiZy1bI0I4ODQyQV0gcm91bmRlZC1mdWxsIiBzdHlsZT17eyB3aWR0aDpgJHsodmFsLzUpKjEwMH0lYCB9fSAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjNjY2XSBsZWFkaW5nLXJlbGF4ZWQiPnttZWFuaW5nfTwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0pfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHQtMyBib3JkZXItdCBib3JkZXItWyNGNkYzRUNdIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0iPlRvdGFsIFByaW9yaXR5IFNjb3JlPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSI+e3NpZ25hbC5wcmlvcml0eVNjb3JlfS8xNTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bIzg4OF0gbXQtMSI+CiAgICAgICAgICAgICAgICB7c2lnbmFsLnByaW9yaXR5U2NvcmUgPj0gMTMgPyAiQ3JpdGljYWwg4oCUIGFkZHJlc3MgaW1tZWRpYXRlbHkiIDoKICAgICAgICAgICAgICAgICBzaWduYWwucHJpb3JpdHlTY29yZSA+PSA5ICA/ICJIaWdoIOKAlCBwbGFuIGJlZm9yZSBsYXVuY2giIDoKICAgICAgICAgICAgICAgICBzaWduYWwucHJpb3JpdHlTY29yZSA+PSA1ICA/ICJNZWRpdW0g4oCUIG1vbml0b3IgYW5kIGJ1aWxkIGludG8gcGxheWJvb2siIDoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJMb3cg4oCUIGluZm9ybWF0aW9uYWwsIHRyYWNrIGZvciBkZXZlbG9wbWVudHMifQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFNvdXJjZSArIEN1cnJlbmN5ICsgTm90ZXMgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICB7LyogU291cmNlICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcC01Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCB0ZXh0LVsjNjY2XSBtYi0zIj5Tb3VyY2U8L2gyPgogICAgICAgICAgICA8YSBocmVmPXtzaWduYWwuc291cmNlVXJsfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVsjQjg4NDJBXSBob3Zlcjp1bmRlcmxpbmUgZm9udC1ib2xkIGJsb2NrIG1iLTEiPgogICAgICAgICAgICAgIHtzaWduYWwuc291cmNlTmFtZX0g4oaSCiAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1bIzQ0NF0gbWItMSI+VGllciB7c2lnbmFsLnNvdXJjZVRpZXJ9IFNvdXJjZTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM2NjZdIGxlYWRpbmctcmVsYXhlZCI+e1RJRVJfTUVBTklOR1tzaWduYWwuc291cmNlVGllcl19PC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIFNpZ25hbCBDdXJyZW5jeSAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItWyNFMERERDZdIHAtNSI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQteHMgZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgdGV4dC1bIzY2Nl0gbWItMSI+U2lnbmFsIEN1cnJlbmN5PC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM4ODhdIG1iLTMiPgogICAgICAgICAgICAgIEhvdyBjdXJyZW50IGlzIHRoaXMgc2lnbmFsPyBUaGUgZ2FwIGJldHdlZW4gd2hlbiBpdCB3YXMgcHVibGlzaGVkIGFuZCB3aGVuIGl0IHdhcyBhZGRlZCBoZXJlIHRlbGxzIHlvdSB3aGV0aGVyIHlvdSZhcG9zO3JlIGxvb2tpbmcgYXQgYnJlYWtpbmcgbmV3cyBvciBlc3RhYmxpc2hlZCBsYXcuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1bIzFFMzY1MV0gbWItMSI+e2ZyZXNobmVzc308L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjODg4XSI+CiAgICAgICAgICAgICAgQWRkZWQgdG8gZGFzaGJvYXJkOiB7bmV3IERhdGUoc2lnbmFsLmRhdGVGb3VuZCkudG9Mb2NhbGVEYXRlU3RyaW5nKCJlbi1HQiIse2RheToibnVtZXJpYyIsbW9udGg6ImxvbmciLHllYXI6Im51bWVyaWMifSl9CiAgICAgICAgICAgICAgeyIgIn0oe2RheXNTaW5jZSA9PT0gMCA/ICJ0b2RheSIgOiBkYXlzU2luY2UgPT09IDEgPyAiMSBkYXkgYWdvIiA6IGAke2RheXNTaW5jZX0gZGF5cyBhZ29gfSkKICAgICAgICAgICAgPC9wPgogICAgICAgICAgICB7c2lnbmFsLmRhdGVQdWJsaXNoZWQgJiYgKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjODg4XSBtdC0wLjUiPgogICAgICAgICAgICAgICAgT3JpZ2luYWxseSBwdWJsaXNoZWQ6IHtuZXcgRGF0ZShzaWduYWwuZGF0ZVB1Ymxpc2hlZCkudG9Mb2NhbGVEYXRlU3RyaW5nKCJlbi1HQiIse2RheToibnVtZXJpYyIsbW9udGg6ImxvbmciLHllYXI6Im51bWVyaWMifSl9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIENpdGF0aW9uICYgUHJhY3RpY2UgTm90ZXMgKi99CiAgICAgICAgICB7c2lnbmFsLm5vdGVzICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcC01Ij4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtWyM2NjZdIG1iLTEiPkNpdGF0aW9uICYgUHJhY3RpY2UgTm90ZXM8L2gyPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjODg4XSBtYi0yIj4KICAgICAgICAgICAgICAgIFNwZWNpZmljIHN0YXR1dGUsIHJlZ3VsYXRpb24sIG9yIGNhc2UgbGF3IHN1cHBvcnRpbmcgdGhpcyBzaWduYWwsIHBsdXMgcHJhY3RpY2FsIG5vdGVzIG9uIHNlcXVlbmNpbmcsIHRpbWluZywgb3IgcmVsYXRlZCBvYmxpZ2F0aW9ucy4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM0NDRdIGxlYWRpbmctcmVsYXhlZCBmb250LW1vbm8gYmctWyNGNkYzRUNdIHAtMyByb3VuZGVkIj57c2lnbmFsLm5vdGVzfTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBMZWdhbCBkaXNjbGFpbWVyICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctWyNGREYwRjBdIGJvcmRlciBib3JkZXItWyNmNWMwYzBdIHJvdW5kZWQtbGcgcC00IHRleHQteHMgdGV4dC1bIzdCMDAwMF0iPgogICAgICAgIDxzdHJvbmc+Tm90IGxlZ2FsIGFkdmljZS48L3N0cm9uZz4gVGhpcyBzaWduYWwgaXMgYW4gaXNzdWUtc3BvdHRpbmcgYW5kIHJlZ3VsYXRvcnkgaW50ZWxsaWdlbmNlIHByb2R1Y3QuIEl0IGlkZW50aWZpZXMgbGVnYWwgYW5kIHJlZ3VsYXRvcnkgcmlza3MgYW5kIHJlY29tbWVuZHMgbmV4dCBzdGVwcyBiYXNlZCBvbiBwdWJsaWNseSBhdmFpbGFibGUgaW5mb3JtYXRpb24uIEl0IGRvZXMgbm90IGNvbnN0aXR1dGUgbGVnYWwgYWR2aWNlIGFuZCBzaG91bGQgbm90IGJlIHJlbGllZCB1cG9uIGFzIHN1Y2guIEl0ZW1zIG1hcmtlZCAmcXVvdDtPdXRzaWRlIENvdW5zZWwgUmVxdWlyZWQmcXVvdDsgbXVzdCBiZSByZXZpZXdlZCBieSBhIHF1YWxpZmllZCBhdHRvcm5leSBiZWZvcmUgYW55IGFjdGlvbiBpcyB0YWtlbi4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+import { getSignal } from "@/lib/signals";
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import PriorityBadge from "@/components/PriorityBadge";
+import Link from "next/link";
+import { freshnessLabel } from "@/lib/scoring";
+
+export const revalidate = 60;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const signal = await getSignal(id);
+  if (!signal) return { title: "Signal Not Found" };
+  return {
+    title: signal.title,
+    description: signal.summary?.slice(0, 160),
+  };
+}
+
+
+const SCORE_MEANING: Record<string, Record<number, string>> = {
+  businessImpactScore: {
+    1:"Minimal — unlikely to affect expansion timeline or costs",
+    2:"Low — minor friction, manageable without specialist help",
+    3:"Moderate — could cause meaningful delay or added cost",
+    4:"High — significant risk to market entry speed or budget",
+    5:"Critical — could block market entry entirely or create major liability",
+  },
+  legalComplexityScore: {
+    1:"Checklist item — can be handled internally without specialist counsel",
+    2:"Low complexity — standard legal review sufficient",
+    3:"Moderate — a lawyer should review this before action",
+    4:"High — specialist legal input required",
+    5:"Specialist required — dedicated expert counsel in this area of law",
+  },
+  urgencyScore: {
+    1:"Monitor — no immediate action needed, track for developments",
+    2:"Low urgency — address in planning phase",
+    3:"Plan before launch — must be resolved before entering this market",
+    4:"High urgency — time-sensitive, should be addressed soon",
+    5:"Immediate — a deadline is live or the obligation is already triggered",
+  },
+  confidenceScore: {
+    1:"Weak signal — unverified or speculative",
+    2:"Low confidence — informal or secondary source",
+    3:"Moderate — reputable secondary source (law firm alert, industry body)",
+    4:"High — well-established secondary source or official guidance",
+    5:"Primary law — a statute, regulation, or official government publication",
+  },
+};
+
+const ACTION_MEANING: Record<string, string> = {
+  "Immediate Action":      "A legal deadline is live or an obligation is already triggered. Act now.",
+  "Outside Counsel Review":"Flag this for your attorney before taking any action. Do not proceed without legal confirmation.",
+  "Add to Playbook":       "Document this in your market-entry checklist. Address it as part of launch preparation.",
+  "Executive Briefing":    "Escalate to leadership. This signal has strategic implications beyond day-to-day legal ops.",
+  "Monitor":               "No immediate action required. Track for regulatory or legal developments.",
+};
+
+const STATUS_COLORS: Record<string, string> = {
+  "New":               "bg-[#F0F4FB] text-[#2F5496]",
+  "Needs Review":      "bg-[#FFF8F0] text-[#8B4513]",
+  "Monitor":           "bg-[#F6F3EC] text-[#666]",
+  "Add to Playbook":   "bg-[#F0F7F0] text-[#375623]",
+  "Outside Counsel":   "bg-[#FDF0F0] text-[#7B0000]",
+  "Executive Briefing":"bg-[#1E3651] text-white",
+  "Closed":            "bg-[#eee] text-[#999]",
+  "Archived":          "bg-[#eee] text-[#999]",
+};
+
+const TIER_MEANING: Record<number, string> = {
+  1:"Primary legal source — a statute, regulation, or official government publication. Highest reliability.",
+  2:"Reputable secondary source — a law firm advisory, professional association, or established industry body.",
+  3:"Business intelligence — a company announcement, trade publication, or press report. Used for context only, not legal conclusions.",
+  4:"Weak signal — informal or unverified. Treat with caution.",
+};
+
+export default async function SignalDetailPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const signal = await getSignal(id);
+  if (!signal) notFound();
+
+  const freshness = freshnessLabel(signal.dateFound, signal.datePublished);
+  const daysSince = Math.round((Date.now() - new Date(signal.dateFound).getTime()) / (1000*60*60*24));
+
+  return (
+    <div className="max-w-4xl space-y-5">
+      <Link href="/signals" className="text-xs text-[#B8842A] font-semibold hover:underline">
+        ← Back to all signals
+      </Link>
+
+      {/* Header */}
+      <div className="bg-white rounded-lg border border-[#E0DDD6] p-6">
+        <div className="flex items-start justify-between gap-4 mb-3">
+          <h1 className="text-xl font-bold text-[#1E3651] leading-snug">{signal.title}</h1>
+          <PriorityBadge priority={signal.priorityLabel} />
+        </div>
+        <p className="text-sm text-[#444] leading-relaxed mb-4">{signal.summary}</p>
+        <div className="flex flex-wrap gap-2 text-xs font-medium">
+          <span className="bg-[#F6F3EC] border border-[#E0DDD6] px-3 py-1 rounded-full text-[#444]">
+            📍 {signal.jurisdiction === "US" ? "United States" : signal.jurisdiction === "UK" ? "United Kingdom" : signal.jurisdiction === "EU" ? "European Union" : signal.jurisdiction === "DE" ? "Germany" : signal.jurisdiction === "PL" ? "Poland" : signal.jurisdiction}
+          </span>
+          <span className="bg-[#F6F3EC] border border-[#E0DDD6] px-3 py-1 rounded-full text-[#444]">
+            {signal.category}
+          </span>
+          <span className={`px-3 py-1 rounded-full ${STATUS_COLORS[signal.status] ?? "bg-[#F6F3EC] text-[#444]"}`}>
+            Status: {signal.status}
+          </span>
+          {signal.outsideCounselNeeded && (
+            <span className="bg-[#FDF0F0] text-[#7B0000] border border-[#f5c0c0] px-3 py-1 rounded-full font-bold">
+              ⚠️ Outside Counsel Required
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* Recommended Action — prominent */}
+      <div className={`rounded-lg border-l-4 p-5 ${
+        signal.priorityLabel === "Critical" ? "border-[#7B0000] bg-[#FDF0F0]" :
+        signal.priorityLabel === "High"     ? "border-[#8B4513] bg-[#FFF8F0]" :
+        signal.priorityLabel === "Medium"   ? "border-[#2F5496] bg-[#F0F4FB]" :
+                                              "border-[#375623] bg-[#F0F7F0]"
+      }`}>
+        <p className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Recommended Action</p>
+        <p className="text-lg font-bold text-[#1E3651] mb-1">{signal.recommendedAction}</p>
+        <p className="text-sm text-[#555]">{ACTION_MEANING[signal.recommendedAction] ?? ""}</p>
+        {signal.outsideCounselNeeded && (
+          <p className="text-xs text-[#7B0000] font-semibold mt-2">
+            ⚠️ This signal is marked Outside Counsel Required — do not take action without attorney confirmation.
+          </p>
+        )}
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {/* Risk Scores */}
+        <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
+          <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Risk Scores</h2>
+          <p className="text-xs text-[#888] mb-4">
+            Priority Score = Business Impact + Legal Complexity + Urgency. Maximum is 15.
+            Confidence is not included in the score — it reflects how reliable the source is.
+          </p>
+          <div className="space-y-4">
+            {[
+              { key:"businessImpactScore",  label:"Business Impact"  },
+              { key:"legalComplexityScore", label:"Legal Complexity"  },
+              { key:"urgencyScore",         label:"Urgency"           },
+              { key:"confidenceScore",      label:"Confidence (source reliability)" },
+            ].map(({ key, label }) => {
+              const val = signal[key as keyof typeof signal] as number;
+              const meaning = SCORE_MEANING[key]?.[val] ?? "";
+              return (
+                <div key={key}>
+                  <div className="flex justify-between mb-1">
+                    <span className="text-xs font-semibold text-[#444]">{label}</span>
+                    <span className="text-xs font-bold text-[#B8842A]">{val}/5</span>
+                  </div>
+                  <div className="h-2 bg-[#F6F3EC] rounded-full mb-1">
+                    <div className="h-2 bg-[#B8842A] rounded-full" style={{ width:`${(val/5)*100}%` }} />
+                  </div>
+                  <p className="text-[11px] text-[#666] leading-relaxed">{meaning}</p>
+                </div>
+              );
+            })}
+            <div className="pt-3 border-t border-[#F6F3EC]">
+              <div className="flex justify-between items-center">
+                <span className="text-sm font-bold text-[#1E3651]">Total Priority Score</span>
+                <span className="text-xl font-bold text-[#1E3651]">{signal.priorityScore}/15</span>
+              </div>
+              <p className="text-xs text-[#888] mt-1">
+                {signal.priorityScore >= 13 ? "Critical — address immediately" :
+                 signal.priorityScore >= 9  ? "High — plan before launch" :
+                 signal.priorityScore >= 5  ? "Medium — monitor and build into playbook" :
+                                              "Low — informational, track for developments"}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Source + Currency + Notes */}
+        <div className="space-y-4">
+          {/* Source */}
+          <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">Source</h2>
+            <a href={signal.sourceUrl} target="_blank" rel="noopener noreferrer"
+              className="text-sm text-[#B8842A] hover:underline font-bold block mb-1">
+              {signal.sourceName} →
+            </a>
+            <p className="text-xs font-semibold text-[#444] mb-1">Tier {signal.sourceTier} Source</p>
+            <p className="text-xs text-[#666] leading-relaxed">{TIER_MEANING[signal.sourceTier]}</p>
+          </div>
+
+          {/* Signal Currency */}
+          <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Signal Currency</h2>
+            <p className="text-xs text-[#888] mb-3">
+              How current is this signal? The gap between when it was published and when it was added here tells you whether you&apos;re looking at breaking news or established law.
+            </p>
+            <p className="text-sm font-semibold text-[#1E3651] mb-1">{freshness}</p>
+            <p className="text-xs text-[#888]">
+              Added to dashboard: {new Date(signal.dateFound).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}
+              {" "}({daysSince === 0 ? "today" : daysSince === 1 ? "1 day ago" : `${daysSince} days ago`})
+            </p>
+            {signal.datePublished && (
+              <p className="text-xs text-[#888] mt-0.5">
+                Originally published: {new Date(signal.datePublished).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}
+              </p>
+            )}
+          </div>
+
+          {/* Citation & Practice Notes */}
+          {signal.notes && (
+            <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
+              <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Citation & Practice Notes</h2>
+              <p className="text-xs text-[#888] mb-2">
+                Specific statute, regulation, or case law supporting this signal, plus practical notes on sequencing, timing, or related obligations.
+              </p>
+              <p className="text-xs text-[#444] leading-relaxed font-mono bg-[#F6F3EC] p-3 rounded">{signal.notes}</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Legal disclaimer */}
+      <div className="bg-[#FDF0F0] border border-[#f5c0c0] rounded-lg p-4 text-xs text-[#7B0000]">
+        <strong>Not legal advice.</strong> This signal is an issue-spotting and regulatory intelligence product. It identifies legal and regulatory risks and recommends next steps based on publicly available information. It does not constitute legal advice and should not be relied upon as such. Items marked &quot;Outside Counsel Required&quot; must be reviewed by a qualified attorney before any action is taken.
+      </div>
+    </div>
+  );
+}
