@@ -25,6 +25,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="h-full">
+      <head>
+        <script defer src="/_vercel/insights/script.js"></script>
+        <script defer src="/_vercel/speed-insights/script.js"></script>
+        <script dangerouslySetInnerHTML={{__html: `(function(){var p=new URLSearchParams(location.search),u={};['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){if(p.get(k))u[k]=p.get(k);});if(Object.keys(u).length)sessionStorage.setItem('rn_utm',JSON.stringify(u));window._getUTM=function(){try{return JSON.parse(sessionStorage.getItem('rn_utm')||'{}')}catch(e){return{}}};window.addEventListener('load',function(){fetch('/api/track',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event:'page_view',source:'bm-intel-ivory',referrer:document.referrer||'direct',utm:window._getUTM()})}).catch(function(){});});var ms=[25,50,75,90],fired={};window.addEventListener('scroll',function(){var h=document.body.scrollHeight-window.innerHeight;if(h<=0)return;var pct=Math.round((window.scrollY/h)*100);ms.forEach(function(m){if(pct>=m&&!fired[m]){fired[m]=1;fetch('/api/track',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event:'scroll_depth',source:'bm-intel-ivory',depth:m+'%'})}).catch(function(){});}});},{passive:true});})()`}} />
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'Person','@id':'https://rn-portfolio-khaki.vercel.app/#rn-collins','name':'RN Collins','jobTitle':'AI Educator & Consultant','url':'https://rn-portfolio-khaki.vercel.app','sameAs':['https://linkedin.com/in/rn-collins']},{'@type':'WebPage','name':'Burgermeister Expansion Intel — RN Collins','url':'https://bm-intel-ivory.vercel.app','author':{'@id':'https://rn-portfolio-khaki.vercel.app/#rn-collins'}}]})}} />
+      </head>
       <body className="min-h-full flex flex-col bg-[#F6F3EC] text-[#1C1B1F] antialiased">
         <Nav />
         <main className="flex-1 w-full max-w-7xl mx-auto px-6 py-8">

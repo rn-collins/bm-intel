@@ -1,1 +1,138 @@
-{"data":"aW1wb3J0IHsgZ2V0U2lnbmFsU3RhdHMsIGxpc3RTaWduYWxzIH0gZnJvbSAiQC9saWIvc2lnbmFscyI7CmltcG9ydCBTdGF0Q2FyZCBmcm9tICJAL2NvbXBvbmVudHMvU3RhdENhcmQiOwppbXBvcnQgU2lnbmFsQ2FyZCBmcm9tICJAL2NvbXBvbmVudHMvU2lnbmFsQ2FyZCI7CmltcG9ydCBHbG9zc2FyeSBmcm9tICJAL2NvbXBvbmVudHMvR2xvc3NhcnkiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwoKZXhwb3J0IGNvbnN0IHJldmFsaWRhdGUgPSA2MDsKCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIEhvbWVQYWdlKCkgewogIGNvbnN0IFtzdGF0cywgYWxsU2lnbmFsc10gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICBnZXRTaWduYWxTdGF0cygpLAogICAgbGlzdFNpZ25hbHMoeyBsaW1pdDogMTAwIH0pLAogIF0pOwoKICBjb25zdCB0b3BTaWduYWxzID0gYWxsU2lnbmFscwogICAgLmZpbHRlcigocykgPT4gcy5wcmlvcml0eUxhYmVsID09PSAiQ3JpdGljYWwiIHx8IHMucHJpb3JpdHlMYWJlbCA9PT0gIkhpZ2giKQogICAgLnNvcnQoKGEsIGIpID0+IGIucHJpb3JpdHlTY29yZSAtIGEucHJpb3JpdHlTY29yZSkKICAgIC5zbGljZSgwLCA2KTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTgiPgoKICAgICAgey8qIEhlYWRlciArIHdoYXQgdGhpcyBpcyAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcC02Ij4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gbWItMiI+QnVyZ2VybWVpc3RlciBFeHBhbnNpb24gSW50ZWxsaWdlbmNlPC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1bIzQ0NF0gbGVhZGluZy1yZWxheGVkIG1iLTMiPgogICAgICAgICAgVGhpcyBkYXNoYm9hcmQgdHJhY2tzIGxlZ2FsIGFuZCByZWd1bGF0b3J5IHJpc2tzIHJlbGV2YW50IHRvIEJ1cmdlcm1laXN0ZXImYXBvcztzIGludGVybmF0aW9uYWwgZXhwYW5zaW9uIGFjcm9zcyB0aGUgVS5TLiwgVUssIEdlcm1hbnksIFBvbGFuZCwgYW5kIGZ1dHVyZSBtYXJrZXRzLiBFYWNoIDxzdHJvbmc+c2lnbmFsPC9zdHJvbmc+IGlzIGEgc3BlY2lmaWMgbGVnYWwgaXNzdWUg4oCUIGEgbGF3LCByZWd1bGF0aW9uLCBjb21wbGlhbmNlIG9ibGlnYXRpb24sIG9yIHN0cmF0ZWdpYyByaXNrIOKAlCBzY29yZWQgYnkgaG93IG11Y2ggaXQgY291bGQgYWZmZWN0IHRoZSBidXNpbmVzcywgaG93IGxlZ2FsbHkgY29tcGxleCBpdCBpcywgYW5kIGhvdyB1cmdlbnRseSBpdCBuZWVkcyBhdHRlbnRpb24uCiAgICAgICAgPC9wPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVsjNDQ0XSBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgPHN0cm9uZz5Ib3cgdG8gdXNlIGl0Ojwvc3Ryb25nPiBTdGFydCB3aXRoIHRoZSBDcml0aWNhbCBhbmQgSGlnaCBzaWduYWxzIGJlbG93LiBDbGljayBhbnkgc2lnbmFsIGZvciB0aGUgZnVsbCBhbmFseXNpcywgc291cmNlIGNpdGF0aW9ucywgcmVjb21tZW5kZWQgYWN0aW9uLCBhbmQgd2hldGhlciBvdXRzaWRlIGNvdW5zZWwgaXMgcmVxdWlyZWQuIFVzZSB0aGUgU2lnbmFscyBwYWdlIHRvIGZpbHRlciBieSBqdXJpc2RpY3Rpb24sIGNhdGVnb3J5LCBvciBwcmlvcml0eS4gVXNlIEFkZCBTaWduYWwgdG8gbG9nIG5ldyBkZXZlbG9wbWVudHMgYXMgdGhleSBhcmlzZS4KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIEdsb3NzYXJ5ICovfQogICAgICA8R2xvc3NhcnkgLz4KCiAgICAgIHsvKiBTdGF0IGNhcmRzICovfQogICAgICA8ZGl2PgogICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQteHMgZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgdGV4dC1bIzY2Nl0gbWItMyI+RGFzaGJvYXJkIFN1bW1hcnk8L2gyPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy01IGdhcC00Ij4KICAgICAgICAgIDxTdGF0Q2FyZCBsYWJlbD0iVG90YWwgU2lnbmFscyIgdmFsdWU9e3N0YXRzLnRvdGFsU2lnbmFsc30gc3VibGFiZWw9ImFjcm9zcyBhbGwgbWFya2V0cyIgYWNjZW50PSJuYXZ5IiAvPgogICAgICAgICAgPFN0YXRDYXJkIGxhYmVsPSJDcml0aWNhbCIgdmFsdWU9e3N0YXRzLmNyaXRpY2FsfSBzdWJsYWJlbD0iYWRkcmVzcyBpbW1lZGlhdGVseSIgYWNjZW50PSJyZWQiIC8+CiAgICAgICAgICA8U3RhdENhcmQgbGFiZWw9IkhpZ2ggUHJpb3JpdHkiIHZhbHVlPXtzdGF0cy5oaWdofSBzdWJsYWJlbD0icGxhbiBiZWZvcmUgbGF1bmNoIiBhY2NlbnQ9Im9yYW5nZSIgLz4KICAgICAgICAgIDxTdGF0Q2FyZCBsYWJlbD0iT3V0c2lkZSBDb3Vuc2VsIiB2YWx1ZT17c3RhdHMubmVlZHNPdXRzaWRlQ291bnNlbH0gc3VibGFiZWw9InJlcXVpcmUgYXR0b3JuZXkgcmV2aWV3IiBhY2NlbnQ9ImdvbGQiIC8+CiAgICAgICAgICA8U3RhdENhcmQgbGFiZWw9Ik5ldyBUaGlzIFdlZWsiIHZhbHVlPXtzdGF0cy5uZXdUaGlzV2Vla30gc3VibGFiZWw9ImFkZGVkIGluIGxhc3QgNyBkYXlzIiBhY2NlbnQ9ImdyZWVuIiAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBQcmlvcml0eSBzY29yaW5nIGxlZ2VuZCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgbWQ6Z3JpZC1jb2xzLTQgZ2FwLTMiPgogICAgICAgIHtbCiAgICAgICAgICB7IGxhYmVsOiLwn5S0IENyaXRpY2FsICgxM+KAkzE1KSIsIGRlc2M6IkFkZHJlc3MgaW1tZWRpYXRlbHkuIEEgZGVhZGxpbmUgaXMgbGl2ZSBvciBhIGxlZ2FsIG9ibGlnYXRpb24gaXMgYWxyZWFkeSB0cmlnZ2VyZWQuIiwgYmc6ImJnLVsjRkRGMEYwXSIsIGJvcmRlcjoiYm9yZGVyLVsjN0IwMDAwXSIgfSwKICAgICAgICAgIHsgbGFiZWw6IvCfn6AgSGlnaCAoOeKAkzEyKSIsICAgICAgZGVzYzoiUGxhbiBiZWZvcmUgbGF1bmNoaW5nIGluIHRoaXMgbWFya2V0LiBSZWFsIHJpc2sgaWYgdW5hZGRyZXNzZWQgYXQgZW50cnkuIiwgYmc6ImJnLVsjRkZGOEYwXSIsIGJvcmRlcjoiYm9yZGVyLVsjOEI0NTEzXSIgfSwKICAgICAgICAgIHsgbGFiZWw6IvCfn6EgTWVkaXVtICg14oCTOCkiLCAgICAgZGVzYzoiTW9uaXRvciBhbmQgYnVpbGQgaW50byB5b3VyIG1hcmtldC1lbnRyeSBwbGF5Ym9vay4iLCBiZzoiYmctWyNGMEY0RkJdIiwgYm9yZGVyOiJib3JkZXItWyMyRjU0OTZdIiB9LAogICAgICAgICAgeyBsYWJlbDoi8J+foiBMb3cgKDHigJM0KSIsICAgICAgICBkZXNjOiJJbmZvcm1hdGlvbmFsLiBUcmFjayBidXQgbm8gaW1tZWRpYXRlIGFjdGlvbiBuZWVkZWQuIiwgYmc6ImJnLVsjRjBGN0YwXSIsIGJvcmRlcjoiYm9yZGVyLVsjMzc1NjIzXSIgfSwKICAgICAgICBdLm1hcCgocCkgPT4gKAogICAgICAgICAgPGRpdiBrZXk9e3AubGFiZWx9IGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgYm9yZGVyLWwtNCBwLTMgJHtwLmJnfSAke3AuYm9yZGVyfWB9PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1ib2xkIHRleHQtWyMxQzFCMUZdIG1iLTEiPntwLmxhYmVsfTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjNTU1XSBsZWFkaW5nLXJlbGF4ZWQiPntwLmRlc2N9PC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgoKICAgICAgey8qIENyaXRpY2FsICsgSGlnaCBzaWduYWxzICovfQogICAgICA8ZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gbWItMyI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIj5Dcml0aWNhbCAmIEhpZ2ggUHJpb3JpdHkgU2lnbmFsczwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjNjY2XSBtdC0wLjUiPlRoZXNlIHNpZ25hbHMgcmVxdWlyZSBhY3Rpb24gYmVmb3JlIG9yIGR1cmluZyBtYXJrZXQgZW50cnkuIENsaWNrIGFueSBzaWduYWwgdG8gc2VlIHRoZSBmdWxsIGFuYWx5c2lzIGFuZCByZWNvbW1lbmRlZCBuZXh0IHN0ZXAuPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8TGluayBocmVmPSIvc2lnbmFscyIgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyNCODg0MkFdIGZvbnQtc2VtaWJvbGQgaG92ZXI6dW5kZXJsaW5lIGZsZXgtc2hyaW5rLTAgbWwtNCI+CiAgICAgICAgICAgIFZpZXcgYWxsIHtzdGF0cy50b3RhbFNpZ25hbHN9IHNpZ25hbHMg4oaSCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgICAge3RvcFNpZ25hbHMubWFwKChzaWduYWwpID0+ICgKICAgICAgICAgICAgPFNpZ25hbENhcmQga2V5PXtzaWduYWwuaWR9IHNpZ25hbD17c2lnbmFsfSAvPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIFF1aWNrIGxpbmtzICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMyBnYXAtNCI+CiAgICAgICAgPExpbmsgaHJlZj0iL3NpZ25hbHMiIGNsYXNzTmFtZT0iYmxvY2sgYmctd2hpdGUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSBwLTUgaG92ZXI6Ym9yZGVyLVsjQjg4NDJBXSBob3ZlcjpzaGFkb3ctc20gdHJhbnNpdGlvbi1hbGwiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gbWItMSI+8J+TiyBBbGwgU2lnbmFsczwvcD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjNjY2XSBsZWFkaW5nLXJlbGF4ZWQiPkJyb3dzZSwgZmlsdGVyLCBhbmQgc2VhcmNoIGFsbCB7c3RhdHMudG90YWxTaWduYWxzfSBzaWduYWxzIGJ5IGp1cmlzZGljdGlvbiwgY2F0ZWdvcnksIHByaW9yaXR5LCBhbmQgb3V0c2lkZSBjb3Vuc2VsIG5lZWQuIFNvcnRhYmxlIGFuZCBzZWFyY2hhYmxlLjwvcD4KICAgICAgICA8L0xpbms+CiAgICAgICAgPExpbmsgaHJlZj0iL3NvdXJjZXMiIGNsYXNzTmFtZT0iYmxvY2sgYmctd2hpdGUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSBwLTUgaG92ZXI6Ym9yZGVyLVsjQjg4NDJBXSBob3ZlcjpzaGFkb3ctc20gdHJhbnNpdGlvbi1hbGwiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gbWItMSI+8J+TmiBTb3VyY2UgTGlicmFyeTwvcD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjNjY2XSBsZWFkaW5nLXJlbGF4ZWQiPjE3IG1vbml0b3JlZCBsZWdhbCBzb3VyY2VzIOKAlCBwcmltYXJ5IHN0YXR1dGVzLCBnb3Zlcm5tZW50IGd1aWRhbmNlLCBhbmQgc2Vjb25kYXJ5IGF1dGhvcml0aWVzIOKAlCB3aXRoIGRpcmVjdCBsaW5rcyBhbmQgbW9uaXRvcmluZyBmcmVxdWVuY3kuPC9wPgogICAgICAgIDwvTGluaz4KICAgICAgICA8TGluayBocmVmPSIvYWRtaW4iIGNsYXNzTmFtZT0iYmxvY2sgYmctd2hpdGUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSBwLTUgaG92ZXI6Ym9yZGVyLVsjQjg4NDJBXSBob3ZlcjpzaGFkb3ctc20gdHJhbnNpdGlvbi1hbGwiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gbWItMSI+4p6VIEFkZCBTaWduYWw8L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bIzY2Nl0gbGVhZGluZy1yZWxheGVkIj5Mb2cgYSBuZXcgbGVnYWwgb3IgcmVndWxhdG9yeSBkZXZlbG9wbWVudC4gVGhlIHByaW9yaXR5IHNjb3JlIGNhbGN1bGF0ZXMgYXV0b21hdGljYWxseSBhcyB5b3UgZW50ZXIgdGhlIHJpc2sgc2NvcmVzLiBPcHRpb25hbGx5IHNlbmQgYSBTbGFjayBhbmQgZW1haWwgYWxlcnQuPC9wPgogICAgICAgIDwvTGluaz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+import { getSignalStats, listSignals } from "@/lib/signals";
+import StatCard from "@/components/StatCard";
+import SignalCard from "@/components/SignalCard";
+import Glossary from "@/components/Glossary";
+import Link from "next/link";
+
+export const revalidate = 60;
+
+export default async function HomePage() {
+  const [stats, allSignals] = await Promise.all([
+    getSignalStats(),
+    listSignals({ limit: 100 }),
+  ]);
+
+  const topSignals = allSignals
+    .filter((s) => s.priorityLabel === "Critical" || s.priorityLabel === "High")
+    .sort((a, b) => b.priorityScore - a.priorityScore)
+    .slice(0, 6);
+
+  return (
+    <div className="space-y-8">
+
+      {/* Header + what this is */}
+      <div className="bg-white rounded-lg border border-[#E0DDD6] p-6">
+        <h1 className="text-2xl font-bold text-[#1E3651] mb-2">Burgermeister Expansion Intelligence</h1>
+        <p className="text-sm text-[#444] leading-relaxed mb-3">
+          This dashboard tracks legal and regulatory risks relevant to Burgermeister&apos;s international expansion across the U.S., UK, Germany, Poland, and future markets. Each <strong>signal</strong> is a specific legal issue — a law, regulation, compliance obligation, or strategic risk — scored by how much it could affect the business, how legally complex it is, and how urgently it needs attention.
+        </p>
+        <p className="text-sm text-[#444] leading-relaxed">
+          <strong>How to use it:</strong> Start with the Critical and High signals below. Click any signal for the full analysis, source citations, recommended action, and whether outside counsel is required. Use the Signals page to filter by jurisdiction, category, or priority. Use Add Signal to log new developments as they arise.
+        </p>
+      </div>
+
+      {/* Glossary */}
+      <Glossary />
+
+      {/* Stat cards */}
+      <div>
+        <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">Dashboard Summary</h2>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <StatCard label="Total Signals" value={stats.totalSignals} sublabel="across all markets" accent="navy" />
+          <StatCard label="Critical" value={stats.critical} sublabel="address immediately" accent="red" />
+          <StatCard label="High Priority" value={stats.high} sublabel="plan before launch" accent="orange" />
+          <StatCard label="Outside Counsel" value={stats.needsOutsideCounsel} sublabel="require attorney review" accent="gold" />
+          <StatCard label="New This Week" value={stats.newThisWeek} sublabel="added in last 7 days" accent="green" />
+        </div>
+      </div>
+
+      {/* Priority scoring legend */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        {[
+          { label:"🔴 Critical (13–15)", desc:"Address immediately. A deadline is live or a legal obligation is already triggered.", bg:"bg-[#FDF0F0]", border:"border-[#7B0000]" },
+          { label:"🟠 High (9–12)",      desc:"Plan before launching in this market. Real risk if unaddressed at entry.", bg:"bg-[#FFF8F0]", border:"border-[#8B4513]" },
+          { label:"🟡 Medium (5–8)",     desc:"Monitor and build into your market-entry playbook.", bg:"bg-[#F0F4FB]", border:"border-[#2F5496]" },
+          { label:"🟢 Low (1–4)",        desc:"Informational. Track but no immediate action needed.", bg:"bg-[#F0F7F0]", border:"border-[#375623]" },
+        ].map((p) => (
+          <div key={p.label} className={`rounded-lg border-l-4 p-3 ${p.bg} ${p.border}`}>
+            <p className="text-xs font-bold text-[#1C1B1F] mb-1">{p.label}</p>
+            <p className="text-[11px] text-[#555] leading-relaxed">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Critical + High signals */}
+      <div>
+        <div className="flex items-center justify-between mb-3">
+          <div>
+            <h2 className="text-base font-bold text-[#1E3651]">Critical & High Priority Signals</h2>
+            <p className="text-xs text-[#666] mt-0.5">These signals require action before or during market entry. Click any signal to see the full analysis and recommended next step.</p>
+          </div>
+          <Link href="/signals" className="text-xs text-[#B8842A] font-semibold hover:underline flex-shrink-0 ml-4">
+            View all {stats.totalSignals} signals →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {topSignals.map((signal) => (
+            <SignalCard key={signal.id} signal={signal} />
+          ))}
+        </div>
+      </div>
+
+      {/* Quick links */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Link href="/signals" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+          <p className="font-bold text-[#1E3651] mb-1">📋 All Signals</p>
+          <p className="text-xs text-[#666] leading-relaxed">Browse, filter, and search all {stats.totalSignals} signals by jurisdiction, category, priority, and outside counsel need. Sortable and searchable.</p>
+        </Link>
+        <Link href="/sources" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+          <p className="font-bold text-[#1E3651] mb-1">📚 Source Library</p>
+          <p className="text-xs text-[#666] leading-relaxed">17 monitored legal sources — primary statutes, government guidance, and secondary authorities — with direct links and monitoring frequency.</p>
+        </Link>
+        <Link href="/admin" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+          <p className="font-bold text-[#1E3651] mb-1">➕ Add Signal</p>
+          <p className="text-xs text-[#666] leading-relaxed">Log a new legal or regulatory development. The priority score calculates automatically as you enter the risk scores. Optionally send a Slack and email alert.</p>
+        </Link>
+      </div>
+  
+{/* Contact the Architect */}
+<div style={{position:'fixed',bottom:'1.5rem',right:'1.5rem',zIndex:9999}}>
+  <button onClick={()=>{const m=document.getElementById('ca-modal-bm');if(m)(m as HTMLElement).style.display='flex';}}
+    style={{fontSize:'.65rem',textTransform:'uppercase',letterSpacing:'.08em',background:'#B8842A',
+    color:'#fff',border:'none',padding:'.55rem 1.1rem',borderRadius:'2rem',cursor:'pointer',
+    boxShadow:'0 2px 12px rgba(0,0,0,.35)'}}>Contact the Architect</button>
+</div>
+<div id="ca-modal-bm" role="dialog" aria-modal="true"
+  style={{display:'none',position:'fixed',inset:0,zIndex:10000,background:'rgba(0,0,0,.8)',
+  alignItems:'center',justifyContent:'center'}}>
+  <div style={{background:'#fff',maxWidth:420,width:'90%',padding:'2rem',borderRadius:4}}>
+    <h2 style={{margin:'0 0 1rem'}}>Contact the Architect</h2>
+    <input id="ca-name-bm" placeholder="Name (optional)"
+      style={{width:'100%',padding:'.6rem',marginBottom:'.75rem',border:'1px solid #ccc',boxSizing:'border-box'}}/>
+    <input id="ca-email-bm" type="email" placeholder="Email (required)"
+      style={{width:'100%',padding:'.6rem',marginBottom:'.75rem',border:'1px solid #ccc',boxSizing:'border-box'}}/>
+    <textarea id="ca-msg-bm" rows={3} placeholder="Message"
+      style={{width:'100%',padding:'.6rem',marginBottom:'.75rem',border:'1px solid #ccc',boxSizing:'border-box',resize:'vertical'}}></textarea>
+    <div style={{display:'flex',gap:'.75rem',justifyContent:'flex-end'}}>
+      <button onClick={()=>{const m=document.getElementById('ca-modal-bm');if(m)(m as HTMLElement).style.display='none';}}
+        style={{background:'none',border:'1px solid #ccc',padding:'.5rem 1rem',cursor:'pointer'}}>Cancel</button>
+      <button onClick={()=>{
+        const e=(document.getElementById('ca-email-bm') as HTMLInputElement)?.value;
+        if(!e){alert('Email is required');return;}
+        fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({name:(document.getElementById('ca-name-bm') as HTMLInputElement)?.value,email:e,
+          message:(document.getElementById('ca-msg-bm') as HTMLTextAreaElement)?.value,
+          source:'contact-architect-bm-intel-ivory'})})
+        .then(()=>{const m=document.getElementById('ca-modal-bm');if(m)(m as HTMLElement).style.display='none';alert('Sent!');})
+        .catch(()=>alert('Error. Please try again.'));
+      }} style={{background:'#1B7A68',color:'#fff',border:'none',padding:'.5rem 1rem',cursor:'pointer'}}>Send</button>
+    </div>
+  </div>
+</div>
+<div style={{textAlign:'center',padding:'.75rem 1rem',fontSize:'.7rem',borderTop:'1px solid rgba(0,0,0,.1)',marginTop:'2rem'}}>
+  Built by <a href="https://rn-portfolio-khaki.vercel.app" target="_blank" rel="noopener"
+  style={{color:'#1B7A68',textDecoration:'none'}}>RN Builds</a> — explore all AI tools and projects.
+</div>
+  </div>
+  );
+}
