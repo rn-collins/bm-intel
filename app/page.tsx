@@ -20,6 +20,11 @@ export default async function HomePage() {
   return (
     <div className="space-y-8">
 
+      {/* Legal disclaimer */}
+      <div className="bg-[#FFF8E7] border-l-4 border-[#B8842A] rounded-r p-3 text-[13px] text-[#5A4000]">
+        <strong>Note:</strong> This tool is for informational purposes only and does not constitute legal advice. Consult a qualified legal professional before making decisions.
+      </div>
+
       {/* Header + what this is */}
       <div className="bg-white rounded-lg border border-[#E0DDD6] p-6">
         <h1 className="text-2xl font-bold text-[#1E3651] mb-2">Burgermeister Expansion Intelligence</h1>
