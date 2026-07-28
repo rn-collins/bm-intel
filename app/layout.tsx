@@ -38,7 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {children}
         </main>
         <footer className="text-center text-xs text-[#999] py-4 border-t border-[#E0DDD6]">
-          Burgermeister Expansion Intel · Built by RN Collins · Aloha AI Consulting · Not Legal Advice ·{" "}<a href="mailto:collins.ra@northeastern.edu" className="hover:text-[#B8842A] transition-colors">collins.ra@northeastern.edu</a>{" "}·{" "}<a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">linkedin.com/in/rn-collins</a>
+          Burgermeister Expansion Intel · Built by RN Collins · Aloha AI Consulting · Not Legal Advice ·{" "}<a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">linkedin.com/in/rn-collins</a>
         </footer>
       
       {/* Contact the Architect modal */}

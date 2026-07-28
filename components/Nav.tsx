@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
 
 const NAV = [
   { href: "/",        label: "Overview"   },
@@ -10,28 +9,12 @@ const NAV = [
   { href: "/admin",   label: "Add Signal" },
 ];
 
-const EMAIL = "collins.ra@northeastern.edu";
-
 export default function Nav() {
   const path = usePathname();
-  const [state, setState] = useState<"idle" | "copied" | "failed">("idle");
 
   function handleContact() {
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(EMAIL)
-        .then(() => {
-          setState("copied");
-          window.open(`mailto:${EMAIL}`);
-          setTimeout(() => setState("idle"), 2500);
-        })
-        .catch(() => {
-          // Fallback: open mailto link
-          window.location.href = `mailto:${EMAIL}`;
-        });
-    } else {
-      // No clipboard API — open mailto directly
-      window.location.href = `mailto:${EMAIL}`;
-    }
+    const el = document.getElementById("ca-modal-bm");
+    if (el) el.style.display = "flex";
   }
 
   return (
@@ -57,19 +40,9 @@ export default function Nav() {
           ))}
           <button
             onClick={handleContact}
-            title={`Copy ${EMAIL} to clipboard`}
-            className={`ml-3 px-4 py-1.5 rounded-full text-xs font-bold transition-all border ${
-              state === "copied"
-                ? "bg-[#375623] text-white border-[#375623]"
-                : state === "failed"
-                ? "bg-[#8B4513] text-white border-[#8B4513]"
-                : "bg-[#F6F3EC] text-[#1E3651] border-[#E0DDD6] hover:bg-[#B8842A] hover:text-white hover:border-[#B8842A]"
-            }`}>
-            {state === "copied"
-              ? `✓ Copied: ${EMAIL}`
-              : state === "failed"
-              ? "Opening email..."
-              : "Contact the Architect"}
+            title="Contact the Architect"
+            className="ml-3 px-4 py-1.5 rounded-full text-xs font-bold transition-all border bg-[#F6F3EC] text-[#1E3651] border-[#E0DDD6] hover:bg-[#B8842A] hover:text-white hover:border-[#B8842A]">
+            Contact the Architect
           </button>
         </div>
       </nav>
