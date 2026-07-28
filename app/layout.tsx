@@ -7,18 +7,18 @@ export const metadata: Metadata = {
     default: "Burgermeister Expansion Intel",
     template: "%s | Burgermeister Expansion Intel",
   },
-  description: "Legal and regulatory intelligence for Burgermeister international expansion. Not legal advice.",
+  description: "Burgermeister Expansion Intel tracks legal and regulatory risk signals across US, UK, Germany, and Poland for international market entry. Built by RN Collins.",
   openGraph: {
-    title: "Burgermeister Expansion Intel",
-    description: "Legal and regulatory intelligence for Burgermeister international expansion. Not legal advice.",
+    title: "Burgermeister Expansion Intel | RN Collins",
+    description: "Burgermeister Expansion Intel tracks legal and regulatory risk signals across US, UK, Germany, and Poland for international market entry. Built by RN Collins.",
     url: "https://bm-intel-ivory.vercel.app",
     siteName: "Burgermeister Expansion Intel",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Burgermeister Expansion Intel",
-    description: "Legal and regulatory intelligence for Burgermeister international expansion. Not legal advice.",
+    title: "Burgermeister Expansion Intel | RN Collins",
+    description: "Burgermeister Expansion Intel tracks legal and regulatory risk signals across US, UK, Germany, and Poland for international market entry. Built by RN Collins.",
   },
 };
 
