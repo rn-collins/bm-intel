@@ -99,7 +99,22 @@ export default async function HomePage() {
           <p className="text-xs text-[#666] leading-relaxed">Log a new legal or regulatory development. The priority score calculates automatically as you enter the risk scores. Optionally send a Slack and email alert.</p>
         </Link>
       </div>
-  
+
+      {/* Related Tools */}
+      <div>
+        <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">Related Tools</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="https://transform-observatory.vercel.app" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+            <p className="font-bold text-[#1E3651] mb-1">Transform Drug Market Transition Observatory</p>
+            <p className="text-xs text-[#666] leading-relaxed">A market-intelligence observatory tracking drug-policy market transitions — the same signal-scoring approach applied to a different regulatory space.</p>
+          </a>
+          <a href="https://creator-brand-evidence.vercel.app" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+            <p className="font-bold text-[#1E3651] mb-1">Evidence·Studio</p>
+            <p className="text-xs text-[#666] leading-relaxed">Evidence-based brand and creator strategy for trust-sensitive markets — governance and disclosure, not guesswork.</p>
+          </a>
+        </div>
+      </div>
+
 {/* Contact the Architect */}
 <div style={{position:'fixed',bottom:'1.5rem',right:'1.5rem',zIndex:9999}}>
   <button onClick={()=>{const m=document.getElementById('ca-modal-bm');if(m)(m as HTMLElement).style.display='flex';}}
