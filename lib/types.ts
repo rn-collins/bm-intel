@@ -1,1 +1,141 @@
-{"data":"Ly8g4pSA4pSA4pSAIEVudW1zIC8gVW5pb25zIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IHR5cGUgSnVyaXNkaWN0aW9uID0KICB8ICJVUyIgfCAiVUsiIHwgIkVVIiB8ICJERSIgfCAiUEwiIHwgIkNaIiB8ICJOTCIgfCAiQ0giIHwgIlVBRSIgfCAiR2xvYmFsIjsKCmV4cG9ydCB0eXBlIENhdGVnb3J5ID0KICB8ICJGcmFuY2hpc2UgLyBNYXJrZXQgRW50cnkiCiAgfCAiQnJhbmQgLyBJUCBQcm90ZWN0aW9uIgogIHwgIlBvc3QtQnJleGl0IFN1cHBseSBDaGFpbiAvIEltcG9ydCBDb21wbGlhbmNlIgogIHwgIlJlYWwgRXN0YXRlIC8gU2l0ZSBBY3F1aXNpdGlvbiIKICB8ICJTdXBwbHkgQ2hhaW4gLyBRdWFsaXR5IENvbnRyb2wiCiAgfCAiRGVsaXZlcnkgUGxhdGZvcm1zIgogIHwgIkxhYm9yIC8gRW1wbG95bWVudCIKICB8ICJGb29kIENvbXBsaWFuY2UgLyBMYWJlbGluZyIKICB8ICJEYXRhIC8gQUkgLyBQcml2YWN5IgogIHwgIkFkdmVydGlzaW5nIC8gQ29uc3VtZXIgUHJvdGVjdGlvbiIKICB8ICJNJkEgLyBKViAvIEludmVzdG9yIERpbGlnZW5jZSBSZWFkaW5lc3MiCiAgfCAiQ3Jpc2lzIC8gUmVwdXRhdGlvbiBNb25pdG9yaW5nIgogIHwgIkNvbXBldGl0b3IgLyBNYXJrZXQgSW50ZWxsaWdlbmNlIjsKCmV4cG9ydCB0eXBlIFByaW9yaXR5ICAgPSAiQ3JpdGljYWwiIHwgIkhpZ2giIHwgIk1lZGl1bSIgfCAiTG93IjsKZXhwb3J0IHR5cGUgU291cmNlVGllciA9IDEgfCAyIHwgMyB8IDQ7CmV4cG9ydCB0eXBlIFNpZ25hbFN0YXR1cyA9CiAgfCAiTmV3IgogIHwgIk5lZWRzIFJldmlldyIKICB8ICJNb25pdG9yIgogIHwgIkFkZCB0byBQbGF5Ym9vayIKICB8ICJPdXRzaWRlIENvdW5zZWwiCiAgfCAiRXhlY3V0aXZlIEJyaWVmaW5nIgogIHwgIkNsb3NlZCIKICB8ICJBcmNoaXZlZCI7CgpleHBvcnQgdHlwZSBSZWNvbW1lbmRlZEFjdGlvbiA9CiAgfCAiSW1tZWRpYXRlIEFjdGlvbiIKICB8ICJPdXRzaWRlIENvdW5zZWwgUmV2aWV3IgogIHwgIkFkZCB0byBQbGF5Ym9vayIKICB8ICJFeGVjdXRpdmUgQnJpZWZpbmciCiAgfCAiTW9uaXRvciI7CgpleHBvcnQgdHlwZSBBbGVydExldmVsID0KICB8ICJGWUkiCiAgfCAiTW9uaXRvciIKICB8ICJBY3Rpb24gUmVjb21tZW5kZWQiCiAgfCAiT3V0c2lkZSBDb3Vuc2VsIFJldmlldyIKICB8ICJFeGVjdXRpdmUgQXR0ZW50aW9uIjsKCmV4cG9ydCB0eXBlIEFsZXJ0Q2hhbm5lbCA9ICJzbGFjayIgfCAiZW1haWwiOwoKZXhwb3J0IHR5cGUgVXBkYXRlRnJlcXVlbmN5ID0gImRhaWx5IiB8ICJ3ZWVrbHkiIHwgIm1vbnRobHkiIHwgIm1hbnVhbCI7CgovLyDilIDilIDilIAgU291cmNlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGludGVyZmFjZSBTb3VyY2UgewogIGlkOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIHVybDogc3RyaW5nOwogIGp1cmlzZGljdGlvbjogSnVyaXNkaWN0aW9uOwogIGNhdGVnb3J5OiBDYXRlZ29yeTsKICB0aWVyOiBTb3VyY2VUaWVyOwogIHVwZGF0ZUZyZXF1ZW5jeTogVXBkYXRlRnJlcXVlbmN5OwogIGxhc3RDaGVja2VkPzogc3RyaW5nOyAgIC8vIElTTyB0aW1lc3RhbXAKICBub3Rlcz86IHN0cmluZzsKICBjcmVhdGVkQXQ6IHN0cmluZzsgICAgICAvLyBJU08gdGltZXN0YW1wCn0KCi8vIOKUgOKUgOKUgCBTaWduYWwg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIFNpZ25hbCB7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIHN1bW1hcnk6IHN0cmluZzsKICBzb3VyY2VVcmw6IHN0cmluZzsKICBzb3VyY2VOYW1lOiBzdHJpbmc7CiAgc291cmNlVGllcjogU291cmNlVGllcjsKCiAgZGF0ZUZvdW5kOiBzdHJpbmc7ICAgICAgIC8vIElTTyDigJQgd2hlbiB3ZSBpbmdlc3RlZCBpdAogIGRhdGVQdWJsaXNoZWQ/OiBzdHJpbmc7ICAvLyBJU08g4oCUIHdoZW4gdGhlIHNvdXJjZSBwdWJsaXNoZWQgaXQgKG1heSBkaWZmZXIpCgogIGp1cmlzZGljdGlvbjogSnVyaXNkaWN0aW9uOwogIGNhdGVnb3J5OiBDYXRlZ29yeTsKICBzdWJjYXRlZ29yeT86IHN0cmluZzsKCiAgLy8gU2NvcmluZyBpbnB1dHMgKGVhY2ggMeKAkzUpCiAgYnVzaW5lc3NJbXBhY3RTY29yZTogbnVtYmVyOwogIGxlZ2FsQ29tcGxleGl0eVNjb3JlOiBudW1iZXI7CiAgdXJnZW5jeVNjb3JlOiBudW1iZXI7CiAgY29uZmlkZW5jZVNjb3JlOiBudW1iZXI7CgogIC8vIERlcml2ZWQKICBwcmlvcml0eVNjb3JlOiBudW1iZXI7ICAgICAgICAgIC8vIGJ1c2luZXNzSW1wYWN0ICsgbGVnYWxDb21wbGV4aXR5ICsgdXJnZW5jeSAobWF4IDE1KQogIHByaW9yaXR5TGFiZWw6IFByaW9yaXR5OwogIHJlY29tbWVuZGVkQWN0aW9uOiBSZWNvbW1lbmRlZEFjdGlvbjsKCiAgb3V0c2lkZUNvdW5zZWxOZWVkZWQ6IGJvb2xlYW47CiAgYXNzaWduZWRPd25lcj86IHN0cmluZzsKICBzdGF0dXM6IFNpZ25hbFN0YXR1czsKICBub3Rlcz86IHN0cmluZzsKICBhbGVydFNlbnQ6IGJvb2xlYW47CiAgY3JlYXRlZEF0OiBzdHJpbmc7CiAgdXBkYXRlZEF0OiBzdHJpbmc7Cn0KCi8vIOKUgOKUgOKUgCBBbGVydCBSZWNvcmQg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIEFsZXJ0UmVjb3JkIHsKICBpZDogc3RyaW5nOwogIHNpZ25hbElkOiBzdHJpbmc7CiAgY2hhbm5lbHM6IEFsZXJ0Q2hhbm5lbFtdOwogIHJlY2lwaWVudHM/OiBzdHJpbmdbXTsKICBzZW50QXQ6IHN0cmluZzsKICBhbGVydExldmVsOiBBbGVydExldmVsOwogIG1lc3NhZ2VQcmV2aWV3OiBzdHJpbmc7ICAgLy8gZmlyc3QgMjAwIGNoYXJzCn0KCi8vIOKUgOKUgOKUgCBEYXNoYm9hcmQgU3RhdHMgKGZvciBob21lIHBhZ2UpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGludGVyZmFjZSBEYXNoYm9hcmRTdGF0cyB7CiAgdG90YWxTaWduYWxzOiBudW1iZXI7CiAgY3JpdGljYWw6IG51bWJlcjsKICBoaWdoOiBudW1iZXI7CiAgbmVlZHNPdXRzaWRlQ291bnNlbDogbnVtYmVyOwogIG5ld1RoaXNXZWVrOiBudW1iZXI7CiAgYnlDYXRlZ29yeTogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsKICBieUp1cmlzZGljdGlvbjogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsKfQoKLy8g4pSA4pSA4pSAIENyZWF0ZSAvIFVwZGF0ZSBwYXlsb2FkcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCB0eXBlIENyZWF0ZVNpZ25hbElucHV0ID0gT21pdDwKICBTaWduYWwsCiAgfCAiaWQiCiAgfCAicHJpb3JpdHlTY29yZSIKICB8ICJwcmlvcml0eUxhYmVsIgogIHwgInJlY29tbWVuZGVkQWN0aW9uIgogIHwgInN0YXR1cyIKICB8ICJhbGVydFNlbnQiCiAgfCAiY3JlYXRlZEF0IgogIHwgInVwZGF0ZWRBdCIKPjsKCmV4cG9ydCB0eXBlIENyZWF0ZVNvdXJjZUlucHV0ID0gT21pdDxTb3VyY2UsICJpZCIgfCAiY3JlYXRlZEF0Ij47Cg=="}
+// ─── Enums / Unions ───────────────────────────────────────────────────────────
+
+export type Jurisdiction =
+  | "US" | "UK" | "EU" | "DE" | "PL" | "CZ" | "NL" | "CH" | "UAE" | "Global";
+
+export type Category =
+  | "Franchise / Market Entry"
+  | "Brand / IP Protection"
+  | "Post-Brexit Supply Chain / Import Compliance"
+  | "Real Estate / Site Acquisition"
+  | "Supply Chain / Quality Control"
+  | "Delivery Platforms"
+  | "Labor / Employment"
+  | "Food Compliance / Labeling"
+  | "Data / AI / Privacy"
+  | "Advertising / Consumer Protection"
+  | "M&A / JV / Investor Diligence Readiness"
+  | "Crisis / Reputation Monitoring"
+  | "Competitor / Market Intelligence";
+
+export type Priority   = "Critical" | "High" | "Medium" | "Low";
+export type SourceTier = 1 | 2 | 3 | 4;
+export type SignalStatus =
+  | "New"
+  | "Needs Review"
+  | "Monitor"
+  | "Add to Playbook"
+  | "Outside Counsel"
+  | "Executive Briefing"
+  | "Closed"
+  | "Archived";
+
+export type RecommendedAction =
+  | "Immediate Action"
+  | "Outside Counsel Review"
+  | "Add to Playbook"
+  | "Executive Briefing"
+  | "Monitor";
+
+export type AlertLevel =
+  | "FYI"
+  | "Monitor"
+  | "Action Recommended"
+  | "Outside Counsel Review"
+  | "Executive Attention";
+
+export type AlertChannel = "slack" | "email";
+
+export type UpdateFrequency = "daily" | "weekly" | "monthly" | "manual";
+
+// ─── Source ───────────────────────────────────────────────────────────────────
+
+export interface Source {
+  id: string;
+  name: string;
+  url: string;
+  jurisdiction: Jurisdiction;
+  category: Category;
+  tier: SourceTier;
+  updateFrequency: UpdateFrequency;
+  lastChecked?: string;   // ISO timestamp
+  notes?: string;
+  createdAt: string;      // ISO timestamp
+}
+
+// ─── Signal ───────────────────────────────────────────────────────────────────
+
+export interface Signal {
+  id: string;
+  title: string;
+  summary: string;
+  sourceUrl: string;
+  sourceName: string;
+  sourceTier: SourceTier;
+
+  dateFound: string;       // ISO — when we ingested it
+  datePublished?: string;  // ISO — when the source published it (may differ)
+
+  jurisdiction: Jurisdiction;
+  category: Category;
+  subcategory?: string;
+
+  // Scoring inputs (each 1–5)
+  businessImpactScore: number;
+  legalComplexityScore: number;
+  urgencyScore: number;
+  confidenceScore: number;
+
+  // Derived
+  priorityScore: number;          // businessImpact + legalComplexity + urgency (max 15)
+  priorityLabel: Priority;
+  recommendedAction: RecommendedAction;
+
+  outsideCounselNeeded: boolean;
+  assignedOwner?: string;
+  status: SignalStatus;
+  notes?: string;
+  alertSent: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+// ─── Alert Record ─────────────────────────────────────────────────────────────
+
+export interface AlertRecord {
+  id: string;
+  signalId: string;
+  channels: AlertChannel[];
+  recipients?: string[];
+  sentAt: string;
+  alertLevel: AlertLevel;
+  messagePreview: string;   // first 200 chars
+}
+
+// ─── Dashboard Stats (for home page) ─────────────────────────────────────────
+
+export interface DashboardStats {
+  totalSignals: number;
+  critical: number;
+  high: number;
+  needsOutsideCounsel: number;
+  newThisWeek: number;
+  byCategory: Record<string, number>;
+  byJurisdiction: Record<string, number>;
+}
+
+// ─── Create / Update payloads ─────────────────────────────────────────────────
+
+export type CreateSignalInput = Omit<
+  Signal,
+  | "id"
+  | "priorityScore"
+  | "priorityLabel"
+  | "recommendedAction"
+  | "status"
+  | "alertSent"
+  | "createdAt"
+  | "updatedAt"
+>;
+
+export type CreateSourceInput = Omit<Source, "id" | "createdAt">;

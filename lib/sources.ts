@@ -1,1 +1,52 @@
-{"data":"aW1wb3J0IHsgbmFub2lkIH0gZnJvbSAibmFub2lkIjsKaW1wb3J0IHsgcmVkaXMsIGtleXMsIHBhcnNlUmVkaXNWYWwgfSBmcm9tICIuL3JlZGlzIjsKaW1wb3J0IHR5cGUgeyBTb3VyY2UsIENyZWF0ZVNvdXJjZUlucHV0IH0gZnJvbSAiLi90eXBlcyI7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY3JlYXRlU291cmNlKGlucHV0OiBDcmVhdGVTb3VyY2VJbnB1dCk6IFByb21pc2U8U291cmNlPiB7CiAgY29uc3Qgc291cmNlOiBTb3VyY2UgPSB7CiAgICAuLi5pbnB1dCwKICAgIGlkOiBuYW5vaWQoKSwKICAgIGNyZWF0ZWRBdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogIH07CiAgY29uc3QgdHMgPSBEYXRlLm5vdygpOwogIGF3YWl0IFByb21pc2UuYWxsKFsKICAgIHJlZGlzLnNldChrZXlzLnNvdXJjZShzb3VyY2UuaWQpLCBKU09OLnN0cmluZ2lmeShzb3VyY2UpKSwKICAgIHJlZGlzLnphZGQoa2V5cy5zb3VyY2VJbmRleCwgeyBzY29yZTogdHMsIG1lbWJlcjogc291cmNlLmlkIH0pLAogIF0pOwogIHJldHVybiBzb3VyY2U7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRTb3VyY2UoaWQ6IHN0cmluZyk6IFByb21pc2U8U291cmNlIHwgbnVsbD4gewogIGNvbnN0IHJhdyA9IGF3YWl0IHJlZGlzLmdldChrZXlzLnNvdXJjZShpZCkpOwogIHJldHVybiBwYXJzZVJlZGlzVmFsPFNvdXJjZT4ocmF3KTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxpc3RTb3VyY2VzKCk6IFByb21pc2U8U291cmNlW10+IHsKICBjb25zdCBpZHMgPSBhd2FpdCByZWRpcy56cmFuZ2Uoa2V5cy5zb3VyY2VJbmRleCwgMCwgLTEsIHsgcmV2OiB0cnVlIH0pIGFzIHN0cmluZ1tdOwogIGlmICghaWRzLmxlbmd0aCkgcmV0dXJuIFtdOwogIGNvbnN0IHJhd3MgPSBhd2FpdCBQcm9taXNlLmFsbChpZHMubWFwKChpZCkgPT4gcmVkaXMuZ2V0KGtleXMuc291cmNlKGlkKSkpKTsKICByZXR1cm4gcmF3cwogICAgLm1hcCgocikgPT4gcGFyc2VSZWRpc1ZhbDxTb3VyY2U+KHIpKQogICAgLmZpbHRlcigocyk6IHMgaXMgU291cmNlID0+IHMgIT09IG51bGwpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdXBkYXRlU291cmNlKAogIGlkOiBzdHJpbmcsCiAgcGF0Y2g6IFBhcnRpYWw8U291cmNlPgopOiBQcm9taXNlPFNvdXJjZSB8IG51bGw+IHsKICBjb25zdCBleGlzdGluZyA9IGF3YWl0IGdldFNvdXJjZShpZCk7CiAgaWYgKCFleGlzdGluZykgcmV0dXJuIG51bGw7CiAgY29uc3QgdXBkYXRlZCA9IHsgLi4uZXhpc3RpbmcsIC4uLnBhdGNoLCBpZCB9OwogIGF3YWl0IHJlZGlzLnNldChrZXlzLnNvdXJjZShpZCksIEpTT04uc3RyaW5naWZ5KHVwZGF0ZWQpKTsKICByZXR1cm4gdXBkYXRlZDsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZVNvdXJjZShpZDogc3RyaW5nKTogUHJvbWlzZTxib29sZWFuPiB7CiAgY29uc3Qgc291cmNlID0gYXdhaXQgZ2V0U291cmNlKGlkKTsKICBpZiAoIXNvdXJjZSkgcmV0dXJuIGZhbHNlOwogIGF3YWl0IFByb21pc2UuYWxsKFsKICAgIHJlZGlzLmRlbChrZXlzLnNvdXJjZShpZCkpLAogICAgcmVkaXMuenJlbShrZXlzLnNvdXJjZUluZGV4LCBpZCksCiAgXSk7CiAgcmV0dXJuIHRydWU7Cn0K"}
+import { nanoid } from "nanoid";
+import { redis, keys, parseRedisVal } from "./redis";
+import type { Source, CreateSourceInput } from "./types";
+
+export async function createSource(input: CreateSourceInput): Promise<Source> {
+  const source: Source = {
+    ...input,
+    id: nanoid(),
+    createdAt: new Date().toISOString(),
+  };
+  const ts = Date.now();
+  await Promise.all([
+    redis.set(keys.source(source.id), JSON.stringify(source)),
+    redis.zadd(keys.sourceIndex, { score: ts, member: source.id }),
+  ]);
+  return source;
+}
+
+export async function getSource(id: string): Promise<Source | null> {
+  const raw = await redis.get(keys.source(id));
+  return parseRedisVal<Source>(raw);
+}
+
+export async function listSources(): Promise<Source[]> {
+  const ids = await redis.zrange(keys.sourceIndex, 0, -1, { rev: true }) as string[];
+  if (!ids.length) return [];
+  const raws = await Promise.all(ids.map((id) => redis.get(keys.source(id))));
+  return raws
+    .map((r) => parseRedisVal<Source>(r))
+    .filter((s): s is Source => s !== null);
+}
+
+export async function updateSource(
+  id: string,
+  patch: Partial<Source>
+): Promise<Source | null> {
+  const existing = await getSource(id);
+  if (!existing) return null;
+  const updated = { ...existing, ...patch, id };
+  await redis.set(keys.source(id), JSON.stringify(updated));
+  return updated;
+}
+
+export async function deleteSource(id: string): Promise<boolean> {
+  const source = await getSource(id);
+  if (!source) return false;
+  await Promise.all([
+    redis.del(keys.source(id)),
+    redis.zrem(keys.sourceIndex, id),
+  ]);
+  return true;
+}

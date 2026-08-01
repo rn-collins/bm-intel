@@ -1,1 +1,26 @@
-{"data":"ewogICJuYW1lIjogImJtLWludGVsIiwKICAidmVyc2lvbiI6ICIwLjEuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAiYnVpbGQiOiAibmV4dCBidWlsZCIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQHVwc3Rhc2gvcmVkaXMiOiAiXjEuMzguMCIsCiAgICAibmFub2lkIjogIl41LjEuMTEiLAogICAgIm5leHQiOiAiMTYuMi43IiwKICAgICJyZWFjdCI6ICIxOS4yLjQiLAogICAgInJlYWN0LWRvbSI6ICIxOS4yLjQiLAogICAgInJlc2VuZCI6ICJeNi4xMi40IgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdGFpbHdpbmRjc3MvcG9zdGNzcyI6ICJeNCIsCiAgICAiQHR5cGVzL25vZGUiOiAiXjIwIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE5IiwKICAgICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOSIsCiAgICAidGFpbHdpbmRjc3MiOiAiXjQiLAogICAgInR5cGVzY3JpcHQiOiAiXjUiCiAgfQp9Cg=="}
+{
+  "name": "bm-intel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.38.0",
+    "nanoid": "^5.1.11",
+    "next": "16.2.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "resend": "^6.12.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

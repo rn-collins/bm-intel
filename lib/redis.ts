@@ -1,1 +1,49 @@
-{"data":"aW1wb3J0IHsgUmVkaXMgfSBmcm9tICJAdXBzdGFzaC9yZWRpcyI7CgovLyBTaW5nbGUgc2hhcmVkIGNsaWVudCDigJQgc2FmZSBmb3Igc2VydmVybGVzcyAoZWFjaCBpbnZvY2F0aW9uIGdldHMgaXRzIG93biBpbnN0YW5jZSkKZXhwb3J0IGNvbnN0IHJlZGlzID0gbmV3IFJlZGlzKHsKICB1cmw6ICAgcHJvY2Vzcy5lbnYuVVBTVEFTSF9SRURJU19SRVNUX1VSTCEsCiAgdG9rZW46IHByb2Nlc3MuZW52LlVQU1RBU0hfUkVESVNfUkVTVF9UT0tFTiEsCn0pOwoKLy8g4pSA4pSA4pSAIENSSVRJQ0FMOiBwYXJzZVJlZGlzVmFsIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAovLyBVcHN0YXNoIGF1dG8tZGVzZXJpYWxpemVzIEpTT04gb24gcmVhZCwgc28gcmVkaXMuZ2V0KCkgbWF5IHJldHVybiBhbiBvYmplY3QKLy8gT1IgYSBzdHJpbmcgZGVwZW5kaW5nIG9uIGhvdyB0aGUgdmFsdWUgd2FzIHN0b3JlZCBhbmQgd2hpY2ggU0RLIHZlcnNpb24gaXMKLy8gaW4gdXNlLiBOZXZlciBjYWxsIEpTT04ucGFyc2UoKSBkaXJlY3RseSBvbiByZWRpcy5nZXQoKSByZXN1bHRzIOKAlCBpdCB3aWxsCi8vIGZhaWwgaW50ZXJtaXR0ZW50bHkgd2hlbiBVcHN0YXNoIHJldHVybnMgYW4gYWxyZWFkeS1wYXJzZWQgb2JqZWN0LgovLwovLyBBbHdheXMgcGFzcyByZWRpcy5nZXQoKSBvdXRwdXQgdGhyb3VnaCBwYXJzZVJlZGlzVmFsKCkgYmVmb3JlIHVzZS4KCmV4cG9ydCBmdW5jdGlvbiBwYXJzZVJlZGlzVmFsPFQ+KHZhbDogdW5rbm93bik6IFQgfCBudWxsIHsKICBpZiAodmFsID09PSBudWxsIHx8IHZhbCA9PT0gdW5kZWZpbmVkKSByZXR1cm4gbnVsbDsKICBpZiAodHlwZW9mIHZhbCA9PT0gInN0cmluZyIpIHsKICAgIHRyeSB7IHJldHVybiBKU09OLnBhcnNlKHZhbCkgYXMgVDsgfQogICAgY2F0Y2ggeyByZXR1cm4gdmFsIGFzIHVua25vd24gYXMgVDsgfQogIH0KICAvLyBBbHJlYWR5IGRlc2VyaWFsaXplZCBieSBVcHN0YXNoIFNESwogIHJldHVybiB2YWwgYXMgVDsKfQoKLy8g4pSA4pSA4pSAIFJlZGlzIGtleSBuYW1lc3BhY2U6IGJtOiBwcmVmaXggdG8gYXZvaWQgY29sbGlzaW9ucyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8gT3RoZXIgcHJvamVjdHMgb24gYW11c2luZy1oaXBwby05MjgyMS51cHN0YXNoLmlvIHVzZSBkaWZmZXJlbnQgcHJlZml4ZXMuCgpleHBvcnQgY29uc3Qga2V5cyA9IHsKICAvLyBTb3J0ZWQgc2V0cyAoc2NvcmUgPSB1bml4IHRpbWVzdGFtcCBtcyBmb3IgZGF0ZS1vcmRlcmluZykKICBzaWduYWxJbmRleDogICAgImJtOnNpZ25hbHMiLAogIHNvdXJjZUluZGV4OiAgICAiYm06c291cmNlcyIsCiAgYWxlcnRJbmRleDogICAgICJibTphbGVydHMiLAoKICAvLyBJbmRpdmlkdWFsIHJlY29yZHMKICBzaWduYWw6IChpZDogc3RyaW5nKSA9PiBgYm06c2lnbmFsOiR7aWR9YCwKICBzb3VyY2U6IChpZDogc3RyaW5nKSA9PiBgYm06c291cmNlOiR7aWR9YCwKICBhbGVydDogIChpZDogc3RyaW5nKSA9PiBgYm06YWxlcnQ6JHtpZH1gLAoKICAvLyBMb29rdXAgc2V0cyAoZm9yIGZpbHRlcmluZyB3aXRob3V0IHNjYW5uaW5nKQogIGJ5Q2F0ZWdvcnk6ICAgIChjYXQ6IHN0cmluZykgID0+IGBibTpzaWduYWxzOmNhdDoke2NhdC5yZXBsYWNlKC9cVysvZywgIl8iKX1gLAogIGJ5SnVyaXNkaWN0aW9uOihqdXI6IHN0cmluZykgID0+IGBibTpzaWduYWxzOmp1cjoke2p1cn1gLAogIGJ5U3RhdHVzOiAgICAgIChzdGF0dXM6IHN0cmluZykgPT4gYGJtOnNpZ25hbHM6c3RhdHVzOiR7c3RhdHVzLnJlcGxhY2UoL1xXKy9nLCAiXyIpfWAsCiAgYnlQcmlvcml0eTogICAgKHByaTogc3RyaW5nKSAgPT4gYGJtOnNpZ25hbHM6cHJpOiR7cHJpLnRvTG93ZXJDYXNlKCl9YCwKCiAgLy8gTWV0YQogIG1ldGE6IChrZXk6IHN0cmluZykgPT4gYGJtOm1ldGE6JHtrZXl9YCwKfTsK"}
+import { Redis } from "@upstash/redis";
+
+// Single shared client — safe for serverless (each invocation gets its own instance)
+export const redis = new Redis({
+  url:   process.env.UPSTASH_REDIS_REST_URL!,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+});
+
+// ─── CRITICAL: parseRedisVal ──────────────────────────────────────────────────
+// Upstash auto-deserializes JSON on read, so redis.get() may return an object
+// OR a string depending on how the value was stored and which SDK version is
+// in use. Never call JSON.parse() directly on redis.get() results — it will
+// fail intermittently when Upstash returns an already-parsed object.
+//
+// Always pass redis.get() output through parseRedisVal() before use.
+
+export function parseRedisVal<T>(val: unknown): T | null {
+  if (val === null || val === undefined) return null;
+  if (typeof val === "string") {
+    try { return JSON.parse(val) as T; }
+    catch { return val as unknown as T; }
+  }
+  // Already deserialized by Upstash SDK
+  return val as T;
+}
+
+// ─── Redis key namespace: bm: prefix to avoid collisions ─────────────────────
+// Other projects on amusing-hippo-92821.upstash.io use different prefixes.
+
+export const keys = {
+  // Sorted sets (score = unix timestamp ms for date-ordering)
+  signalIndex:    "bm:signals",
+  sourceIndex:    "bm:sources",
+  alertIndex:     "bm:alerts",
+
+  // Individual records
+  signal: (id: string) => `bm:signal:${id}`,
+  source: (id: string) => `bm:source:${id}`,
+  alert:  (id: string) => `bm:alert:${id}`,
+
+  // Lookup sets (for filtering without scanning)
+  byCategory:    (cat: string)  => `bm:signals:cat:${cat.replace(/\W+/g, "_")}`,
+  byJurisdiction:(jur: string)  => `bm:signals:jur:${jur}`,
+  byStatus:      (status: string) => `bm:signals:status:${status.replace(/\W+/g, "_")}`,
+  byPriority:    (pri: string)  => `bm:signals:pri:${pri.toLowerCase()}`,
+
+  // Meta
+  meta: (key: string) => `bm:meta:${key}`,
+};

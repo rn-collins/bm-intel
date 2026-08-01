@@ -1,1 +1,327 @@
-{"data":"InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAibmV4dC9uYXZpZ2F0aW9uIjsKaW1wb3J0IHR5cGUgeyBDYXRlZ29yeSwgSnVyaXNkaWN0aW9uIH0gZnJvbSAiQC9saWIvdHlwZXMiOwoKY29uc3QgSlVSSVNESUNUSU9OUzogSnVyaXNkaWN0aW9uW10gPSBbIlVTIiwiVUsiLCJFVSIsIkRFIiwiUEwiLCJDWiIsIk5MIiwiQ0giLCJVQUUiLCJHbG9iYWwiXTsKY29uc3QgQ0FURUdPUklFUzogQ2F0ZWdvcnlbXSA9IFsKICAiRnJhbmNoaXNlIC8gTWFya2V0IEVudHJ5IiwKICAiQnJhbmQgLyBJUCBQcm90ZWN0aW9uIiwKICAiUG9zdC1CcmV4aXQgU3VwcGx5IENoYWluIC8gSW1wb3J0IENvbXBsaWFuY2UiLAogICJSZWFsIEVzdGF0ZSAvIFNpdGUgQWNxdWlzaXRpb24iLAogICJTdXBwbHkgQ2hhaW4gLyBRdWFsaXR5IENvbnRyb2wiLAogICJEZWxpdmVyeSBQbGF0Zm9ybXMiLAogICJMYWJvciAvIEVtcGxveW1lbnQiLAogICJGb29kIENvbXBsaWFuY2UgLyBMYWJlbGluZyIsCiAgIkRhdGEgLyBBSSAvIFByaXZhY3kiLAogICJBZHZlcnRpc2luZyAvIENvbnN1bWVyIFByb3RlY3Rpb24iLAogICJNJkEgLyBKViAvIEludmVzdG9yIERpbGlnZW5jZSBSZWFkaW5lc3MiLAogICJDcmlzaXMgLyBSZXB1dGF0aW9uIE1vbml0b3JpbmciLAogICJDb21wZXRpdG9yIC8gTWFya2V0IEludGVsbGlnZW5jZSIsCl07Cgpjb25zdCBTQ09SRV9MQUJFTFM6IFJlY29yZDxudW1iZXIsIHN0cmluZz4gPSB7CiAgMToiMSDigJQgTWluaW1hbCIsIDI6IjIg4oCUIExvdyIsIDM6IjMg4oCUIE1vZGVyYXRlIiwgNDoiNCDigJQgSGlnaCIsIDU6IjUg4oCUIENyaXRpY2FsIgp9OwoKY29uc3QgU0NPUkVfR1VJREUgPSBbCiAgewogICAga2V5OiJidXNpbmVzc0ltcGFjdFNjb3JlIiwgbGFiZWw6IkJ1c2luZXNzIEltcGFjdCIsCiAgICB3aGF0OiJIb3cgbXVjaCBjb3VsZCB0aGlzIGlzc3VlIGFmZmVjdCBCdXJnZXJtZWlzdGVyJ3MgZXhwYW5zaW9uIHBsYW5zLCB0aW1lbGluZSwgb3IgY29zdHM/IiwKICAgIHNjYWxlOlsKICAgICAgIjEg4oCUIE1pbmltYWw6IHVubGlrZWx5IHRvIGFmZmVjdCBleHBhbnNpb24iLAogICAgICAiMiDigJQgTG93OiBtaW5vciBmcmljdGlvbiwgbWFuYWdlYWJsZSIsCiAgICAgICIzIOKAlCBNb2RlcmF0ZTogbWVhbmluZ2Z1bCBkZWxheSBvciBhZGRlZCBjb3N0IiwKICAgICAgIjQg4oCUIEhpZ2g6IHNpZ25pZmljYW50IHJpc2sgdG8gbWFya2V0IGVudHJ5IiwKICAgICAgIjUg4oCUIENyaXRpY2FsOiBjb3VsZCBibG9jayBtYXJrZXQgZW50cnkgb3IgY3JlYXRlIG1ham9yIGxpYWJpbGl0eSIsCiAgICBdCiAgfSwKICB7CiAgICBrZXk6ImxlZ2FsQ29tcGxleGl0eVNjb3JlIiwgbGFiZWw6IkxlZ2FsIENvbXBsZXhpdHkiLAogICAgd2hhdDoiSG93IG11Y2ggbGVnYWwgZXhwZXJ0aXNlIGlzIHJlcXVpcmVkIHRvIGFkZHJlc3MgdGhpcyBpc3N1ZT8iLAogICAgc2NhbGU6WwogICAgICAiMSDigJQgQ2hlY2tsaXN0IGl0ZW06IG5vIHNwZWNpYWxpc3QgbmVlZGVkIiwKICAgICAgIjIg4oCUIExvdzogc3RhbmRhcmQgbGVnYWwgcmV2aWV3IHN1ZmZpY2llbnQiLAogICAgICAiMyDigJQgTW9kZXJhdGU6IGEgbGF3eWVyIHNob3VsZCByZXZpZXcgaXQiLAogICAgICAiNCDigJQgSGlnaDogc3BlY2lhbGlzdCBsZWdhbCBpbnB1dCByZXF1aXJlZCIsCiAgICAgICI1IOKAlCBTcGVjaWFsaXN0IHJlcXVpcmVkOiBkZWRpY2F0ZWQgZXhwZXJ0IGNvdW5zZWwgbmVlZGVkIiwKICAgIF0KICB9LAogIHsKICAgIGtleToidXJnZW5jeVNjb3JlIiwgbGFiZWw6IlVyZ2VuY3kiLAogICAgd2hhdDoiSG93IHRpbWUtc2Vuc2l0aXZlIGlzIHRoaXMgaXNzdWU/IiwKICAgIHNjYWxlOlsKICAgICAgIjEg4oCUIE1vbml0b3I6IG5vIGltbWVkaWF0ZSBhY3Rpb24gbmVlZGVkIiwKICAgICAgIjIg4oCUIExvdzogYWRkcmVzcyBpbiBwbGFubmluZyBwaGFzZSIsCiAgICAgICIzIOKAlCBQcmUtbGF1bmNoOiByZXNvbHZlIGJlZm9yZSBlbnRlcmluZyB0aGlzIG1hcmtldCIsCiAgICAgICI0IOKAlCBIaWdoOiB0aW1lLXNlbnNpdGl2ZSwgYWRkcmVzcyBzb29uIiwKICAgICAgIjUg4oCUIEltbWVkaWF0ZTogYSBkZWFkbGluZSBpcyBsaXZlIG9yIG9ibGlnYXRpb24gYWxyZWFkeSB0cmlnZ2VyZWQiLAogICAgXQogIH0sCiAgewogICAga2V5OiJjb25maWRlbmNlU2NvcmUiLCBsYWJlbDoiQ29uZmlkZW5jZSAoU291cmNlIFJlbGlhYmlsaXR5KSIsCiAgICB3aGF0OiJIb3cgcmVsaWFibGUgaXMgdGhlIHNvdXJjZT8gQ29uZmlkZW5jZSBkb2VzIG5vdCBhZmZlY3QgdGhlIFByaW9yaXR5IFNjb3JlIOKAlCBpdCB0ZWxscyB5b3UgaG93IG11Y2ggd2VpZ2h0IHRvIGdpdmUgdGhlIHNpZ25hbC4iLAogICAgc2NhbGU6WwogICAgICAiMSDigJQgV2VhayBzaWduYWw6IHVudmVyaWZpZWQgb3Igc3BlY3VsYXRpdmUiLAogICAgICAiMiDigJQgTG93OiBpbmZvcm1hbCBvciBzZWNvbmRhcnkgc291cmNlIiwKICAgICAgIjMg4oCUIE1vZGVyYXRlOiByZXB1dGFibGUgc2Vjb25kYXJ5IChsYXcgZmlybSBhbGVydCwgaW5kdXN0cnkgYm9keSkiLAogICAgICAiNCDigJQgSGlnaDogZXN0YWJsaXNoZWQgc2Vjb25kYXJ5IG9yIG9mZmljaWFsIGd1aWRhbmNlIiwKICAgICAgIjUg4oCUIFByaW1hcnkgbGF3OiBhIHN0YXR1dGUsIHJlZ3VsYXRpb24sIG9yIG9mZmljaWFsIGdvdmVybm1lbnQgcHVibGljYXRpb24iLAogICAgXQogIH0sCl07CgpmdW5jdGlvbiBjYWxjUHJpb3JpdHkoYjogbnVtYmVyLCBsOiBudW1iZXIsIHU6IG51bWJlcikgewogIGNvbnN0IHNjb3JlID0gYiArIGwgKyB1OwogIGlmIChzY29yZSA+PSAxMykgcmV0dXJuIHsgc2NvcmUsIGxhYmVsOiJDcml0aWNhbCIsIGNvbG9yOiJ0ZXh0LVsjN0IwMDAwXSIsIGJnOiJib3JkZXItWyM3QjAwMDBdIGJnLVsjRkRGMEYwXSIgfTsKICBpZiAoc2NvcmUgPj0gOSkgIHJldHVybiB7IHNjb3JlLCBsYWJlbDoiSGlnaCIsICAgICBjb2xvcjoidGV4dC1bIzhCNDUxM10iLCBiZzoiYm9yZGVyLVsjOEI0NTEzXSBiZy1bI0ZGRjhGMF0iIH07CiAgaWYgKHNjb3JlID49IDUpICByZXR1cm4geyBzY29yZSwgbGFiZWw6Ik1lZGl1bSIsICAgY29sb3I6InRleHQtWyMyRjU0OTZdIiwgYmc6ImJvcmRlci1bIzJGNTQ5Nl0gYmctWyNGMEY0RkJdIiB9OwogIHJldHVybiB7IHNjb3JlLCBsYWJlbDoiTG93IiwgY29sb3I6InRleHQtWyMzNzU2MjNdIiwgYmc6ImJvcmRlci1bIzM3NTYyM10gYmctWyNGMEY3RjBdIiB9Owp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBZG1pblBhZ2UoKSB7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CiAgY29uc3QgW3NhdmluZywgc2V0U2F2aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc3VjY2Vzcywgc2V0U3VjY2Vzc10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3Nob3dHdWlkZSwgc2V0U2hvd0d1aWRlXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgW2Zvcm0sIHNldEZvcm1dID0gdXNlU3RhdGUoewogICAgdGl0bGU6IiIsIHN1bW1hcnk6IiIsIHNvdXJjZVVybDoiIiwgc291cmNlTmFtZToiIiwKICAgIHNvdXJjZVRpZXI6MSBhcyAxfDJ8M3w0LAogICAgZGF0ZUZvdW5kOm5ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zcGxpdCgiVCIpWzBdLAogICAgZGF0ZVB1Ymxpc2hlZDoiIiwKICAgIGp1cmlzZGljdGlvbjoiR2xvYmFsIiBhcyBKdXJpc2RpY3Rpb24sCiAgICBjYXRlZ29yeToiRnJhbmNoaXNlIC8gTWFya2V0IEVudHJ5IiBhcyBDYXRlZ29yeSwKICAgIGJ1c2luZXNzSW1wYWN0U2NvcmU6MywgbGVnYWxDb21wbGV4aXR5U2NvcmU6MywKICAgIHVyZ2VuY3lTY29yZTozLCBjb25maWRlbmNlU2NvcmU6MywKICAgIG91dHNpZGVDb3Vuc2VsTmVlZGVkOmZhbHNlLCBub3RlczoiIiwgc2VuZEFsZXJ0OmZhbHNlLAogIH0pOwoKICBjb25zdCBwcmlvcml0eSA9IGNhbGNQcmlvcml0eShmb3JtLmJ1c2luZXNzSW1wYWN0U2NvcmUsIGZvcm0ubGVnYWxDb21wbGV4aXR5U2NvcmUsIGZvcm0udXJnZW5jeVNjb3JlKTsKICBjb25zdCBzZXQgPSAoazogc3RyaW5nLCB2OiB1bmtub3duKSA9PiBzZXRGb3JtKChmKSA9PiAoeyAuLi5mLCBba106IHYgfSkpOwoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVTdWJtaXQoKSB7CiAgICBpZiAoIWZvcm0udGl0bGUgfHwgIWZvcm0uc3VtbWFyeSB8fCAhZm9ybS5zb3VyY2VVcmwgfHwgIWZvcm0uc291cmNlTmFtZSkgewogICAgICBzZXRFcnJvcigiVGl0bGUsIHN1bW1hcnksIHNvdXJjZSBVUkwsIGFuZCBzb3VyY2UgbmFtZSBhcmUgYWxsIHJlcXVpcmVkLiIpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRTYXZpbmcodHJ1ZSk7IHNldEVycm9yKCIiKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCIvYXBpL3NpZ25hbHMiLCB7CiAgICAgICAgbWV0aG9kOiJQT1NUIiwKICAgICAgICBoZWFkZXJzOnsgIkNvbnRlbnQtVHlwZSI6ImFwcGxpY2F0aW9uL2pzb24iIH0sCiAgICAgICAgYm9keTpKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAuLi5mb3JtLAogICAgICAgICAgZGF0ZUZvdW5kOm5ldyBEYXRlKGZvcm0uZGF0ZUZvdW5kKS50b0lTT1N0cmluZygpLAogICAgICAgICAgZGF0ZVB1Ymxpc2hlZDpmb3JtLmRhdGVQdWJsaXNoZWQgPyBuZXcgRGF0ZShmb3JtLmRhdGVQdWJsaXNoZWQpLnRvSVNPU3RyaW5nKCkgOiB1bmRlZmluZWQsCiAgICAgICAgfSksCiAgICAgIH0pOwogICAgICBpZiAoIXJlcy5vaykgdGhyb3cgbmV3IEVycm9yKGF3YWl0IHJlcy50ZXh0KCkpOwogICAgICBzZXRTdWNjZXNzKHRydWUpOwogICAgICBzZXRUaW1lb3V0KCgpID0+IHJvdXRlci5wdXNoKCIvc2lnbmFscyIpLCAxNTAwKTsKICAgIH0gY2F0Y2goZSkgeyBzZXRFcnJvcihTdHJpbmcoZSkpOyB9CiAgICBmaW5hbGx5IHsgc2V0U2F2aW5nKGZhbHNlKTsgfQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy0zeGwgc3BhY2UteS02Ij4KICAgICAgPGRpdj4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0iPkFkZCBTaWduYWw8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVsjNjY2XSBtdC0xIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICBMb2cgYSBuZXcgbGVnYWwgb3IgcmVndWxhdG9yeSBkZXZlbG9wbWVudC4gRmlsbCBpbiB0aGUgdGl0bGUsIHN1bW1hcnksIHNvdXJjZSwgYW5kIGp1cmlzZGljdGlvbiwgdGhlbiBzY29yZSB0aGUgcmlzayB1c2luZyB0aGUgc2xpZGVycy4gVGhlIFByaW9yaXR5IFNjb3JlIGNhbGN1bGF0ZXMgYXV0b21hdGljYWxseS4gT3B0aW9uYWxseSBzZW5kIGEgU2xhY2sgYW5kIGVtYWlsIGFsZXJ0IHdoZW4geW91IHNhdmUuCiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBTY29yaW5nIGd1aWRlIHRvZ2dsZSAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIGJvcmRlciBib3JkZXItWyNFMERERDZdIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldFNob3dHdWlkZShvID0+ICFvKX0KICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC01IHB5LTMgdGV4dC1zbSBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gaG92ZXI6YmctWyNGNkYzRUNdIHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgIDxzcGFuPvCfk4ogU2NvcmluZyBndWlkZSDigJQgaG93IHRvIGZpbGwgaW4gdGhlIHJpc2sgc2NvcmVzPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsjQjg4NDJBXSB0ZXh0LWxnIj57c2hvd0d1aWRlID8gIuKIkiIgOiAiKyJ9PC9zcGFuPgogICAgICAgIDwvYnV0dG9uPgogICAgICAgIHtzaG93R3VpZGUgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci1bI0UwRERENl0gcHgtNSBweS00IHNwYWNlLXktNCI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVsjNTU1XSI+CiAgICAgICAgICAgICAgPHN0cm9uZz5Qcmlvcml0eSBTY29yZTwvc3Ryb25nPiA9IEJ1c2luZXNzIEltcGFjdCArIExlZ2FsIENvbXBsZXhpdHkgKyBVcmdlbmN5IChtYXggMTUpLiBDcml0aWNhbCA9IDEz4oCTMTUuIEhpZ2ggPSA54oCTMTIuIE1lZGl1bSA9IDXigJM4LiBMb3cgPSAx4oCTNC4gQ29uZmlkZW5jZSBpcyBzZXBhcmF0ZSDigJQgaXQgcmVmbGVjdHMgc291cmNlIHJlbGlhYmlsaXR5IGFuZCBkb2VzIG5vdCBhZmZlY3QgdGhlIHNjb3JlLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIHtTQ09SRV9HVUlERS5tYXAoKGcpID0+ICgKICAgICAgICAgICAgICA8ZGl2IGtleT17Zy5rZXl9PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSBtYi0xIj57Zy5sYWJlbH08L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bIzY2Nl0gbWItMiI+e2cud2hhdH08L3A+CiAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTAuNSI+CiAgICAgICAgICAgICAgICAgIHtnLnNjYWxlLm1hcCgocykgPT4gPGxpIGtleT17c30gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjNTU1XSBwbC0yIGJvcmRlci1sLTIgYm9yZGVyLVsjRTBEREQ2XSI+e3N9PC9saT4pfQogICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBMaXZlIHByaW9yaXR5IHNjb3JlICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgYm9yZGVyLWwtNCBwLTQgJHtwcmlvcml0eS5iZ31gfT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtWyM2NjZdIj5MaXZlIFByaW9yaXR5IFNjb3JlPC9wPgogICAgICAgIDxwIGNsYXNzTmFtZT17YHRleHQtM3hsIGZvbnQtYm9sZCBtdC0xICR7cHJpb3JpdHkuY29sb3J9YH0+e3ByaW9yaXR5LnNjb3JlfS8xNSDigJQge3ByaW9yaXR5LmxhYmVsfTwvcD4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bIzg4OF0gbXQtMSI+VXBkYXRlcyBhcyB5b3UgbW92ZSB0aGUgc2xpZGVycyBiZWxvdy4gU2NvcmUgPSBCdXNpbmVzcyBJbXBhY3QgKyBMZWdhbCBDb21wbGV4aXR5ICsgVXJnZW5jeS48L3A+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcC02IHNwYWNlLXktNSI+CiAgICAgICAgey8qIFRpdGxlICovfQogICAgICAgIDxkaXY+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItMSI+CiAgICAgICAgICAgIFRpdGxlIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bIzdCMDAwMF0iPio8L3NwYW4+CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjODg4XSBtYi0xIj5BIHNob3J0LCBzcGVjaWZpYyBkZXNjcmlwdGlvbiBvZiB0aGUgbGVnYWwgb3IgcmVndWxhdG9yeSBpc3N1ZS48L3A+CiAgICAgICAgICA8aW5wdXQgdHlwZT0idGV4dCIgdmFsdWU9e2Zvcm0udGl0bGV9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJ0aXRsZSIsIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9ImUuZy4gRkRBIE1lbnUgTGFiZWxpbmcg4oCUIDIwLUxvY2F0aW9uIENoYWluIFRyaWdnZXIgKDIxIEMuRi5SLiDCpyAxMDEuMTEpIgogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMiB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItWyNCODg0MkFdIiAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogU3VtbWFyeSAqL30KICAgICAgICA8ZGl2PgogICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC14cyBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIG1iLTEiPgogICAgICAgICAgICBTdW1tYXJ5IDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bIzdCMDAwMF0iPio8L3NwYW4+CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjODg4XSBtYi0xIj5XaGF0IGlzIHRoZSBpc3N1ZSwgd2hhdCB0cmlnZ2VycyBpdCwgYW5kIHdoeSBkb2VzIGl0IG1hdHRlciBmb3IgQnVyZ2VybWVpc3RlciZhcG9zO3MgZXhwYW5zaW9uPzwvcD4KICAgICAgICAgIDx0ZXh0YXJlYSB2YWx1ZT17Zm9ybS5zdW1tYXJ5fSBvbkNoYW5nZT17KGUpID0+IHNldCgic3VtbWFyeSIsIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcm93cz17M30gcGxhY2Vob2xkZXI9IkZEQSByZXF1aXJlcyBjYWxvcmllIGFuZCBudXRyaXRpb24gZGlzY2xvc3VyZSBvbiBtZW51cyBmb3IgY2hhaW4gcmVzdGF1cmFudHMgd2l0aCAyMCBvciBtb3JlIGxvY2F0aW9ucyB1bmRlciB0aGUgc2FtZSBuYW1lLi4uIgogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMiB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItWyNCODg0MkFdIHJlc2l6ZS1ub25lIiAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogU291cmNlICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC00Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBtYi0xIj5Tb3VyY2UgVVJMIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bIzdCMDAwMF0iPio8L3NwYW4+PC9sYWJlbD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjODg4XSBtYi0xIj5EaXJlY3QgbGluayB0byB0aGUgc3RhdHV0ZSwgcmVndWxhdGlvbiwgb3IgcHVibGljYXRpb24uPC9wPgogICAgICAgICAgICA8aW5wdXQgdHlwZT0idXJsIiB2YWx1ZT17Zm9ybS5zb3VyY2VVcmx9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJzb3VyY2VVcmwiLCBlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Imh0dHBzOi8vd3d3LmZkYS5nb3YvLi4uIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGJvcmRlciBib3JkZXItWyNFMERERDZdIHJvdW5kZWQgcHgtMyBweS0yIHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1bI0I4ODQyQV0iIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBtYi0xIj5Tb3VyY2UgTmFtZSA8c3BhbiBjbGFzc05hbWU9InRleHQtWyM3QjAwMDBdIj4qPC9zcGFuPjwvbGFiZWw+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1bIzg4OF0gbWItMSI+TmFtZSBvZiB0aGUgc291cmNlIGFzIGl0IHNob3VsZCBhcHBlYXIgaW4gY2l0YXRpb25zLjwvcD4KICAgICAgICAgICAgPGlucHV0IHR5cGU9InRleHQiIHZhbHVlPXtmb3JtLnNvdXJjZU5hbWV9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJzb3VyY2VOYW1lIiwgZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJGREEg4oCUIE1lbnUgTGFiZWxpbmcgUmVxdWlyZW1lbnRzIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGJvcmRlciBib3JkZXItWyNFMERERDZdIHJvdW5kZWQgcHgtMyBweS0yIHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1bI0I4ODQyQV0iIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFRpZXIgKyBKdXJpc2RpY3Rpb24gKyBDYXRlZ29yeSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMyBnYXAtNCI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItMSI+U291cmNlIFRpZXI8L2xhYmVsPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtWyM4ODhdIG1iLTEiPlQxID0gc3RhdHV0ZS9yZWd1bGF0aW9uLiBUMiA9IGxhdyBmaXJtL2Fzc29jaWF0aW9uLiBUMyA9IHRyYWRlIHByZXNzLjwvcD4KICAgICAgICAgICAgPHNlbGVjdCB2YWx1ZT17Zm9ybS5zb3VyY2VUaWVyfSBvbkNoYW5nZT17KGUpID0+IHNldCgic291cmNlVGllciIsIHBhcnNlSW50KGUudGFyZ2V0LnZhbHVlKSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcm91bmRlZCBweC0zIHB5LTIgdGV4dC1zbSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6Ym9yZGVyLVsjQjg4NDJBXSBiZy13aGl0ZSI+CiAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT17MX0+VGllciAxIOKAlCBQcmltYXJ5IExlZ2FsIChzdGF0dXRlLCByZWd1bGF0aW9uLCBvZmZpY2lhbCBndWlkYW5jZSk8L29wdGlvbj4KICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPXsyfT5UaWVyIDIg4oCUIFNlY29uZGFyeSAobGF3IGZpcm0gYWxlcnQsIHByb2Zlc3Npb25hbCBhc3NvY2lhdGlvbik8L29wdGlvbj4KICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPXszfT5UaWVyIDMg4oCUIEJ1c2luZXNzIEludGVsbGlnZW5jZSAodHJhZGUgcHJlc3MsIGNvbXBhbnkgYW5ub3VuY2VtZW50KTwvb3B0aW9uPgogICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9ezR9PlRpZXIgNCDigJQgV2VhayBTaWduYWwgKGluZm9ybWFsLCB1bnZlcmlmaWVkKTwvb3B0aW9uPgogICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC14cyBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIG1iLTEiPkp1cmlzZGljdGlvbjwvbGFiZWw+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1bIzg4OF0gbWItMSI+V2hpY2ggbWFya2V0IGRvZXMgdGhpcyBhcHBseSB0bz88L3A+CiAgICAgICAgICAgIDxzZWxlY3QgdmFsdWU9e2Zvcm0uanVyaXNkaWN0aW9ufSBvbkNoYW5nZT17KGUpID0+IHNldCgianVyaXNkaWN0aW9uIiwgZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGJvcmRlciBib3JkZXItWyNFMERERDZdIHJvdW5kZWQgcHgtMyBweS0yIHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1bI0I4ODQyQV0gYmctd2hpdGUiPgogICAgICAgICAgICAgIHtKVVJJU0RJQ1RJT05TLm1hcCgoaikgPT4gPG9wdGlvbiBrZXk9e2p9IHZhbHVlPXtqfT57aiA9PT0gIlVTIiA/ICJVUyDigJQgVW5pdGVkIFN0YXRlcyIgOiBqID09PSAiVUsiID8gIlVLIOKAlCBVbml0ZWQgS2luZ2RvbSIgOiBqID09PSAiRVUiID8gIkVVIOKAlCBFdXJvcGVhbiBVbmlvbiIgOiBqID09PSAiREUiID8gIkRFIOKAlCBHZXJtYW55IiA6IGogPT09ICJQTCIgPyAiUEwg4oCUIFBvbGFuZCIgOiBqID09PSAiQ1oiID8gIkNaIOKAlCBDemVjaCBSZXB1YmxpYyIgOiBqID09PSAiTkwiID8gIk5MIOKAlCBOZXRoZXJsYW5kcyIgOiBqID09PSAiQ0giID8gIkNIIOKAlCBTd2l0emVybGFuZCIgOiBqID09PSAiVUFFIiA/ICJVQUUg4oCUIFVuaXRlZCBBcmFiIEVtaXJhdGVzIiA6ICJHbG9iYWwg4oCUIE11bHRpcGxlIE1hcmtldHMifTwvb3B0aW9uPil9CiAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItMSI+Q2F0ZWdvcnk8L2xhYmVsPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtWyM4ODhdIG1iLTEiPldoaWNoIGFyZWEgb2YgbGF3IG9yIGJ1c2luZXNzIGRvZXMgdGhpcyBjb3Zlcj88L3A+CiAgICAgICAgICAgIDxzZWxlY3QgdmFsdWU9e2Zvcm0uY2F0ZWdvcnl9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJjYXRlZ29yeSIsIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMiB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItWyNCODg0MkFdIGJnLXdoaXRlIj4KICAgICAgICAgICAgICB7Q0FURUdPUklFUy5tYXAoKGMpID0+IDxvcHRpb24ga2V5PXtjfSB2YWx1ZT17Y30+e2N9PC9vcHRpb24+KX0KICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIERhdGVzICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC00Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBtYi0xIj5EYXRlIEZvdW5kPC9sYWJlbD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjODg4XSBtYi0xIj5XaGVuIHlvdSBhZGRlZCB0aGlzIHNpZ25hbCB0byB0aGUgZGFzaGJvYXJkLjwvcD4KICAgICAgICAgICAgPGlucHV0IHR5cGU9ImRhdGUiIHZhbHVlPXtmb3JtLmRhdGVGb3VuZH0gb25DaGFuZ2U9eyhlKSA9PiBzZXQoImRhdGVGb3VuZCIsIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMiB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItWyNCODg0MkFdIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LVsjMUUzNjUxXSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItMSI+RGF0ZSBQdWJsaXNoZWQgKGlmIGtub3duKTwvbGFiZWw+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1bIzg4OF0gbWItMSI+V2hlbiB0aGUgc291cmNlIG9yaWdpbmFsbHkgcHVibGlzaGVkIHRoaXMgaW5mb3JtYXRpb24uIFVzZWQgdG8gY2FsY3VsYXRlIHNpZ25hbCBjdXJyZW5jeS48L3A+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJkYXRlIiB2YWx1ZT17Zm9ybS5kYXRlUHVibGlzaGVkfSBvbkNoYW5nZT17KGUpID0+IHNldCgiZGF0ZVB1Ymxpc2hlZCIsIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMiB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItWyNCODg0MkFdIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBTY29yZXMgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciI+UmlzayBTY29yZXMgKDHigJM1KTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LVsjODg4XSBtdC0xIj5Nb3ZlIGVhY2ggc2xpZGVyIHRvIHNjb3JlIHRoZSBzaWduYWwuIFByaW9yaXR5IFNjb3JlID0gQnVzaW5lc3MgSW1wYWN0ICsgTGVnYWwgQ29tcGxleGl0eSArIFVyZ2VuY3kuIE9wZW4gdGhlIHNjb3JpbmcgZ3VpZGUgYWJvdmUgaWYgeW91IG5lZWQgaGVscC48L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIHtTQ09SRV9HVUlERS5tYXAoKHsga2V5LCBsYWJlbCwgd2hhdCB9KSA9PiAoCiAgICAgICAgICAgIDxkaXYga2V5PXtrZXl9PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBtYi0xIj4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LVsjNDQ0XSI+e2xhYmVsfTwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1bI2FhYV0iPnt3aGF0fTwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyNCODg0MkFdIGZvbnQtYm9sZCBtbC00IGZsZXgtc2hyaW5rLTAiPntTQ09SRV9MQUJFTFNbZm9ybVtrZXkgYXMga2V5b2YgdHlwZW9mIGZvcm1dIGFzIG51bWJlcl19PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJyYW5nZSIgbWluPXsxfSBtYXg9ezV9IHN0ZXA9ezF9CiAgICAgICAgICAgICAgICB2YWx1ZT17Zm9ybVtrZXkgYXMga2V5b2YgdHlwZW9mIGZvcm1dIGFzIG51bWJlcn0KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0KGtleSwgcGFyc2VJbnQoZS50YXJnZXQudmFsdWUpKX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGFjY2VudC1bI0I4ODQyQV0iIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBPQyAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMyBwLTMgYmctWyNGNkYzRUNdIHJvdW5kZWQtbGciPgogICAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldCgib3V0c2lkZUNvdW5zZWxOZWVkZWQiLCAhZm9ybS5vdXRzaWRlQ291bnNlbE5lZWRlZCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIG10LTAuNSBpbmxpbmUtZmxleCBoLTYgdy0xMSBmbGV4LXNocmluay0wIGl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbi1jb2xvcnMgJHtmb3JtLm91dHNpZGVDb3Vuc2VsTmVlZGVkID8gImJnLVsjN0IwMDAwXSIgOiAiYmctWyNkZGRdIn1gfT4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgaW5saW5lLWJsb2NrIGgtNCB3LTQgdHJhbnNmb3JtIHJvdW5kZWQtZnVsbCBiZy13aGl0ZSB0cmFuc2l0aW9uLXRyYW5zZm9ybSAke2Zvcm0ub3V0c2lkZUNvdW5zZWxOZWVkZWQgPyAidHJhbnNsYXRlLXgtNiIgOiAidHJhbnNsYXRlLXgtMSJ9YH0gLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtWyMxRTM2NTFdIj5PdXRzaWRlIENvdW5zZWwgUmVxdWlyZWQ8L2xhYmVsPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtWyM2NjZdIG10LTAuNSI+VHVybiB0aGlzIG9uIGlmIHRoaXMgc2lnbmFsIGludm9sdmVzIGEgbGVnYWwgaXNzdWUgdGhhdCBtdXN0IGJlIHJldmlld2VkIGFuZCBjb25maXJtZWQgYnkgYW4gYXR0b3JuZXkgYmVmb3JlIGFueSBhY3Rpb24gaXMgdGFrZW4uIEl0IHdpbGwgYmUgZmxhZ2dlZCB3aXRoIOKaoO+4jyB0aHJvdWdob3V0IHRoZSBkYXNoYm9hcmQuPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBOb3RlcyAqL30KICAgICAgICA8ZGl2PgogICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC14cyBmb250LWJvbGQgdGV4dC1bIzFFMzY1MV0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIG1iLTEiPkNpdGF0aW9uICYgUHJhY3RpY2UgTm90ZXMgKG9wdGlvbmFsKTwvbGFiZWw+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtWyM4ODhdIG1iLTEiPlNwZWNpZmljIHN0YXR1dGUsIHJlZ3VsYXRpb24sIG9yIGNhc2UgY2l0YXRpb24sIHBsdXMgYW55IHByYWN0aWNhbCBub3RlcyBvbiB0aW1pbmcsIHNlcXVlbmNpbmcsIG9yIHJlbGF0ZWQgb2JsaWdhdGlvbnMuIEV4YW1wbGU6ICZsZHF1bzsxNiBDLkYuUi4gwqcgNDM2LjIoZikg4oCUIG11c3QgYmUgY29tcGxldGVkIGJlZm9yZSBhbnkgZnJhbmNoaXNlIHNhbGVzIGFjdGl2aXR5IGluIHRoZSBVLlMuJnJkcXVvOzwvcD4KICAgICAgICAgIDx0ZXh0YXJlYSB2YWx1ZT17Zm9ybS5ub3Rlc30gb25DaGFuZ2U9eyhlKSA9PiBzZXQoIm5vdGVzIiwgZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICByb3dzPXsyfSBwbGFjZWhvbGRlcj0iMTYgQy5GLlIuIMKnIDQzNi4yKGYpIOKAlCBtdXN0IGJlIGNvbXBsZXRlZCBiZWZvcmUgYW55IGZyYW5jaGlzZSBzYWxlcyBhY3Rpdml0eSBpbiB0aGUgVS5TLiIKICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcm91bmRlZCBweC0zIHB5LTIgdGV4dC1zbSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6Ym9yZGVyLVsjQjg4NDJBXSByZXNpemUtbm9uZSBmb250LW1vbm8iIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBBbGVydCAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMyBwLTMgYmctWyNGNkYzRUNdIHJvdW5kZWQtbGcgYm9yZGVyLXQgYm9yZGVyLVsjRTBEREQ2XSI+CiAgICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0KCJzZW5kQWxlcnQiLCAhZm9ybS5zZW5kQWxlcnQpfQogICAgICAgICAgICBjbGFzc05hbWU9e2ByZWxhdGl2ZSBtdC0wLjUgaW5saW5lLWZsZXggaC02IHctMTEgZmxleC1zaHJpbmstMCBpdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tY29sb3JzICR7Zm9ybS5zZW5kQWxlcnQgPyAiYmctWyMxRTM2NTFdIiA6ICJiZy1bI2RkZF0ifWB9PgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2BpbmxpbmUtYmxvY2sgaC00IHctNCB0cmFuc2Zvcm0gcm91bmRlZC1mdWxsIGJnLXdoaXRlIHRyYW5zaXRpb24tdHJhbnNmb3JtICR7Zm9ybS5zZW5kQWxlcnQgPyAidHJhbnNsYXRlLXgtNiIgOiAidHJhbnNsYXRlLXgtMSJ9YH0gLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtWyMxRTM2NTFdIj5TZW5kIFNsYWNrICsgRW1haWwgQWxlcnQgb24gU2F2ZTwvbGFiZWw+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1bIzY2Nl0gbXQtMC41Ij5TZW5kcyBhIGZvcm1hdHRlZCBhbGVydCB0byB0aGUgI2FsbC1BSS1hbGVydHMgU2xhY2sgY2hhbm5lbCBhbmQgdG8gcmF5dmVuLm5pa2tpdGEuY29sbGluc0BnbWFpbC5jb20gaW1tZWRpYXRlbHkgd2hlbiB0aGUgc2lnbmFsIGlzIHNhdmVkLjwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7ZXJyb3IgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtWyM3QjAwMDBdIGJnLVsjRkRGMEYwXSBweC0zIHB5LTIgcm91bmRlZCI+e2Vycm9yfTwvcD59CgogICAgICAgIDxidXR0b24gb25DbGljaz17aGFuZGxlU3VibWl0fSBkaXNhYmxlZD17c2F2aW5nIHx8IHN1Y2Nlc3N9CiAgICAgICAgICBjbGFzc05hbWU9e2B3LWZ1bGwgcHktMyByb3VuZGVkLWxnIGZvbnQtYm9sZCB0ZXh0LXNtIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgIHN1Y2Nlc3MgPyAiYmctWyMzNzU2MjNdIHRleHQtd2hpdGUiIDoKICAgICAgICAgICAgc2F2aW5nICA/ICJiZy1bI2NjY10gdGV4dC1bIzg4OF0gY3Vyc29yLW5vdC1hbGxvd2VkIiA6CiAgICAgICAgICAgICAgICAgICAgICAiYmctWyMxRTM2NTFdIHRleHQtd2hpdGUgaG92ZXI6YmctWyNCODg0MkFdIgogICAgICAgICAgfWB9PgogICAgICAgICAge3N1Y2Nlc3MgPyAi4pyTIFNpZ25hbCBzYXZlZCDigJQgcmVkaXJlY3RpbmcgdG8gc2lnbmFscy4uLiIgOiBzYXZpbmcgPyAiU2F2aW5nLi4uIiA6ICJTYXZlIFNpZ25hbCJ9CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo="}
+"use client";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import type { Category, Jurisdiction } from "@/lib/types";
+
+const JURISDICTIONS: Jurisdiction[] = ["US","UK","EU","DE","PL","CZ","NL","CH","UAE","Global"];
+const CATEGORIES: Category[] = [
+  "Franchise / Market Entry",
+  "Brand / IP Protection",
+  "Post-Brexit Supply Chain / Import Compliance",
+  "Real Estate / Site Acquisition",
+  "Supply Chain / Quality Control",
+  "Delivery Platforms",
+  "Labor / Employment",
+  "Food Compliance / Labeling",
+  "Data / AI / Privacy",
+  "Advertising / Consumer Protection",
+  "M&A / JV / Investor Diligence Readiness",
+  "Crisis / Reputation Monitoring",
+  "Competitor / Market Intelligence",
+];
+
+const SCORE_LABELS: Record<number, string> = {
+  1:"1 — Minimal", 2:"2 — Low", 3:"3 — Moderate", 4:"4 — High", 5:"5 — Critical"
+};
+
+const SCORE_GUIDE = [
+  {
+    key:"businessImpactScore", label:"Business Impact",
+    what:"How much could this issue affect Burgermeister's expansion plans, timeline, or costs?",
+    scale:[
+      "1 — Minimal: unlikely to affect expansion",
+      "2 — Low: minor friction, manageable",
+      "3 — Moderate: meaningful delay or added cost",
+      "4 — High: significant risk to market entry",
+      "5 — Critical: could block market entry or create major liability",
+    ]
+  },
+  {
+    key:"legalComplexityScore", label:"Legal Complexity",
+    what:"How much legal expertise is required to address this issue?",
+    scale:[
+      "1 — Checklist item: no specialist needed",
+      "2 — Low: standard legal review sufficient",
+      "3 — Moderate: a lawyer should review it",
+      "4 — High: specialist legal input required",
+      "5 — Specialist required: dedicated expert counsel needed",
+    ]
+  },
+  {
+    key:"urgencyScore", label:"Urgency",
+    what:"How time-sensitive is this issue?",
+    scale:[
+      "1 — Monitor: no immediate action needed",
+      "2 — Low: address in planning phase",
+      "3 — Pre-launch: resolve before entering this market",
+      "4 — High: time-sensitive, address soon",
+      "5 — Immediate: a deadline is live or obligation already triggered",
+    ]
+  },
+  {
+    key:"confidenceScore", label:"Confidence (Source Reliability)",
+    what:"How reliable is the source? Confidence does not affect the Priority Score — it tells you how much weight to give the signal.",
+    scale:[
+      "1 — Weak signal: unverified or speculative",
+      "2 — Low: informal or secondary source",
+      "3 — Moderate: reputable secondary (law firm alert, industry body)",
+      "4 — High: established secondary or official guidance",
+      "5 — Primary law: a statute, regulation, or official government publication",
+    ]
+  },
+];
+
+function calcPriority(b: number, l: number, u: number) {
+  const score = b + l + u;
+  if (score >= 13) return { score, label:"Critical", color:"text-[#7B0000]", bg:"border-[#7B0000] bg-[#FDF0F0]" };
+  if (score >= 9)  return { score, label:"High",     color:"text-[#8B4513]", bg:"border-[#8B4513] bg-[#FFF8F0]" };
+  if (score >= 5)  return { score, label:"Medium",   color:"text-[#2F5496]", bg:"border-[#2F5496] bg-[#F0F4FB]" };
+  return { score, label:"Low", color:"text-[#375623]", bg:"border-[#375623] bg-[#F0F7F0]" };
+}
+
+export default function AdminPage() {
+  const router = useRouter();
+  const [saving, setSaving] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
+  const [showGuide, setShowGuide] = useState(false);
+
+  const [form, setForm] = useState({
+    title:"", summary:"", sourceUrl:"", sourceName:"",
+    sourceTier:1 as 1|2|3|4,
+    dateFound:new Date().toISOString().split("T")[0],
+    datePublished:"",
+    jurisdiction:"Global" as Jurisdiction,
+    category:"Franchise / Market Entry" as Category,
+    businessImpactScore:3, legalComplexityScore:3,
+    urgencyScore:3, confidenceScore:3,
+    outsideCounselNeeded:false, notes:"", sendAlert:false,
+  });
+
+  const priority = calcPriority(form.businessImpactScore, form.legalComplexityScore, form.urgencyScore);
+  const set = (k: string, v: unknown) => setForm((f) => ({ ...f, [k]: v }));
+
+  async function handleSubmit() {
+    if (!form.title || !form.summary || !form.sourceUrl || !form.sourceName) {
+      setError("Title, summary, source URL, and source name are all required.");
+      return;
+    }
+    setSaving(true); setError("");
+    try {
+      const res = await fetch("/api/signals", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body:JSON.stringify({
+          ...form,
+          dateFound:new Date(form.dateFound).toISOString(),
+          datePublished:form.datePublished ? new Date(form.datePublished).toISOString() : undefined,
+        }),
+      });
+      if (!res.ok) throw new Error(await res.text());
+      setSuccess(true);
+      setTimeout(() => router.push("/signals"), 1500);
+    } catch(e) { setError(String(e)); }
+    finally { setSaving(false); }
+  }
+
+  return (
+    <div className="max-w-3xl space-y-6">
+      <div>
+        <h1 className="text-2xl font-bold text-[#1E3651]">Add Signal</h1>
+        <p className="text-sm text-[#666] mt-1 leading-relaxed">
+          Log a new legal or regulatory development. Fill in the title, summary, source, and jurisdiction, then score the risk using the sliders. The Priority Score calculates automatically. Optionally send a Slack and email alert when you save.
+        </p>
+      </div>
+
+      {/* Scoring guide toggle */}
+      <div className="bg-white border border-[#E0DDD6] rounded-lg overflow-hidden">
+        <button onClick={() => setShowGuide(o => !o)}
+          className="w-full flex items-center justify-between px-5 py-3 text-sm font-bold text-[#1E3651] hover:bg-[#F6F3EC] transition-colors">
+          <span>📊 Scoring guide — how to fill in the risk scores</span>
+          <span className="text-[#B8842A] text-lg">{showGuide ? "−" : "+"}</span>
+        </button>
+        {showGuide && (
+          <div className="border-t border-[#E0DDD6] px-5 py-4 space-y-4">
+            <p className="text-xs text-[#555]">
+              <strong>Priority Score</strong> = Business Impact + Legal Complexity + Urgency (max 15). Critical = 13–15. High = 9–12. Medium = 5–8. Low = 1–4. Confidence is separate — it reflects source reliability and does not affect the score.
+            </p>
+            {SCORE_GUIDE.map((g) => (
+              <div key={g.key}>
+                <p className="text-xs font-bold text-[#1E3651] mb-1">{g.label}</p>
+                <p className="text-xs text-[#666] mb-2">{g.what}</p>
+                <ul className="space-y-0.5">
+                  {g.scale.map((s) => <li key={s} className="text-[11px] text-[#555] pl-2 border-l-2 border-[#E0DDD6]">{s}</li>)}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Live priority score */}
+      <div className={`rounded-lg border-l-4 p-4 ${priority.bg}`}>
+        <p className="text-xs font-semibold uppercase tracking-widest text-[#666]">Live Priority Score</p>
+        <p className={`text-3xl font-bold mt-1 ${priority.color}`}>{priority.score}/15 — {priority.label}</p>
+        <p className="text-xs text-[#888] mt-1">Updates as you move the sliders below. Score = Business Impact + Legal Complexity + Urgency.</p>
+      </div>
+
+      <div className="bg-white rounded-lg border border-[#E0DDD6] p-6 space-y-5">
+        {/* Title */}
+        <div>
+          <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">
+            Title <span className="text-[#7B0000]">*</span>
+          </label>
+          <p className="text-[11px] text-[#888] mb-1">A short, specific description of the legal or regulatory issue.</p>
+          <input type="text" value={form.title} onChange={(e) => set("title", e.target.value)}
+            placeholder="e.g. FDA Menu Labeling — 20-Location Chain Trigger (21 C.F.R. § 101.11)"
+            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+        </div>
+
+        {/* Summary */}
+        <div>
+          <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">
+            Summary <span className="text-[#7B0000]">*</span>
+          </label>
+          <p className="text-[11px] text-[#888] mb-1">What is the issue, what triggers it, and why does it matter for Burgermeister&apos;s expansion?</p>
+          <textarea value={form.summary} onChange={(e) => set("summary", e.target.value)}
+            rows={3} placeholder="FDA requires calorie and nutrition disclosure on menus for chain restaurants with 20 or more locations under the same name..."
+            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] resize-none" />
+        </div>
+
+        {/* Source */}
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Source URL <span className="text-[#7B0000]">*</span></label>
+            <p className="text-[11px] text-[#888] mb-1">Direct link to the statute, regulation, or publication.</p>
+            <input type="url" value={form.sourceUrl} onChange={(e) => set("sourceUrl", e.target.value)}
+              placeholder="https://www.fda.gov/..."
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+          </div>
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Source Name <span className="text-[#7B0000]">*</span></label>
+            <p className="text-[11px] text-[#888] mb-1">Name of the source as it should appear in citations.</p>
+            <input type="text" value={form.sourceName} onChange={(e) => set("sourceName", e.target.value)}
+              placeholder="FDA — Menu Labeling Requirements"
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+          </div>
+        </div>
+
+        {/* Tier + Jurisdiction + Category */}
+        <div className="grid grid-cols-3 gap-4">
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Source Tier</label>
+            <p className="text-[11px] text-[#888] mb-1">T1 = statute/regulation. T2 = law firm/association. T3 = trade press.</p>
+            <select value={form.sourceTier} onChange={(e) => set("sourceTier", parseInt(e.target.value))}
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+              <option value={1}>Tier 1 — Primary Legal (statute, regulation, official guidance)</option>
+              <option value={2}>Tier 2 — Secondary (law firm alert, professional association)</option>
+              <option value={3}>Tier 3 — Business Intelligence (trade press, company announcement)</option>
+              <option value={4}>Tier 4 — Weak Signal (informal, unverified)</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Jurisdiction</label>
+            <p className="text-[11px] text-[#888] mb-1">Which market does this apply to?</p>
+            <select value={form.jurisdiction} onChange={(e) => set("jurisdiction", e.target.value)}
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+              {JURISDICTIONS.map((j) => <option key={j} value={j}>{j === "US" ? "US — United States" : j === "UK" ? "UK — United Kingdom" : j === "EU" ? "EU — European Union" : j === "DE" ? "DE — Germany" : j === "PL" ? "PL — Poland" : j === "CZ" ? "CZ — Czech Republic" : j === "NL" ? "NL — Netherlands" : j === "CH" ? "CH — Switzerland" : j === "UAE" ? "UAE — United Arab Emirates" : "Global — Multiple Markets"}</option>)}
+            </select>
+          </div>
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Category</label>
+            <p className="text-[11px] text-[#888] mb-1">Which area of law or business does this cover?</p>
+            <select value={form.category} onChange={(e) => set("category", e.target.value)}
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+              {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+        </div>
+
+        {/* Dates */}
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Date Found</label>
+            <p className="text-[11px] text-[#888] mb-1">When you added this signal to the dashboard.</p>
+            <input type="date" value={form.dateFound} onChange={(e) => set("dateFound", e.target.value)}
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+          </div>
+          <div>
+            <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Date Published (if known)</label>
+            <p className="text-[11px] text-[#888] mb-1">When the source originally published this information. Used to calculate signal currency.</p>
+            <input type="date" value={form.datePublished} onChange={(e) => set("datePublished", e.target.value)}
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+          </div>
+        </div>
+
+        {/* Scores */}
+        <div className="space-y-4">
+          <div>
+            <p className="text-xs font-bold text-[#1E3651] uppercase tracking-wider">Risk Scores (1–5)</p>
+            <p className="text-[11px] text-[#888] mt-1">Move each slider to score the signal. Priority Score = Business Impact + Legal Complexity + Urgency. Open the scoring guide above if you need help.</p>
+          </div>
+          {SCORE_GUIDE.map(({ key, label, what }) => (
+            <div key={key}>
+              <div className="flex justify-between mb-1">
+                <div>
+                  <label className="text-xs font-semibold text-[#444]">{label}</label>
+                  <p className="text-[10px] text-[#aaa]">{what}</p>
+                </div>
+                <span className="text-xs text-[#B8842A] font-bold ml-4 flex-shrink-0">{SCORE_LABELS[form[key as keyof typeof form] as number]}</span>
+              </div>
+              <input type="range" min={1} max={5} step={1}
+                value={form[key as keyof typeof form] as number}
+                onChange={(e) => set(key, parseInt(e.target.value))}
+                className="w-full accent-[#B8842A]" />
+            </div>
+          ))}
+        </div>
+
+        {/* OC */}
+        <div className="flex items-start gap-3 p-3 bg-[#F6F3EC] rounded-lg">
+          <button type="button"
+            onClick={() => set("outsideCounselNeeded", !form.outsideCounselNeeded)}
+            className={`relative mt-0.5 inline-flex h-6 w-11 flex-shrink-0 items-center rounded-full transition-colors ${form.outsideCounselNeeded ? "bg-[#7B0000]" : "bg-[#ddd]"}`}>
+            <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${form.outsideCounselNeeded ? "translate-x-6" : "translate-x-1"}`} />
+          </button>
+          <div>
+            <label className="text-sm font-semibold text-[#1E3651]">Outside Counsel Required</label>
+            <p className="text-[11px] text-[#666] mt-0.5">Turn this on if this signal involves a legal issue that must be reviewed and confirmed by an attorney before any action is taken. It will be flagged with ⚠️ throughout the dashboard.</p>
+          </div>
+        </div>
+
+        {/* Notes */}
+        <div>
+          <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Citation & Practice Notes (optional)</label>
+          <p className="text-[11px] text-[#888] mb-1">Specific statute, regulation, or case citation, plus any practical notes on timing, sequencing, or related obligations. Example: &ldquo;16 C.F.R. § 436.2(f) — must be completed before any franchise sales activity in the U.S.&rdquo;</p>
+          <textarea value={form.notes} onChange={(e) => set("notes", e.target.value)}
+            rows={2} placeholder="16 C.F.R. § 436.2(f) — must be completed before any franchise sales activity in the U.S."
+            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] resize-none font-mono" />
+        </div>
+
+        {/* Alert */}
+        <div className="flex items-start gap-3 p-3 bg-[#F6F3EC] rounded-lg border-t border-[#E0DDD6]">
+          <button type="button"
+            onClick={() => set("sendAlert", !form.sendAlert)}
+            className={`relative mt-0.5 inline-flex h-6 w-11 flex-shrink-0 items-center rounded-full transition-colors ${form.sendAlert ? "bg-[#1E3651]" : "bg-[#ddd]"}`}>
+            <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${form.sendAlert ? "translate-x-6" : "translate-x-1"}`} />
+          </button>
+          <div>
+            <label className="text-sm font-semibold text-[#1E3651]">Send Slack + Email Alert on Save</label>
+            <p className="text-[11px] text-[#666] mt-0.5">Sends a formatted alert to the #all-AI-alerts Slack channel and to rayven.nikkita.collins@gmail.com immediately when the signal is saved.</p>
+          </div>
+        </div>
+
+        {error && <p className="text-sm text-[#7B0000] bg-[#FDF0F0] px-3 py-2 rounded">{error}</p>}
+
+        <button onClick={handleSubmit} disabled={saving || success}
+          className={`w-full py-3 rounded-lg font-bold text-sm transition-colors ${
+            success ? "bg-[#375623] text-white" :
+            saving  ? "bg-[#ccc] text-[#888] cursor-not-allowed" :
+                      "bg-[#1E3651] text-white hover:bg-[#B8842A]"
+          }`}>
+          {success ? "✓ Signal saved — redirecting to signals..." : saving ? "Saving..." : "Save Signal"}
+        </button>
+      </div>
+    </div>
+  );
+}

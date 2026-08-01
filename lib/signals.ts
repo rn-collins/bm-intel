@@ -1,1 +1,186 @@
-{"data":"aW1wb3J0IHsgbmFub2lkIH0gZnJvbSAibmFub2lkIjsKaW1wb3J0IHsgcmVkaXMsIGtleXMsIHBhcnNlUmVkaXNWYWwgfSBmcm9tICIuL3JlZGlzIjsKaW1wb3J0IHsKICBjYWxjdWxhdGVQcmlvcml0eVNjb3JlLAogIGdldFByaW9yaXR5TGFiZWwsCiAgZ2V0UmVjb21tZW5kZWRBY3Rpb24sCn0gZnJvbSAiLi9zY29yaW5nIjsKaW1wb3J0IHR5cGUgeyBTaWduYWwsIENyZWF0ZVNpZ25hbElucHV0LCBTaWduYWxTdGF0dXMgfSBmcm9tICIuL3R5cGVzIjsKCi8vIOKUgOKUgOKUgCBDcmVhdGUg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY3JlYXRlU2lnbmFsKGlucHV0OiBDcmVhdGVTaWduYWxJbnB1dCk6IFByb21pc2U8U2lnbmFsPiB7CiAgY29uc3QgcHJpb3JpdHlTY29yZSA9IGNhbGN1bGF0ZVByaW9yaXR5U2NvcmUoCiAgICBpbnB1dC5idXNpbmVzc0ltcGFjdFNjb3JlLAogICAgaW5wdXQubGVnYWxDb21wbGV4aXR5U2NvcmUsCiAgICBpbnB1dC51cmdlbmN5U2NvcmUKICApOwogIGNvbnN0IHByaW9yaXR5TGFiZWwgICAgID0gZ2V0UHJpb3JpdHlMYWJlbChwcmlvcml0eVNjb3JlKTsKICBjb25zdCByZWNvbW1lbmRlZEFjdGlvbiA9IGdldFJlY29tbWVuZGVkQWN0aW9uKHByaW9yaXR5TGFiZWwsIGlucHV0Lm91dHNpZGVDb3Vuc2VsTmVlZGVkKTsKCiAgY29uc3Qgbm93ID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpOwogIGNvbnN0IHNpZ25hbDogU2lnbmFsID0gewogICAgLi4uaW5wdXQsCiAgICBpZDogbmFub2lkKCksCiAgICBwcmlvcml0eVNjb3JlLAogICAgcHJpb3JpdHlMYWJlbCwKICAgIHJlY29tbWVuZGVkQWN0aW9uLAogICAgc3RhdHVzOiAiTmV3IiwKICAgIGFsZXJ0U2VudDogZmFsc2UsCiAgICBjcmVhdGVkQXQ6IG5vdywKICAgIHVwZGF0ZWRBdDogbm93LAogIH07CgogIGNvbnN0IHRzID0gRGF0ZS5ub3coKTsKCiAgYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgLy8gU3RvcmUgZnVsbCByZWNvcmQKICAgIHJlZGlzLnNldChrZXlzLnNpZ25hbChzaWduYWwuaWQpLCBKU09OLnN0cmluZ2lmeShzaWduYWwpKSwKICAgIC8vIEFkZCB0byBtYWluIHNvcnRlZCBzZXQgKHNjb3JlID0gdGltZXN0YW1wIGZvciBkYXRlIG9yZGVyaW5nKQogICAgcmVkaXMuemFkZChrZXlzLnNpZ25hbEluZGV4LCB7IHNjb3JlOiB0cywgbWVtYmVyOiBzaWduYWwuaWQgfSksCiAgICAvLyBBZGQgdG8gZmlsdGVyIHNldHMKICAgIHJlZGlzLnNhZGQoa2V5cy5ieUNhdGVnb3J5KHNpZ25hbC5jYXRlZ29yeSksIHNpZ25hbC5pZCksCiAgICByZWRpcy5zYWRkKGtleXMuYnlKdXJpc2RpY3Rpb24oc2lnbmFsLmp1cmlzZGljdGlvbiksIHNpZ25hbC5pZCksCiAgICByZWRpcy5zYWRkKGtleXMuYnlTdGF0dXMoc2lnbmFsLnN0YXR1cyksIHNpZ25hbC5pZCksCiAgICByZWRpcy5zYWRkKGtleXMuYnlQcmlvcml0eShzaWduYWwucHJpb3JpdHlMYWJlbCksIHNpZ25hbC5pZCksCiAgXSk7CgogIHJldHVybiBzaWduYWw7Cn0KCi8vIOKUgOKUgOKUgCBHZXQgb25lIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFNpZ25hbChpZDogc3RyaW5nKTogUHJvbWlzZTxTaWduYWwgfCBudWxsPiB7CiAgY29uc3QgcmF3ID0gYXdhaXQgcmVkaXMuZ2V0KGtleXMuc2lnbmFsKGlkKSk7CiAgcmV0dXJuIHBhcnNlUmVkaXNWYWw8U2lnbmFsPihyYXcpOwp9CgovLyDilIDilIDilIAgR2V0IGFsbCAobmV3ZXN0IGZpcnN0LCBwYWdpbmF0ZWQpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxpc3RTaWduYWxzKG9wdHM6IHsKICBsaW1pdD86IG51bWJlcjsKICBvZmZzZXQ/OiBudW1iZXI7Cn0gPSB7fSk6IFByb21pc2U8U2lnbmFsW10+IHsKICBjb25zdCB7IGxpbWl0ID0gNTAsIG9mZnNldCA9IDAgfSA9IG9wdHM7CiAgLy8genJhbmdlIHdpdGggUkVWID0gbmV3ZXN0IGZpcnN0CiAgY29uc3QgaWRzID0gYXdhaXQgcmVkaXMuenJhbmdlKGtleXMuc2lnbmFsSW5kZXgsIG9mZnNldCwgb2Zmc2V0ICsgbGltaXQgLSAxLCB7CiAgICByZXY6IHRydWUsCiAgfSkgYXMgc3RyaW5nW107CgogIGlmICghaWRzLmxlbmd0aCkgcmV0dXJuIFtdOwoKICBjb25zdCByYXdzID0gYXdhaXQgUHJvbWlzZS5hbGwoaWRzLm1hcCgoaWQpID0+IHJlZGlzLmdldChrZXlzLnNpZ25hbChpZCkpKSk7CiAgcmV0dXJuIHJhd3MKICAgIC5tYXAoKHIpID0+IHBhcnNlUmVkaXNWYWw8U2lnbmFsPihyKSkKICAgIC5maWx0ZXIoKHMpOiBzIGlzIFNpZ25hbCA9PiBzICE9PSBudWxsKTsKfQoKLy8g4pSA4pSA4pSAIFVwZGF0ZSAocGFydGlhbCkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdXBkYXRlU2lnbmFsKAogIGlkOiBzdHJpbmcsCiAgcGF0Y2g6IFBhcnRpYWw8U2lnbmFsPgopOiBQcm9taXNlPFNpZ25hbCB8IG51bGw+IHsKICBjb25zdCBleGlzdGluZyA9IGF3YWl0IGdldFNpZ25hbChpZCk7CiAgaWYgKCFleGlzdGluZykgcmV0dXJuIG51bGw7CgogIGNvbnN0IG9sZFN0YXR1cyAgID0gZXhpc3Rpbmcuc3RhdHVzOwogIGNvbnN0IG9sZFByaW9yaXR5ID0gZXhpc3RpbmcucHJpb3JpdHlMYWJlbDsKCiAgY29uc3QgdXBkYXRlZDogU2lnbmFsID0gewogICAgLi4uZXhpc3RpbmcsCiAgICAuLi5wYXRjaCwKICAgIGlkLCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIG5ldmVyIG92ZXJ3cml0ZSBpZAogICAgdXBkYXRlZEF0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgfTsKCiAgLy8gUmVjYWxjdWxhdGUgZGVyaXZlZCBmaWVsZHMgaWYgc2NvcmVzIGNoYW5nZWQKICBpZiAoCiAgICBwYXRjaC5idXNpbmVzc0ltcGFjdFNjb3JlICE9PSB1bmRlZmluZWQgfHwKICAgIHBhdGNoLmxlZ2FsQ29tcGxleGl0eVNjb3JlICE9PSB1bmRlZmluZWQgfHwKICAgIHBhdGNoLnVyZ2VuY3lTY29yZSAhPT0gdW5kZWZpbmVkIHx8CiAgICBwYXRjaC5vdXRzaWRlQ291bnNlbE5lZWRlZCAhPT0gdW5kZWZpbmVkCiAgKSB7CiAgICB1cGRhdGVkLnByaW9yaXR5U2NvcmUgPSBjYWxjdWxhdGVQcmlvcml0eVNjb3JlKAogICAgICB1cGRhdGVkLmJ1c2luZXNzSW1wYWN0U2NvcmUsCiAgICAgIHVwZGF0ZWQubGVnYWxDb21wbGV4aXR5U2NvcmUsCiAgICAgIHVwZGF0ZWQudXJnZW5jeVNjb3JlCiAgICApOwogICAgdXBkYXRlZC5wcmlvcml0eUxhYmVsICAgICA9IGdldFByaW9yaXR5TGFiZWwodXBkYXRlZC5wcmlvcml0eVNjb3JlKTsKICAgIHVwZGF0ZWQucmVjb21tZW5kZWRBY3Rpb24gPSBnZXRSZWNvbW1lbmRlZEFjdGlvbigKICAgICAgdXBkYXRlZC5wcmlvcml0eUxhYmVsLAogICAgICB1cGRhdGVkLm91dHNpZGVDb3Vuc2VsTmVlZGVkCiAgICApOwogIH0KCiAgY29uc3Qgb3BzOiBQcm9taXNlPHVua25vd24+W10gPSBbCiAgICByZWRpcy5zZXQoa2V5cy5zaWduYWwoaWQpLCBKU09OLnN0cmluZ2lmeSh1cGRhdGVkKSksCiAgXTsKCiAgLy8gVXBkYXRlIGZpbHRlciBzZXRzIGlmIHN0YXR1cyBjaGFuZ2VkCiAgaWYgKHBhdGNoLnN0YXR1cyAmJiBwYXRjaC5zdGF0dXMgIT09IG9sZFN0YXR1cykgewogICAgb3BzLnB1c2gocmVkaXMuc3JlbShrZXlzLmJ5U3RhdHVzKG9sZFN0YXR1cyksIGlkKSk7CiAgICBvcHMucHVzaChyZWRpcy5zYWRkKGtleXMuYnlTdGF0dXModXBkYXRlZC5zdGF0dXMpLCBpZCkpOwogIH0KCiAgLy8gVXBkYXRlIGZpbHRlciBzZXRzIGlmIHByaW9yaXR5IGNoYW5nZWQKICBpZiAodXBkYXRlZC5wcmlvcml0eUxhYmVsICE9PSBvbGRQcmlvcml0eSkgewogICAgb3BzLnB1c2gocmVkaXMuc3JlbShrZXlzLmJ5UHJpb3JpdHkob2xkUHJpb3JpdHkudG9Mb3dlckNhc2UoKSksIGlkKSk7CiAgICBvcHMucHVzaChyZWRpcy5zYWRkKGtleXMuYnlQcmlvcml0eSh1cGRhdGVkLnByaW9yaXR5TGFiZWwudG9Mb3dlckNhc2UoKSksIGlkKSk7CiAgfQoKICBhd2FpdCBQcm9taXNlLmFsbChvcHMpOwogIHJldHVybiB1cGRhdGVkOwp9CgovLyDilIDilIDilIAgRGVsZXRlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZVNpZ25hbChpZDogc3RyaW5nKTogUHJvbWlzZTxib29sZWFuPiB7CiAgY29uc3Qgc2lnbmFsID0gYXdhaXQgZ2V0U2lnbmFsKGlkKTsKICBpZiAoIXNpZ25hbCkgcmV0dXJuIGZhbHNlOwoKICBhd2FpdCBQcm9taXNlLmFsbChbCiAgICByZWRpcy5kZWwoa2V5cy5zaWduYWwoaWQpKSwKICAgIHJlZGlzLnpyZW0oa2V5cy5zaWduYWxJbmRleCwgaWQpLAogICAgcmVkaXMuc3JlbShrZXlzLmJ5Q2F0ZWdvcnkoc2lnbmFsLmNhdGVnb3J5KSwgaWQpLAogICAgcmVkaXMuc3JlbShrZXlzLmJ5SnVyaXNkaWN0aW9uKHNpZ25hbC5qdXJpc2RpY3Rpb24pLCBpZCksCiAgICByZWRpcy5zcmVtKGtleXMuYnlTdGF0dXMoc2lnbmFsLnN0YXR1cyksIGlkKSwKICAgIHJlZGlzLnNyZW0oa2V5cy5ieVByaW9yaXR5KHNpZ25hbC5wcmlvcml0eUxhYmVsLnRvTG93ZXJDYXNlKCkpLCBpZCksCiAgXSk7CiAgcmV0dXJuIHRydWU7Cn0KCi8vIOKUgOKUgOKUgCBTdGF0cyBmb3IgZGFzaGJvYXJkIGhvbWUg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U2lnbmFsU3RhdHMoKSB7CiAgY29uc3Qgb25lV2Vla0FnbyA9IERhdGUubm93KCkgLSA3ICogMjQgKiA2MCAqIDYwICogMTAwMDsKCiAgY29uc3QgW3RvdGFsLCBuZXdUaGlzV2VlaywgY3JpdGljYWxJZHMsIGhpZ2hJZHMsIG9jSWRzXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgIHJlZGlzLnpjYXJkKGtleXMuc2lnbmFsSW5kZXgpLAogICAgcmVkaXMuemNvdW50KGtleXMuc2lnbmFsSW5kZXgsIG9uZVdlZWtBZ28sICIraW5mIiksCiAgICByZWRpcy5zbWVtYmVycyhrZXlzLmJ5UHJpb3JpdHkoImNyaXRpY2FsIikpLAogICAgcmVkaXMuc21lbWJlcnMoa2V5cy5ieVByaW9yaXR5KCJoaWdoIikpLAogICAgLy8gT0MgZmlsdGVyOiBnZXQgYWxsIHNpZ25hbHMgYW5kIGNvdW50IOKAlCBzbWFsbCBkYXRhc2V0IHNvIE9LCiAgICByZWRpcy56cmFuZ2Uoa2V5cy5zaWduYWxJbmRleCwgMCwgLTEpLAogIF0pOwoKICAvLyBDb3VudCBvdXRzaWRlIGNvdW5zZWwgbmVlZGVkCiAgbGV0IG5lZWRzT0MgPSAwOwogIGlmIChBcnJheS5pc0FycmF5KG9jSWRzKSAmJiBvY0lkcy5sZW5ndGgpIHsKICAgIGNvbnN0IGFsbCA9IGF3YWl0IFByb21pc2UuYWxsKAogICAgICAob2NJZHMgYXMgc3RyaW5nW10pLm1hcCgoaWQpID0+IHJlZGlzLmdldChrZXlzLnNpZ25hbChpZCkpKQogICAgKTsKICAgIG5lZWRzT0MgPSBhbGwKICAgICAgLm1hcCgocikgPT4gcGFyc2VSZWRpc1ZhbDxTaWduYWw+KHIpKQogICAgICAuZmlsdGVyKChzKTogcyBpcyBTaWduYWwgPT4gcyAhPT0gbnVsbCAmJiBzLm91dHNpZGVDb3Vuc2VsTmVlZGVkKQogICAgICAubGVuZ3RoOwogIH0KCiAgcmV0dXJuIHsKICAgIHRvdGFsU2lnbmFsczogdG90YWwgYXMgbnVtYmVyLAogICAgY3JpdGljYWw6IEFycmF5LmlzQXJyYXkoY3JpdGljYWxJZHMpID8gY3JpdGljYWxJZHMubGVuZ3RoIDogMCwKICAgIGhpZ2g6IEFycmF5LmlzQXJyYXkoaGlnaElkcykgPyBoaWdoSWRzLmxlbmd0aCA6IDAsCiAgICBuZWVkc091dHNpZGVDb3Vuc2VsOiBuZWVkc09DLAogICAgbmV3VGhpc1dlZWs6IG5ld1RoaXNXZWVrIGFzIG51bWJlciwKICB9Owp9Cg=="}
+import { nanoid } from "nanoid";
+import { redis, keys, parseRedisVal } from "./redis";
+import {
+  calculatePriorityScore,
+  getPriorityLabel,
+  getRecommendedAction,
+} from "./scoring";
+import type { Signal, CreateSignalInput, SignalStatus } from "./types";
+
+// ─── Create ───────────────────────────────────────────────────────────────────
+
+export async function createSignal(input: CreateSignalInput): Promise<Signal> {
+  const priorityScore = calculatePriorityScore(
+    input.businessImpactScore,
+    input.legalComplexityScore,
+    input.urgencyScore
+  );
+  const priorityLabel     = getPriorityLabel(priorityScore);
+  const recommendedAction = getRecommendedAction(priorityLabel, input.outsideCounselNeeded);
+
+  const now = new Date().toISOString();
+  const signal: Signal = {
+    ...input,
+    id: nanoid(),
+    priorityScore,
+    priorityLabel,
+    recommendedAction,
+    status: "New",
+    alertSent: false,
+    createdAt: now,
+    updatedAt: now,
+  };
+
+  const ts = Date.now();
+
+  await Promise.all([
+    // Store full record
+    redis.set(keys.signal(signal.id), JSON.stringify(signal)),
+    // Add to main sorted set (score = timestamp for date ordering)
+    redis.zadd(keys.signalIndex, { score: ts, member: signal.id }),
+    // Add to filter sets
+    redis.sadd(keys.byCategory(signal.category), signal.id),
+    redis.sadd(keys.byJurisdiction(signal.jurisdiction), signal.id),
+    redis.sadd(keys.byStatus(signal.status), signal.id),
+    redis.sadd(keys.byPriority(signal.priorityLabel), signal.id),
+  ]);
+
+  return signal;
+}
+
+// ─── Get one ──────────────────────────────────────────────────────────────────
+
+export async function getSignal(id: string): Promise<Signal | null> {
+  const raw = await redis.get(keys.signal(id));
+  return parseRedisVal<Signal>(raw);
+}
+
+// ─── Get all (newest first, paginated) ───────────────────────────────────────
+
+export async function listSignals(opts: {
+  limit?: number;
+  offset?: number;
+} = {}): Promise<Signal[]> {
+  const { limit = 50, offset = 0 } = opts;
+  // zrange with REV = newest first
+  const ids = await redis.zrange(keys.signalIndex, offset, offset + limit - 1, {
+    rev: true,
+  }) as string[];
+
+  if (!ids.length) return [];
+
+  const raws = await Promise.all(ids.map((id) => redis.get(keys.signal(id))));
+  return raws
+    .map((r) => parseRedisVal<Signal>(r))
+    .filter((s): s is Signal => s !== null);
+}
+
+// ─── Update (partial) ────────────────────────────────────────────────────────
+
+export async function updateSignal(
+  id: string,
+  patch: Partial<Signal>
+): Promise<Signal | null> {
+  const existing = await getSignal(id);
+  if (!existing) return null;
+
+  const oldStatus   = existing.status;
+  const oldPriority = existing.priorityLabel;
+
+  const updated: Signal = {
+    ...existing,
+    ...patch,
+    id,                                    // never overwrite id
+    updatedAt: new Date().toISOString(),
+  };
+
+  // Recalculate derived fields if scores changed
+  if (
+    patch.businessImpactScore !== undefined ||
+    patch.legalComplexityScore !== undefined ||
+    patch.urgencyScore !== undefined ||
+    patch.outsideCounselNeeded !== undefined
+  ) {
+    updated.priorityScore = calculatePriorityScore(
+      updated.businessImpactScore,
+      updated.legalComplexityScore,
+      updated.urgencyScore
+    );
+    updated.priorityLabel     = getPriorityLabel(updated.priorityScore);
+    updated.recommendedAction = getRecommendedAction(
+      updated.priorityLabel,
+      updated.outsideCounselNeeded
+    );
+  }
+
+  const ops: Promise<unknown>[] = [
+    redis.set(keys.signal(id), JSON.stringify(updated)),
+  ];
+
+  // Update filter sets if status changed
+  if (patch.status && patch.status !== oldStatus) {
+    ops.push(redis.srem(keys.byStatus(oldStatus), id));
+    ops.push(redis.sadd(keys.byStatus(updated.status), id));
+  }
+
+  // Update filter sets if priority changed
+  if (updated.priorityLabel !== oldPriority) {
+    ops.push(redis.srem(keys.byPriority(oldPriority.toLowerCase()), id));
+    ops.push(redis.sadd(keys.byPriority(updated.priorityLabel.toLowerCase()), id));
+  }
+
+  await Promise.all(ops);
+  return updated;
+}
+
+// ─── Delete ───────────────────────────────────────────────────────────────────
+
+export async function deleteSignal(id: string): Promise<boolean> {
+  const signal = await getSignal(id);
+  if (!signal) return false;
+
+  await Promise.all([
+    redis.del(keys.signal(id)),
+    redis.zrem(keys.signalIndex, id),
+    redis.srem(keys.byCategory(signal.category), id),
+    redis.srem(keys.byJurisdiction(signal.jurisdiction), id),
+    redis.srem(keys.byStatus(signal.status), id),
+    redis.srem(keys.byPriority(signal.priorityLabel.toLowerCase()), id),
+  ]);
+  return true;
+}
+
+// ─── Stats for dashboard home ─────────────────────────────────────────────────
+
+export async function getSignalStats() {
+  const oneWeekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+
+  const [total, newThisWeek, criticalIds, highIds, ocIds] = await Promise.all([
+    redis.zcard(keys.signalIndex),
+    redis.zcount(keys.signalIndex, oneWeekAgo, "+inf"),
+    redis.smembers(keys.byPriority("critical")),
+    redis.smembers(keys.byPriority("high")),
+    // OC filter: get all signals and count — small dataset so OK
+    redis.zrange(keys.signalIndex, 0, -1),
+  ]);
+
+  // Count outside counsel needed
+  let needsOC = 0;
+  if (Array.isArray(ocIds) && ocIds.length) {
+    const all = await Promise.all(
+      (ocIds as string[]).map((id) => redis.get(keys.signal(id)))
+    );
+    needsOC = all
+      .map((r) => parseRedisVal<Signal>(r))
+      .filter((s): s is Signal => s !== null && s.outsideCounselNeeded)
+      .length;
+  }
+
+  return {
+    totalSignals: total as number,
+    critical: Array.isArray(criticalIds) ? criticalIds.length : 0,
+    high: Array.isArray(highIds) ? highIds.length : 0,
+    needsOutsideCounsel: needsOC,
+    newThisWeek: newThisWeek as number,
+  };
+}

@@ -1,1 +1,155 @@
-{"data":"InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VTdGF0ZSwgdXNlTWVtbyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHR5cGUgeyBTaWduYWwsIEp1cmlzZGljdGlvbiwgQ2F0ZWdvcnksIFByaW9yaXR5IH0gZnJvbSAiQC9saWIvdHlwZXMiOwppbXBvcnQgUHJpb3JpdHlCYWRnZSBmcm9tICIuL1ByaW9yaXR5QmFkZ2UiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwoKY29uc3QgSlVSSVNESUNUSU9OUzogSnVyaXNkaWN0aW9uW10gPSBbIlVTIiwiVUsiLCJFVSIsIkRFIiwiUEwiLCJDWiIsIk5MIiwiQ0giLCJVQUUiLCJHbG9iYWwiXTsKY29uc3QgUFJJT1JJVElFUzogUHJpb3JpdHlbXSA9IFsiQ3JpdGljYWwiLCJIaWdoIiwiTWVkaXVtIiwiTG93Il07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaWduYWxzVGFibGUoeyBzaWduYWxzIH06IHsgc2lnbmFsczogU2lnbmFsW10gfSkgewogIGNvbnN0IFtzZWFyY2gsIHNldFNlYXJjaF0gICAgICAgICA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbanVyLCBzZXRKdXJdICAgICAgICAgICAgICAgPSB1c2VTdGF0ZTxzdHJpbmc+KCJBbGwiKTsKICBjb25zdCBbcHJpLCBzZXRQcmldICAgICAgICAgICAgICAgPSB1c2VTdGF0ZTxzdHJpbmc+KCJBbGwiKTsKICBjb25zdCBbb2MsIHNldE9jXSAgICAgICAgICAgICAgICAgPSB1c2VTdGF0ZTxzdHJpbmc+KCJBbGwiKTsKICBjb25zdCBbc3RhdHVzLCBzZXRTdGF0dXNdICAgICAgICAgPSB1c2VTdGF0ZTxzdHJpbmc+KCJBbGwiKTsKCiAgY29uc3QgY2F0ZWdvcmllcyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgY2F0cyA9IEFycmF5LmZyb20obmV3IFNldChzaWduYWxzLm1hcCgocykgPT4gcy5jYXRlZ29yeSkpKTsKICAgIHJldHVybiBjYXRzLnNvcnQoKTsKICB9LCBbc2lnbmFsc10pOwoKICBjb25zdCBbY2F0LCBzZXRDYXRdID0gdXNlU3RhdGU8c3RyaW5nPigiQWxsIik7CgogIGNvbnN0IGZpbHRlcmVkID0gdXNlTWVtbygoKSA9PiB7CiAgICByZXR1cm4gc2lnbmFscy5maWx0ZXIoKHMpID0+IHsKICAgICAgaWYgKHNlYXJjaCAmJiAhcy50aXRsZS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHNlYXJjaC50b0xvd2VyQ2FzZSgpKSAmJgogICAgICAgICAgIXMuc3VtbWFyeS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHNlYXJjaC50b0xvd2VyQ2FzZSgpKSkgcmV0dXJuIGZhbHNlOwogICAgICBpZiAoanVyICE9PSAiQWxsIiAmJiBzLmp1cmlzZGljdGlvbiAhPT0ganVyKSByZXR1cm4gZmFsc2U7CiAgICAgIGlmIChwcmkgIT09ICJBbGwiICYmIHMucHJpb3JpdHlMYWJlbCAhPT0gcHJpKSByZXR1cm4gZmFsc2U7CiAgICAgIGlmIChjYXQgIT09ICJBbGwiICYmIHMuY2F0ZWdvcnkgIT09IGNhdCkgcmV0dXJuIGZhbHNlOwogICAgICBpZiAob2MgPT09ICJZZXMiICYmICFzLm91dHNpZGVDb3Vuc2VsTmVlZGVkKSByZXR1cm4gZmFsc2U7CiAgICAgIGlmIChvYyA9PT0gIk5vIiAgJiYgIHMub3V0c2lkZUNvdW5zZWxOZWVkZWQpIHJldHVybiBmYWxzZTsKICAgICAgaWYgKHN0YXR1cyAhPT0gIkFsbCIgJiYgcy5zdGF0dXMgIT09IHN0YXR1cykgcmV0dXJuIGZhbHNlOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0pOwogIH0sIFtzaWduYWxzLCBzZWFyY2gsIGp1ciwgcHJpLCBjYXQsIG9jLCBzdGF0dXNdKTsKCiAgY29uc3QgUFJJX0NPTE9SOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgQ3JpdGljYWw6ICJ0ZXh0LVsjN0IwMDAwXSBmb250LWJvbGQiLAogICAgSGlnaDogICAgICJ0ZXh0LVsjOEI0NTEzXSBmb250LWJvbGQiLAogICAgTWVkaXVtOiAgICJ0ZXh0LVsjMkY1NDk2XSIsCiAgICBMb3c6ICAgICAgInRleHQtWyMzNzU2MjNdIiwKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgIHsvKiBGaWx0ZXJzICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSBwLTQiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy02IGdhcC0zIj4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICBwbGFjZWhvbGRlcj0iU2VhcmNoIHNpZ25hbHMuLi4iCiAgICAgICAgICAgIHZhbHVlPXtzZWFyY2h9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U2VhcmNoKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJjb2wtc3Bhbi0yIGJvcmRlciBib3JkZXItWyNFMERERDZdIHJvdW5kZWQgcHgtMyBweS0xLjUgdGV4dC1zbSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6Ym9yZGVyLVsjQjg4NDJBXSIKICAgICAgICAgIC8+CiAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtqdXJ9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0SnVyKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMS41IHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1bI0I4ODQyQV0gYmctd2hpdGUiPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJBbGwiPkFsbCBKdXJpc2RpY3Rpb25zPC9vcHRpb24+CiAgICAgICAgICAgIHtKVVJJU0RJQ1RJT05TLm1hcCgoaikgPT4gPG9wdGlvbiBrZXk9e2p9IHZhbHVlPXtqfT57an08L29wdGlvbj4pfQogICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtwcml9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0UHJpKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMS41IHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1bI0I4ODQyQV0gYmctd2hpdGUiPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJBbGwiPkFsbCBQcmlvcml0aWVzPC9vcHRpb24+CiAgICAgICAgICAgIHtQUklPUklUSUVTLm1hcCgocCkgPT4gPG9wdGlvbiBrZXk9e3B9IHZhbHVlPXtwfT57cH08L29wdGlvbj4pfQogICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtvY30gb25DaGFuZ2U9eyhlKSA9PiBzZXRPYyhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1bI0UwRERENl0gcm91bmRlZCBweC0zIHB5LTEuNSB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItWyNCODg0MkFdIGJnLXdoaXRlIj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iQWxsIj5PdXRzaWRlIENvdW5zZWw6IEFsbDwvb3B0aW9uPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJZZXMiPk9DIE5lZWRlZDwvb3B0aW9uPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJObyI+T0MgTm90IE5lZWRlZDwvb3B0aW9uPgogICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtzdGF0dXN9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0U3RhdHVzKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLVsjRTBEREQ2XSByb3VuZGVkIHB4LTMgcHktMS41IHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1bI0I4ODQyQV0gYmctd2hpdGUiPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJBbGwiPkFsbCBTdGF0dXNlczwvb3B0aW9uPgogICAgICAgICAgICB7WyJOZXciLCJOZWVkcyBSZXZpZXciLCJNb25pdG9yIiwiQWRkIHRvIFBsYXlib29rIiwiT3V0c2lkZSBDb3Vuc2VsIiwiRXhlY3V0aXZlIEJyaWVmaW5nIiwiQ2xvc2VkIl0ubWFwKChzKSA9PgogICAgICAgICAgICAgIDxvcHRpb24ga2V5PXtzfSB2YWx1ZT17c30+e3N9PC9vcHRpb24+KX0KICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIj4KICAgICAgICAgIDxzZWxlY3QgdmFsdWU9e2NhdH0gb25DaGFuZ2U9eyhlKSA9PiBzZXRDYXQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItWyNFMERERDZdIHJvdW5kZWQgcHgtMyBweS0xLjUgdGV4dC1zbSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6Ym9yZGVyLVsjQjg4NDJBXSBiZy13aGl0ZSB3LWZ1bGwgbWQ6dy1hdXRvIj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iQWxsIj5BbGwgQ2F0ZWdvcmllczwvb3B0aW9uPgogICAgICAgICAgICB7Y2F0ZWdvcmllcy5tYXAoKGMpID0+IDxvcHRpb24ga2V5PXtjfSB2YWx1ZT17Y30+e2N9PC9vcHRpb24+KX0KICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtbC0zIHRleHQteHMgdGV4dC1bIzg4OF0iPntmaWx0ZXJlZC5sZW5ndGh9IG9mIHtzaWduYWxzLmxlbmd0aH0gc2lnbmFsczwvc3Bhbj4KICAgICAgICAgIHsoc2VhcmNoIHx8IGp1ciAhPT0gIkFsbCIgfHwgcHJpICE9PSAiQWxsIiB8fCBjYXQgIT09ICJBbGwiIHx8IG9jICE9PSAiQWxsIiB8fCBzdGF0dXMgIT09ICJBbGwiKSAmJiAoCiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4geyBzZXRTZWFyY2goIiIpOyBzZXRKdXIoIkFsbCIpOyBzZXRQcmkoIkFsbCIpOyBzZXRDYXQoIkFsbCIpOyBzZXRPYygiQWxsIik7IHNldFN0YXR1cygiQWxsIik7IH19CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtbC0zIHRleHQteHMgdGV4dC1bI0I4ODQyQV0gZm9udC1zZW1pYm9sZCBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgICAgICAgIENsZWFyIGZpbHRlcnMKICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBUYWJsZSAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1bI0UwRERENl0gb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3cteC1hdXRvIj4KICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCB0ZXh0LXNtIj4KICAgICAgICAgICAgPHRoZWFkPgogICAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9ImJnLVsjMUUzNjUxXSB0ZXh0LXdoaXRlIHRleHQteHMiPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyBmb250LXNlbWlib2xkIj5TaWduYWw8L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyBmb250LXNlbWlib2xkIHctMjQiPkp1cmlzZGljdGlvbjwvdGg+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgcHgtNCBweS0zIGZvbnQtc2VtaWJvbGQgdy0yOCI+UHJpb3JpdHk8L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyBmb250LXNlbWlib2xkIHctMjAiPlNjb3JlPC90aD4KICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InRleHQtbGVmdCBweC00IHB5LTMgZm9udC1zZW1pYm9sZCB3LTI0Ij5PQz88L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyBmb250LXNlbWlib2xkIHctMjgiPlN0YXR1czwvdGg+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgcHgtNCBweS0zIGZvbnQtc2VtaWJvbGQgdy0yNCI+RGF0ZTwvdGg+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgPHRib2R5PgogICAgICAgICAgICAgIHtmaWx0ZXJlZC5sZW5ndGggPT09IDAgJiYgKAogICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICA8dGQgY29sU3Bhbj17N30gY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBweS0xMiB0ZXh0LVsjODg4XSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICBObyBzaWduYWxzIG1hdGNoIHlvdXIgZmlsdGVycy4KICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7ZmlsdGVyZWQubWFwKChzLCBpKSA9PiAoCiAgICAgICAgICAgICAgICA8dHIga2V5PXtzLmlkfSBjbGFzc05hbWU9e2Bib3JkZXItdCBib3JkZXItWyNGMEVERThdIGhvdmVyOmJnLVsjRkRGQkY4XSB0cmFuc2l0aW9uLWNvbG9ycyAke2kgJSAyID09PSAwID8gIiIgOiAiYmctWyNGQUZBRjhdIn1gfT4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIj4KICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL3NpZ25hbHMvJHtzLmlkfWB9IGNsYXNzTmFtZT0iYmxvY2siPgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtWyMxRTM2NTFdIGhvdmVyOnRleHQtWyNCODg0MkFdIHRyYW5zaXRpb24tY29sb3JzIGxlYWRpbmctc251ZyI+e3MudGl0bGV9PC9wPgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM4ODhdIG10LTAuNSBsaW5lLWNsYW1wLTEiPntzLmNhdGVnb3J5fTwvcD4KICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGJnLVsjRjZGM0VDXSBweC0yIHB5LTAuNSByb3VuZGVkIGZvbnQtbWVkaXVtIj57cy5qdXJpc2RpY3Rpb259PC9zcGFuPgogICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMiPgogICAgICAgICAgICAgICAgICAgIDxQcmlvcml0eUJhZGdlIHByaW9yaXR5PXtzLnByaW9yaXR5TGFiZWx9IC8+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e2BweC00IHB5LTMgdGV4dC1zbSAke1BSSV9DT0xPUltzLnByaW9yaXR5TGFiZWxdfWB9PgogICAgICAgICAgICAgICAgICAgIHtzLnByaW9yaXR5U2NvcmV9LzE1CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgICAge3Mub3V0c2lkZUNvdW5zZWxOZWVkZWQKICAgICAgICAgICAgICAgICAgICAgID8gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGJnLVsjRkRGMEYwXSB0ZXh0LVsjN0IwMDAwXSBweC0yIHB5LTAuNSByb3VuZGVkIGZvbnQtYm9sZCI+WWVzIOKaoO+4jzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgIDogPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM4ODhdIj5Obzwvc3Bhbj59CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtWyM2NjZdIj57cy5zdGF0dXN9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMgdGV4dC14cyB0ZXh0LVsjODg4XSI+CiAgICAgICAgICAgICAgICAgICAge25ldyBEYXRlKHMuY3JlYXRlZEF0KS50b0xvY2FsZURhdGVTdHJpbmcoImVuLUdCIiwgeyBkYXk6ICJudW1lcmljIiwgbW9udGg6ICJzaG9ydCIgfSl9CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgPC90YWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+"use client";
+import { useState, useMemo } from "react";
+import type { Signal, Jurisdiction, Category, Priority } from "@/lib/types";
+import PriorityBadge from "./PriorityBadge";
+import Link from "next/link";
+
+const JURISDICTIONS: Jurisdiction[] = ["US","UK","EU","DE","PL","CZ","NL","CH","UAE","Global"];
+const PRIORITIES: Priority[] = ["Critical","High","Medium","Low"];
+
+export default function SignalsTable({ signals }: { signals: Signal[] }) {
+  const [search, setSearch]         = useState("");
+  const [jur, setJur]               = useState<string>("All");
+  const [pri, setPri]               = useState<string>("All");
+  const [oc, setOc]                 = useState<string>("All");
+  const [status, setStatus]         = useState<string>("All");
+
+  const categories = useMemo(() => {
+    const cats = Array.from(new Set(signals.map((s) => s.category)));
+    return cats.sort();
+  }, [signals]);
+
+  const [cat, setCat] = useState<string>("All");
+
+  const filtered = useMemo(() => {
+    return signals.filter((s) => {
+      if (search && !s.title.toLowerCase().includes(search.toLowerCase()) &&
+          !s.summary.toLowerCase().includes(search.toLowerCase())) return false;
+      if (jur !== "All" && s.jurisdiction !== jur) return false;
+      if (pri !== "All" && s.priorityLabel !== pri) return false;
+      if (cat !== "All" && s.category !== cat) return false;
+      if (oc === "Yes" && !s.outsideCounselNeeded) return false;
+      if (oc === "No"  &&  s.outsideCounselNeeded) return false;
+      if (status !== "All" && s.status !== status) return false;
+      return true;
+    });
+  }, [signals, search, jur, pri, cat, oc, status]);
+
+  const PRI_COLOR: Record<string, string> = {
+    Critical: "text-[#7B0000] font-bold",
+    High:     "text-[#8B4513] font-bold",
+    Medium:   "text-[#2F5496]",
+    Low:      "text-[#375623]",
+  };
+
+  return (
+    <div className="space-y-4">
+      {/* Filters */}
+      <div className="bg-white rounded-lg border border-[#E0DDD6] p-4">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-3">
+          <input
+            type="text"
+            placeholder="Search signals..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="col-span-2 border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A]"
+          />
+          <select value={jur} onChange={(e) => setJur(e.target.value)}
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            <option value="All">All Jurisdictions</option>
+            {JURISDICTIONS.map((j) => <option key={j} value={j}>{j}</option>)}
+          </select>
+          <select value={pri} onChange={(e) => setPri(e.target.value)}
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            <option value="All">All Priorities</option>
+            {PRIORITIES.map((p) => <option key={p} value={p}>{p}</option>)}
+          </select>
+          <select value={oc} onChange={(e) => setOc(e.target.value)}
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            <option value="All">Outside Counsel: All</option>
+            <option value="Yes">OC Needed</option>
+            <option value="No">OC Not Needed</option>
+          </select>
+          <select value={status} onChange={(e) => setStatus(e.target.value)}
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            <option value="All">All Statuses</option>
+            {["New","Needs Review","Monitor","Add to Playbook","Outside Counsel","Executive Briefing","Closed"].map((s) =>
+              <option key={s} value={s}>{s}</option>)}
+          </select>
+        </div>
+        <div className="mt-3">
+          <select value={cat} onChange={(e) => setCat(e.target.value)}
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white w-full md:w-auto">
+            <option value="All">All Categories</option>
+            {categories.map((c) => <option key={c} value={c}>{c}</option>)}
+          </select>
+          <span className="ml-3 text-xs text-[#888]">{filtered.length} of {signals.length} signals</span>
+          {(search || jur !== "All" || pri !== "All" || cat !== "All" || oc !== "All" || status !== "All") && (
+            <button onClick={() => { setSearch(""); setJur("All"); setPri("All"); setCat("All"); setOc("All"); setStatus("All"); }}
+              className="ml-3 text-xs text-[#B8842A] font-semibold hover:underline">
+              Clear filters
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Table */}
+      <div className="bg-white rounded-lg border border-[#E0DDD6] overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-[#1E3651] text-white text-xs">
+                <th className="text-left px-4 py-3 font-semibold">Signal</th>
+                <th className="text-left px-4 py-3 font-semibold w-24">Jurisdiction</th>
+                <th className="text-left px-4 py-3 font-semibold w-28">Priority</th>
+                <th className="text-left px-4 py-3 font-semibold w-20">Score</th>
+                <th className="text-left px-4 py-3 font-semibold w-24">OC?</th>
+                <th className="text-left px-4 py-3 font-semibold w-28">Status</th>
+                <th className="text-left px-4 py-3 font-semibold w-24">Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filtered.length === 0 && (
+                <tr>
+                  <td colSpan={7} className="text-center py-12 text-[#888] text-sm">
+                    No signals match your filters.
+                  </td>
+                </tr>
+              )}
+              {filtered.map((s, i) => (
+                <tr key={s.id} className={`border-t border-[#F0EDE8] hover:bg-[#FDFBF8] transition-colors ${i % 2 === 0 ? "" : "bg-[#FAFAF8]"}`}>
+                  <td className="px-4 py-3">
+                    <Link href={`/signals/${s.id}`} className="block">
+                      <p className="font-semibold text-[#1E3651] hover:text-[#B8842A] transition-colors leading-snug">{s.title}</p>
+                      <p className="text-xs text-[#888] mt-0.5 line-clamp-1">{s.category}</p>
+                    </Link>
+                  </td>
+                  <td className="px-4 py-3">
+                    <span className="text-xs bg-[#F6F3EC] px-2 py-0.5 rounded font-medium">{s.jurisdiction}</span>
+                  </td>
+                  <td className="px-4 py-3">
+                    <PriorityBadge priority={s.priorityLabel} />
+                  </td>
+                  <td className={`px-4 py-3 text-sm ${PRI_COLOR[s.priorityLabel]}`}>
+                    {s.priorityScore}/15
+                  </td>
+                  <td className="px-4 py-3">
+                    {s.outsideCounselNeeded
+                      ? <span className="text-xs bg-[#FDF0F0] text-[#7B0000] px-2 py-0.5 rounded font-bold">Yes ⚠️</span>
+                      : <span className="text-xs text-[#888]">No</span>}
+                  </td>
+                  <td className="px-4 py-3">
+                    <span className="text-xs text-[#666]">{s.status}</span>
+                  </td>
+                  <td className="px-4 py-3 text-xs text-[#888]">
+                    {new Date(s.createdAt).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}

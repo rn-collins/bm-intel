@@ -1,1 +1,17 @@
-{"data":"aW1wb3J0IHR5cGUgeyBQcmlvcml0eSB9IGZyb20gIkAvbGliL3R5cGVzIjsKCmNvbnN0IENPTkZJRzogUmVjb3JkPFByaW9yaXR5LCB7IGJnOiBzdHJpbmc7IHRleHQ6IHN0cmluZzsgbGFiZWw6IHN0cmluZyB9PiA9IHsKICBDcml0aWNhbDogeyBiZzogImJnLVsjRkRGMEYwXSIsIHRleHQ6ICJ0ZXh0LVsjN0IwMDAwXSIsIGxhYmVsOiAi8J+UtCBDcml0aWNhbCIgIH0sCiAgSGlnaDogICAgIHsgYmc6ICJiZy1bI0ZGRjhGMF0iLCB0ZXh0OiAidGV4dC1bIzhCNDUxM10iLCBsYWJlbDogIvCfn6AgSGlnaCIgICAgICB9LAogIE1lZGl1bTogICB7IGJnOiAiYmctWyNGMEY0RkJdIiwgdGV4dDogInRleHQtWyMyRjU0OTZdIiwgbGFiZWw6ICLwn5+hIE1lZGl1bSIgICAgfSwKICBMb3c6ICAgICAgeyBiZzogImJnLVsjRjBGN0YwXSIsIHRleHQ6ICJ0ZXh0LVsjMzc1NjIzXSIsIGxhYmVsOiAi8J+foiBMb3ciICAgICAgIH0sCn07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQcmlvcml0eUJhZGdlKHsgcHJpb3JpdHkgfTogeyBwcmlvcml0eTogUHJpb3JpdHkgfSkgewogIGNvbnN0IGMgPSBDT05GSUdbcHJpb3JpdHldOwogIHJldHVybiAoCiAgICA8c3BhbiBjbGFzc05hbWU9e2BpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgcHgtMiBweS0wLjUgcm91bmRlZCB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgJHtjLmJnfSAke2MudGV4dH1gfT4KICAgICAge2MubGFiZWx9CiAgICA8L3NwYW4+CiAgKTsKfQo="}
+import type { Priority } from "@/lib/types";
+
+const CONFIG: Record<Priority, { bg: string; text: string; label: string }> = {
+  Critical: { bg: "bg-[#FDF0F0]", text: "text-[#7B0000]", label: "🔴 Critical"  },
+  High:     { bg: "bg-[#FFF8F0]", text: "text-[#8B4513]", label: "🟠 High"      },
+  Medium:   { bg: "bg-[#F0F4FB]", text: "text-[#2F5496]", label: "🟡 Medium"    },
+  Low:      { bg: "bg-[#F0F7F0]", text: "text-[#375623]", label: "🟢 Low"       },
+};
+
+export default function PriorityBadge({ priority }: { priority: Priority }) {
+  const c = CONFIG[priority];
+  return (
+    <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold ${c.bg} ${c.text}`}>
+      {c.label}
+    </span>
+  );
+}

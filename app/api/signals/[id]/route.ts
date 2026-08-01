@@ -1,1 +1,53 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgZ2V0U2lnbmFsLCB1cGRhdGVTaWduYWwsIGRlbGV0ZVNpZ25hbCB9IGZyb20gIkAvbGliL3NpZ25hbHMiOwppbXBvcnQgeyBzZW5kU2xhY2tBbGVydCB9IGZyb20gIkAvbGliL3NsYWNrIjsKaW1wb3J0IHsgc2VuZEVtYWlsQWxlcnQgfSBmcm9tICJAL2xpYi9lbWFpbCI7Cgp0eXBlIFBhcmFtcyA9IHsgcGFyYW1zOiBQcm9taXNlPHsgaWQ6IHN0cmluZyB9PiB9OwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIEdFVChfcmVxOiBOZXh0UmVxdWVzdCwgeyBwYXJhbXMgfTogUGFyYW1zKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgaWQgfSA9IGF3YWl0IHBhcmFtczsKICAgIGNvbnN0IHNpZ25hbCA9IGF3YWl0IGdldFNpZ25hbChpZCk7CiAgICBpZiAoIXNpZ25hbCkgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJOb3QgZm91bmQiIH0sIHsgc3RhdHVzOiA0MDQgfSk7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBzaWduYWwgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCJHRVQgL2FwaS9zaWduYWxzL1tpZF0gZXJyb3I6IiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiRmFpbGVkIHRvIGZldGNoIHNpZ25hbCIgfSwgeyBzdGF0dXM6IDUwMCB9KTsKICB9Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBQQVRDSChyZXE6IE5leHRSZXF1ZXN0LCB7IHBhcmFtcyB9OiBQYXJhbXMpIHsKICB0cnkgewogICAgY29uc3QgeyBpZCB9ID0gYXdhaXQgcGFyYW1zOwogICAgY29uc3QgYm9keSA9IGF3YWl0IHJlcS5qc29uKCk7CiAgICBjb25zdCB7IHNlbmRBbGVydCwgLi4ucGF0Y2ggfSA9IGJvZHk7CgogICAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IHVwZGF0ZVNpZ25hbChpZCwgcGF0Y2gpOwogICAgaWYgKCF1cGRhdGVkKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIk5vdCBmb3VuZCIgfSwgeyBzdGF0dXM6IDQwNCB9KTsKCiAgICBpZiAoc2VuZEFsZXJ0KSB7CiAgICAgIGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBzZW5kU2xhY2tBbGVydCh1cGRhdGVkKSwKICAgICAgICBzZW5kRW1haWxBbGVydCh1cGRhdGVkKSwKICAgICAgXSk7CiAgICB9CgogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgc2lnbmFsOiB1cGRhdGVkIH0pOwogIH0gY2F0Y2ggKGVycikgewogICAgY29uc29sZS5lcnJvcigiUEFUQ0ggL2FwaS9zaWduYWxzL1tpZF0gZXJyb3I6IiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiRmFpbGVkIHRvIHVwZGF0ZSBzaWduYWwiIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gREVMRVRFKF9yZXE6IE5leHRSZXF1ZXN0LCB7IHBhcmFtcyB9OiBQYXJhbXMpIHsKICB0cnkgewogICAgY29uc3QgeyBpZCB9ID0gYXdhaXQgcGFyYW1zOwogICAgY29uc3QgZGVsZXRlZCA9IGF3YWl0IGRlbGV0ZVNpZ25hbChpZCk7CiAgICBpZiAoIWRlbGV0ZWQpIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiTm90IGZvdW5kIiB9LCB7IHN0YXR1czogNDA0IH0pOwogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgb2s6IHRydWUgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCJERUxFVEUgL2FwaS9zaWduYWxzL1tpZF0gZXJyb3I6IiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiRmFpbGVkIHRvIGRlbGV0ZSBzaWduYWwiIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgfQp9Cg=="}
+import { NextRequest, NextResponse } from "next/server";
+import { getSignal, updateSignal, deleteSignal } from "@/lib/signals";
+import { sendSlackAlert } from "@/lib/slack";
+import { sendEmailAlert } from "@/lib/email";
+
+type Params = { params: Promise<{ id: string }> };
+
+export async function GET(_req: NextRequest, { params }: Params) {
+  try {
+    const { id } = await params;
+    const signal = await getSignal(id);
+    if (!signal) return NextResponse.json({ error: "Not found" }, { status: 404 });
+    return NextResponse.json({ signal });
+  } catch (err) {
+    console.error("GET /api/signals/[id] error:", err);
+    return NextResponse.json({ error: "Failed to fetch signal" }, { status: 500 });
+  }
+}
+
+export async function PATCH(req: NextRequest, { params }: Params) {
+  try {
+    const { id } = await params;
+    const body = await req.json();
+    const { sendAlert, ...patch } = body;
+
+    const updated = await updateSignal(id, patch);
+    if (!updated) return NextResponse.json({ error: "Not found" }, { status: 404 });
+
+    if (sendAlert) {
+      await Promise.all([
+        sendSlackAlert(updated),
+        sendEmailAlert(updated),
+      ]);
+    }
+
+    return NextResponse.json({ signal: updated });
+  } catch (err) {
+    console.error("PATCH /api/signals/[id] error:", err);
+    return NextResponse.json({ error: "Failed to update signal" }, { status: 500 });
+  }
+}
+
+export async function DELETE(_req: NextRequest, { params }: Params) {
+  try {
+    const { id } = await params;
+    const deleted = await deleteSignal(id);
+    if (!deleted) return NextResponse.json({ error: "Not found" }, { status: 404 });
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    console.error("DELETE /api/signals/[id] error:", err);
+    return NextResponse.json({ error: "Failed to delete signal" }, { status: 500 });
+  }
+}

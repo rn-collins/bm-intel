@@ -1,1 +1,52 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgZ2V0U2lnbmFsLCB1cGRhdGVTaWduYWwgfSBmcm9tICJAL2xpYi9zaWduYWxzIjsKaW1wb3J0IHsgc2VuZFNsYWNrQWxlcnQgfSBmcm9tICJAL2xpYi9zbGFjayI7CmltcG9ydCB7IHNlbmRFbWFpbEFsZXJ0IH0gZnJvbSAiQC9saWIvZW1haWwiOwppbXBvcnQgeyByZWRpcywga2V5cyB9IGZyb20gIkAvbGliL3JlZGlzIjsKaW1wb3J0IHsgbmFub2lkIH0gZnJvbSAibmFub2lkIjsKaW1wb3J0IHR5cGUgeyBBbGVydFJlY29yZCB9IGZyb20gIkAvbGliL3R5cGVzIjsKaW1wb3J0IHsgZ2V0QWxlcnRMZXZlbCB9IGZyb20gIkAvbGliL3Njb3JpbmciOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBOZXh0UmVxdWVzdCkgewogIHRyeSB7CiAgICBjb25zdCB7IHNpZ25hbElkLCBjaGFubmVscyA9IFsic2xhY2siLCAiZW1haWwiXSB9ID0gYXdhaXQgcmVxLmpzb24oKTsKICAgIGlmICghc2lnbmFsSWQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJzaWduYWxJZCByZXF1aXJlZCIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgIH0KCiAgICBjb25zdCBzaWduYWwgPSBhd2FpdCBnZXRTaWduYWwoc2lnbmFsSWQpOwogICAgaWYgKCFzaWduYWwpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJTaWduYWwgbm90IGZvdW5kIiB9LCB7IHN0YXR1czogNDA0IH0pOwogICAgfQoKICAgIGNvbnN0IHJlc3VsdHM6IFJlY29yZDxzdHJpbmcsIGJvb2xlYW4+ID0ge307CiAgICBpZiAoY2hhbm5lbHMuaW5jbHVkZXMoInNsYWNrIikpIHsKICAgICAgcmVzdWx0cy5zbGFjayA9IGF3YWl0IHNlbmRTbGFja0FsZXJ0KHNpZ25hbCk7CiAgICB9CiAgICBpZiAoY2hhbm5lbHMuaW5jbHVkZXMoImVtYWlsIikpIHsKICAgICAgcmVzdWx0cy5lbWFpbCA9IGF3YWl0IHNlbmRFbWFpbEFsZXJ0KHNpZ25hbCk7CiAgICB9CgogICAgLy8gUmVjb3JkIHRoZSBhbGVydAogICAgY29uc3QgcmVjb3JkOiBBbGVydFJlY29yZCA9IHsKICAgICAgaWQ6IG5hbm9pZCgpLAogICAgICBzaWduYWxJZCwKICAgICAgY2hhbm5lbHMsCiAgICAgIHNlbnRBdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICBhbGVydExldmVsOiBnZXRBbGVydExldmVsKHNpZ25hbC5wcmlvcml0eUxhYmVsKSwKICAgICAgbWVzc2FnZVByZXZpZXc6IHNpZ25hbC5zdW1tYXJ5LnNsaWNlKDAsIDIwMCksCiAgICB9OwogICAgYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICByZWRpcy5zZXQoa2V5cy5hbGVydChyZWNvcmQuaWQpLCBKU09OLnN0cmluZ2lmeShyZWNvcmQpKSwKICAgICAgcmVkaXMuemFkZChrZXlzLmFsZXJ0SW5kZXgsIHsgc2NvcmU6IERhdGUubm93KCksIG1lbWJlcjogcmVjb3JkLmlkIH0pLAogICAgXSk7CgogICAgLy8gTWFyayBzaWduYWwgYXMgYWxlcnRlZAogICAgYXdhaXQgdXBkYXRlU2lnbmFsKHNpZ25hbElkLCB7IGFsZXJ0U2VudDogdHJ1ZSB9KTsKCiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogdHJ1ZSwgcmVzdWx0cywgYWxlcnQ6IHJlY29yZCB9KTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoIlBPU1QgL2FwaS9hbGVydHMgZXJyb3I6IiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiRmFpbGVkIHRvIHNlbmQgYWxlcnQiIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgfQp9Cg=="}
+import { NextRequest, NextResponse } from "next/server";
+import { getSignal, updateSignal } from "@/lib/signals";
+import { sendSlackAlert } from "@/lib/slack";
+import { sendEmailAlert } from "@/lib/email";
+import { redis, keys } from "@/lib/redis";
+import { nanoid } from "nanoid";
+import type { AlertRecord } from "@/lib/types";
+import { getAlertLevel } from "@/lib/scoring";
+
+export async function POST(req: NextRequest) {
+  try {
+    const { signalId, channels = ["slack", "email"] } = await req.json();
+    if (!signalId) {
+      return NextResponse.json({ error: "signalId required" }, { status: 400 });
+    }
+
+    const signal = await getSignal(signalId);
+    if (!signal) {
+      return NextResponse.json({ error: "Signal not found" }, { status: 404 });
+    }
+
+    const results: Record<string, boolean> = {};
+    if (channels.includes("slack")) {
+      results.slack = await sendSlackAlert(signal);
+    }
+    if (channels.includes("email")) {
+      results.email = await sendEmailAlert(signal);
+    }
+
+    // Record the alert
+    const record: AlertRecord = {
+      id: nanoid(),
+      signalId,
+      channels,
+      sentAt: new Date().toISOString(),
+      alertLevel: getAlertLevel(signal.priorityLabel),
+      messagePreview: signal.summary.slice(0, 200),
+    };
+    await Promise.all([
+      redis.set(keys.alert(record.id), JSON.stringify(record)),
+      redis.zadd(keys.alertIndex, { score: Date.now(), member: record.id }),
+    ]);
+
+    // Mark signal as alerted
+    await updateSignal(signalId, { alertSent: true });
+
+    return NextResponse.json({ ok: true, results, alert: record });
+  } catch (err) {
+    console.error("POST /api/alerts error:", err);
+    return NextResponse.json({ error: "Failed to send alert" }, { status: 500 });
+  }
+}

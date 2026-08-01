@@ -1,1 +1,49 @@
-{"data":"aW1wb3J0IHR5cGUgeyBQcmlvcml0eSwgUmVjb21tZW5kZWRBY3Rpb24gfSBmcm9tICIuL3R5cGVzIjsKCmV4cG9ydCBmdW5jdGlvbiBjYWxjdWxhdGVQcmlvcml0eVNjb3JlKAogIGJ1c2luZXNzSW1wYWN0OiBudW1iZXIsCiAgbGVnYWxDb21wbGV4aXR5OiBudW1iZXIsCiAgdXJnZW5jeTogbnVtYmVyCik6IG51bWJlciB7CiAgcmV0dXJuIGJ1c2luZXNzSW1wYWN0ICsgbGVnYWxDb21wbGV4aXR5ICsgdXJnZW5jeTsgLy8gbWF4IDE1Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRQcmlvcml0eUxhYmVsKHNjb3JlOiBudW1iZXIpOiBQcmlvcml0eSB7CiAgaWYgKHNjb3JlID49IDEzKSByZXR1cm4gIkNyaXRpY2FsIjsKICBpZiAoc2NvcmUgPj0gOSkgIHJldHVybiAiSGlnaCI7CiAgaWYgKHNjb3JlID49IDUpICByZXR1cm4gIk1lZGl1bSI7CiAgcmV0dXJuICJMb3ciOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0UmVjb21tZW5kZWRBY3Rpb24oCiAgcHJpb3JpdHk6IFByaW9yaXR5LAogIG91dHNpZGVDb3Vuc2VsOiBib29sZWFuCik6IFJlY29tbWVuZGVkQWN0aW9uIHsKICBpZiAocHJpb3JpdHkgPT09ICJDcml0aWNhbCIpICAgICAgICAgICAgICAgICByZXR1cm4gIkltbWVkaWF0ZSBBY3Rpb24iOwogIGlmIChwcmlvcml0eSA9PT0gIkhpZ2giICYmIG91dHNpZGVDb3Vuc2VsKSAgIHJldHVybiAiT3V0c2lkZSBDb3Vuc2VsIFJldmlldyI7CiAgaWYgKHByaW9yaXR5ID09PSAiSGlnaCIpICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICJBZGQgdG8gUGxheWJvb2siOwogIGlmIChwcmlvcml0eSA9PT0gIk1lZGl1bSIpICAgICAgICAgICAgICAgICAgIHJldHVybiAiTW9uaXRvciI7CiAgcmV0dXJuICJNb25pdG9yIjsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldEFsZXJ0TGV2ZWwocHJpb3JpdHk6IFByaW9yaXR5KTogaW1wb3J0KCIuL3R5cGVzIikuQWxlcnRMZXZlbCB7CiAgc3dpdGNoIChwcmlvcml0eSkgewogICAgY2FzZSAiQ3JpdGljYWwiOiByZXR1cm4gIkV4ZWN1dGl2ZSBBdHRlbnRpb24iOwogICAgY2FzZSAiSGlnaCI6ICAgICByZXR1cm4gIkFjdGlvbiBSZWNvbW1lbmRlZCI7CiAgICBjYXNlICJNZWRpdW0iOiAgIHJldHVybiAiTW9uaXRvciI7CiAgICBkZWZhdWx0OiAgICAgICAgIHJldHVybiAiRllJIjsKICB9Cn0KCi8vIERhdGEgZnJlc2huZXNzOiByZXR1cm5zIGh1bWFuLXJlYWRhYmxlIGRlbHRhIGJldHdlZW4gZGF0ZUZvdW5kIGFuZCBkYXRlUHVibGlzaGVkCmV4cG9ydCBmdW5jdGlvbiBmcmVzaG5lc3NMYWJlbChkYXRlRm91bmQ6IHN0cmluZywgZGF0ZVB1Ymxpc2hlZD86IHN0cmluZyk6IHN0cmluZyB7CiAgaWYgKCFkYXRlUHVibGlzaGVkKSByZXR1cm4gIlB1YmxpY2F0aW9uIGRhdGUgdW5rbm93biI7CiAgY29uc3QgZm91bmQgPSBuZXcgRGF0ZShkYXRlRm91bmQpLmdldFRpbWUoKTsKICBjb25zdCBwdWIgICA9IG5ldyBEYXRlKGRhdGVQdWJsaXNoZWQpLmdldFRpbWUoKTsKICBjb25zdCBkYXlzICA9IE1hdGgucm91bmQoKGZvdW5kIC0gcHViKSAvICgxMDAwICogNjAgKiA2MCAqIDI0KSk7CiAgaWYgKGRheXMgPD0gMCkgIHJldHVybiAiU2FtZSBkYXkgYXMgcHVibGljYXRpb24iOwogIGlmIChkYXlzID09PSAxKSByZXR1cm4gIjEgZGF5IGFmdGVyIHB1YmxpY2F0aW9uIjsKICBpZiAoZGF5cyA8IDcpICAgcmV0dXJuIGAke2RheXN9IGRheXMgYWZ0ZXIgcHVibGljYXRpb25gOwogIGlmIChkYXlzIDwgMzApICByZXR1cm4gYCR7TWF0aC5yb3VuZChkYXlzIC8gNyl9IHdlZWsocykgYWZ0ZXIgcHVibGljYXRpb25gOwogIHJldHVybiBgJHtNYXRoLnJvdW5kKGRheXMgLyAzMCl9IG1vbnRoKHMpIGFmdGVyIHB1YmxpY2F0aW9uYDsKfQo="}
+import type { Priority, RecommendedAction } from "./types";
+
+export function calculatePriorityScore(
+  businessImpact: number,
+  legalComplexity: number,
+  urgency: number
+): number {
+  return businessImpact + legalComplexity + urgency; // max 15
+}
+
+export function getPriorityLabel(score: number): Priority {
+  if (score >= 13) return "Critical";
+  if (score >= 9)  return "High";
+  if (score >= 5)  return "Medium";
+  return "Low";
+}
+
+export function getRecommendedAction(
+  priority: Priority,
+  outsideCounsel: boolean
+): RecommendedAction {
+  if (priority === "Critical")                 return "Immediate Action";
+  if (priority === "High" && outsideCounsel)   return "Outside Counsel Review";
+  if (priority === "High")                     return "Add to Playbook";
+  if (priority === "Medium")                   return "Monitor";
+  return "Monitor";
+}
+
+export function getAlertLevel(priority: Priority): import("./types").AlertLevel {
+  switch (priority) {
+    case "Critical": return "Executive Attention";
+    case "High":     return "Action Recommended";
+    case "Medium":   return "Monitor";
+    default:         return "FYI";
+  }
+}
+
+// Data freshness: returns human-readable delta between dateFound and datePublished
+export function freshnessLabel(dateFound: string, datePublished?: string): string {
+  if (!datePublished) return "Publication date unknown";
+  const found = new Date(dateFound).getTime();
+  const pub   = new Date(datePublished).getTime();
+  const days  = Math.round((found - pub) / (1000 * 60 * 60 * 24));
+  if (days <= 0)  return "Same day as publication";
+  if (days === 1) return "1 day after publication";
+  if (days < 7)   return `${days} days after publication`;
+  if (days < 30)  return `${Math.round(days / 7)} week(s) after publication`;
+  return `${Math.round(days / 30)} month(s) after publication`;
+}

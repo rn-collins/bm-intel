@@ -1,1 +1,29 @@
-{"data":"aW1wb3J0IHR5cGUgeyBTaWduYWwgfSBmcm9tICJAL2xpYi90eXBlcyI7CmltcG9ydCBQcmlvcml0eUJhZGdlIGZyb20gIi4vUHJpb3JpdHlCYWRnZSI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaWduYWxDYXJkKHsgc2lnbmFsIH06IHsgc2lnbmFsOiBTaWduYWwgfSkgewogIHJldHVybiAoCiAgICA8TGluayBocmVmPXtgL3NpZ25hbHMvJHtzaWduYWwuaWR9YH0gY2xhc3NOYW1lPSJibG9jayBncm91cCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItWyNFMERERDZdIHAtNCBob3Zlcjpib3JkZXItWyNCODg0MkFdIGhvdmVyOnNoYWRvdy1zbSB0cmFuc2l0aW9uLWFsbCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIG1iLTIiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1bIzFFMzY1MV0gZ3JvdXAtaG92ZXI6dGV4dC1bI0I4ODQyQV0gdHJhbnNpdGlvbi1jb2xvcnMgbGVhZGluZy1zbnVnIj4KICAgICAgICAgICAge3NpZ25hbC50aXRsZX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxQcmlvcml0eUJhZGdlIHByaW9yaXR5PXtzaWduYWwucHJpb3JpdHlMYWJlbH0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bIzY2Nl0gbGluZS1jbGFtcC0yIG1iLTMiPntzaWduYWwuc3VtbWFyeX08L3A+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHRleHQtWzEwcHhdIHRleHQtWyM4ODhdIGZvbnQtbWVkaXVtIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmctWyNGNkYzRUNdIHB4LTIgcHktMC41IHJvdW5kZWQiPntzaWduYWwuanVyaXNkaWN0aW9ufTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmctWyNGNkYzRUNdIHB4LTIgcHktMC41IHJvdW5kZWQgdHJ1bmNhdGUgbWF4LXctWzE2MHB4XSI+e3NpZ25hbC5jYXRlZ29yeX08L3NwYW4+CiAgICAgICAgICB7c2lnbmFsLm91dHNpZGVDb3Vuc2VsTmVlZGVkICYmICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJiZy1bI0ZERjBGMF0gdGV4dC1bIzdCMDAwMF0gcHgtMiBweS0wLjUgcm91bmRlZCI+T0MgbmVlZGVkPC9zcGFuPgogICAgICAgICAgKX0KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtYXV0byI+CiAgICAgICAgICAgIHtuZXcgRGF0ZShzaWduYWwuY3JlYXRlZEF0KS50b0xvY2FsZURhdGVTdHJpbmcoImVuLUdCIiwgeyBkYXk6ICJudW1lcmljIiwgbW9udGg6ICJzaG9ydCIgfSl9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9MaW5rPgogICk7Cn0K"}
+import type { Signal } from "@/lib/types";
+import PriorityBadge from "./PriorityBadge";
+import Link from "next/link";
+
+export default function SignalCard({ signal }: { signal: Signal }) {
+  return (
+    <Link href={`/signals/${signal.id}`} className="block group">
+      <div className="bg-white rounded-lg border border-[#E0DDD6] p-4 hover:border-[#B8842A] hover:shadow-sm transition-all">
+        <div className="flex items-start justify-between gap-3 mb-2">
+          <p className="text-sm font-semibold text-[#1E3651] group-hover:text-[#B8842A] transition-colors leading-snug">
+            {signal.title}
+          </p>
+          <PriorityBadge priority={signal.priorityLabel} />
+        </div>
+        <p className="text-xs text-[#666] line-clamp-2 mb-3">{signal.summary}</p>
+        <div className="flex items-center gap-3 text-[10px] text-[#888] font-medium">
+          <span className="bg-[#F6F3EC] px-2 py-0.5 rounded">{signal.jurisdiction}</span>
+          <span className="bg-[#F6F3EC] px-2 py-0.5 rounded truncate max-w-[160px]">{signal.category}</span>
+          {signal.outsideCounselNeeded && (
+            <span className="bg-[#FDF0F0] text-[#7B0000] px-2 py-0.5 rounded">OC needed</span>
+          )}
+          <span className="ml-auto">
+            {new Date(signal.createdAt).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}
+          </span>
+        </div>
+      </div>
+    </Link>
+  );
+}

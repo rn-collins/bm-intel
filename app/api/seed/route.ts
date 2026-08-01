@@ -1,1 +1,54 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgY3JlYXRlU2lnbmFsIH0gZnJvbSAiQC9saWIvc2lnbmFscyI7CmltcG9ydCB7IGNyZWF0ZVNvdXJjZSB9IGZyb20gIkAvbGliL3NvdXJjZXMiOwppbXBvcnQgeyBTRUVEX1NJR05BTFMsIFNFRURfU09VUkNFUyB9IGZyb20gIkAvbGliL3NlZWQiOwoKLy8gUHJvdGVjdGVkIGJ5IGEgc2ltcGxlIHNoYXJlZCBzZWNyZXQg4oCUIHNldCBTRUVEX1NFQ1JFVCBpbiBlbnYgdmFycwovLyBQT1NUIC9hcGkvc2VlZCAgeyAic2VjcmV0IjogInlvdXJfc2VjcmV0IiB9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gUE9TVChyZXE6IE5leHRSZXF1ZXN0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgc2VjcmV0LCBtb2RlID0gImFsbCIgfSA9IGF3YWl0IHJlcS5qc29uKCk7CgogICAgaWYgKHNlY3JldCAhPT0gcHJvY2Vzcy5lbnYuU0VFRF9TRUNSRVQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJVbmF1dGhvcml6ZWQiIH0sIHsgc3RhdHVzOiA0MDEgfSk7CiAgICB9CgogICAgY29uc3QgcmVzdWx0czogeyBzaWduYWxzOiBudW1iZXI7IHNvdXJjZXM6IG51bWJlcjsgZXJyb3JzOiBzdHJpbmdbXSB9ID0gewogICAgICBzaWduYWxzOiAwLAogICAgICBzb3VyY2VzOiAwLAogICAgICBlcnJvcnM6IFtdLAogICAgfTsKCiAgICBpZiAobW9kZSA9PT0gImFsbCIgfHwgbW9kZSA9PT0gInNvdXJjZXMiKSB7CiAgICAgIGZvciAoY29uc3Qgc291cmNlSW5wdXQgb2YgU0VFRF9TT1VSQ0VTKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGF3YWl0IGNyZWF0ZVNvdXJjZShzb3VyY2VJbnB1dCk7CiAgICAgICAgICByZXN1bHRzLnNvdXJjZXMrKzsKICAgICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICAgIHJlc3VsdHMuZXJyb3JzLnB1c2goYFNvdXJjZSAiJHtzb3VyY2VJbnB1dC5uYW1lfSI6ICR7ZXJyfWApOwogICAgICAgIH0KICAgICAgfQogICAgfQoKICAgIGlmIChtb2RlID09PSAiYWxsIiB8fCBtb2RlID09PSAic2lnbmFscyIpIHsKICAgICAgZm9yIChjb25zdCBzaWduYWxJbnB1dCBvZiBTRUVEX1NJR05BTFMpIHsKICAgICAgICB0cnkgewogICAgICAgICAgYXdhaXQgY3JlYXRlU2lnbmFsKHNpZ25hbElucHV0KTsKICAgICAgICAgIHJlc3VsdHMuc2lnbmFscysrOwogICAgICAgIH0gY2F0Y2ggKGVycikgewogICAgICAgICAgcmVzdWx0cy5lcnJvcnMucHVzaChgU2lnbmFsICIke3NpZ25hbElucHV0LnRpdGxlfSI6ICR7ZXJyfWApOwogICAgICAgIH0KICAgICAgfQogICAgfQoKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7CiAgICAgIG9rOiB0cnVlLAogICAgICBzZWVkZWQ6IHJlc3VsdHMsCiAgICAgIG1lc3NhZ2U6IGBTZWVkZWQgJHtyZXN1bHRzLnNpZ25hbHN9IHNpZ25hbHMgYW5kICR7cmVzdWx0cy5zb3VyY2VzfSBzb3VyY2VzLmAsCiAgICB9KTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoIlBPU1QgL2FwaS9zZWVkIGVycm9yOiIsIGVycik7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlNlZWQgZmFpbGVkIiB9LCB7IHN0YXR1czogNTAwIH0pOwogIH0KfQo="}
+import { NextRequest, NextResponse } from "next/server";
+import { createSignal } from "@/lib/signals";
+import { createSource } from "@/lib/sources";
+import { SEED_SIGNALS, SEED_SOURCES } from "@/lib/seed";
+
+// Protected by a simple shared secret — set SEED_SECRET in env vars
+// POST /api/seed  { "secret": "your_secret" }
+
+export async function POST(req: NextRequest) {
+  try {
+    const { secret, mode = "all" } = await req.json();
+
+    if (secret !== process.env.SEED_SECRET) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    const results: { signals: number; sources: number; errors: string[] } = {
+      signals: 0,
+      sources: 0,
+      errors: [],
+    };
+
+    if (mode === "all" || mode === "sources") {
+      for (const sourceInput of SEED_SOURCES) {
+        try {
+          await createSource(sourceInput);
+          results.sources++;
+        } catch (err) {
+          results.errors.push(`Source "${sourceInput.name}": ${err}`);
+        }
+      }
+    }
+
+    if (mode === "all" || mode === "signals") {
+      for (const signalInput of SEED_SIGNALS) {
+        try {
+          await createSignal(signalInput);
+          results.signals++;
+        } catch (err) {
+          results.errors.push(`Signal "${signalInput.title}": ${err}`);
+        }
+      }
+    }
+
+    return NextResponse.json({
+      ok: true,
+      seeded: results,
+      message: `Seeded ${results.signals} signals and ${results.sources} sources.`,
+    });
+  } catch (err) {
+    console.error("POST /api/seed error:", err);
+    return NextResponse.json({ error: "Seed failed" }, { status: 500 });
+  }
+}

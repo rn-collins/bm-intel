@@ -1,1 +1,32 @@
-{"data":"aW50ZXJmYWNlIFN0YXRDYXJkUHJvcHMgewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IG51bWJlciB8IHN0cmluZzsKICBzdWJsYWJlbD86IHN0cmluZzsKICBhY2NlbnQ/OiAicmVkIiB8ICJvcmFuZ2UiIHwgIm5hdnkiIHwgImdvbGQiIHwgImdyZWVuIjsKfQoKY29uc3QgQUNDRU5UUyA9IHsKICByZWQ6ICAgICJib3JkZXItWyM3QjAwMDBdIGJnLVsjRkRGMEYwXSIsCiAgb3JhbmdlOiAiYm9yZGVyLVsjOEI0NTEzXSBiZy1bI0ZGRjhGMF0iLAogIG5hdnk6ICAgImJvcmRlci1bIzFFMzY1MV0gYmctd2hpdGUiLAogIGdvbGQ6ICAgImJvcmRlci1bI0I4ODQyQV0gYmctd2hpdGUiLAogIGdyZWVuOiAgImJvcmRlci1bIzM3NTYyM10gYmctWyNGMEY3RjBdIiwKfTsKCmNvbnN0IFZBTFVFX0NPTE9SUyA9IHsKICByZWQ6ICAgICJ0ZXh0LVsjN0IwMDAwXSIsCiAgb3JhbmdlOiAidGV4dC1bIzhCNDUxM10iLAogIG5hdnk6ICAgInRleHQtWyMxRTM2NTFdIiwKICBnb2xkOiAgICJ0ZXh0LVsjQjg4NDJBXSIsCiAgZ3JlZW46ICAidGV4dC1bIzM3NTYyM10iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU3RhdENhcmQoeyBsYWJlbCwgdmFsdWUsIHN1YmxhYmVsLCBhY2NlbnQgPSAibmF2eSIgfTogU3RhdENhcmRQcm9wcykgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgYm9yZGVyLWwtNCBwLTUgc2hhZG93LXNtICR7QUNDRU5UU1thY2NlbnRdfWB9PgogICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtWyM2NjZdIG1iLTEiPntsYWJlbH08L3A+CiAgICAgIDxwIGNsYXNzTmFtZT17YHRleHQtNHhsIGZvbnQtYm9sZCAke1ZBTFVFX0NPTE9SU1thY2NlbnRdfWB9Pnt2YWx1ZX08L3A+CiAgICAgIHtzdWJsYWJlbCAmJiA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bIzg4OF0gbXQtMSI+e3N1YmxhYmVsfTwvcD59CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+interface StatCardProps {
+  label: string;
+  value: number | string;
+  sublabel?: string;
+  accent?: "red" | "orange" | "navy" | "gold" | "green";
+}
+
+const ACCENTS = {
+  red:    "border-[#7B0000] bg-[#FDF0F0]",
+  orange: "border-[#8B4513] bg-[#FFF8F0]",
+  navy:   "border-[#1E3651] bg-white",
+  gold:   "border-[#B8842A] bg-white",
+  green:  "border-[#375623] bg-[#F0F7F0]",
+};
+
+const VALUE_COLORS = {
+  red:    "text-[#7B0000]",
+  orange: "text-[#8B4513]",
+  navy:   "text-[#1E3651]",
+  gold:   "text-[#B8842A]",
+  green:  "text-[#375623]",
+};
+
+export default function StatCard({ label, value, sublabel, accent = "navy" }: StatCardProps) {
+  return (
+    <div className={`rounded-lg border-l-4 p-5 shadow-sm ${ACCENTS[accent]}`}>
+      <p className="text-xs font-semibold uppercase tracking-widest text-[#666] mb-1">{label}</p>
+      <p className={`text-4xl font-bold ${VALUE_COLORS[accent]}`}>{value}</p>
+      {sublabel && <p className="text-xs text-[#888] mt-1">{sublabel}</p>}
+    </div>
+  );
+}

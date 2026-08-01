@@ -1,1 +1,14 @@
-{"data":"aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE5vdEZvdW5kKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHktMzIgdGV4dC1jZW50ZXIiPgogICAgICA8cCBjbGFzc05hbWU9InRleHQtNnhsIGZvbnQtYm9sZCB0ZXh0LVsjRTBEREQ2XSBtYi00Ij40MDQ8L3A+CiAgICAgIDxoMSBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIHRleHQtWyMxRTM2NTFdIG1iLTIiPlBhZ2Ugbm90IGZvdW5kPC9oMT4KICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtWyM2NjZdIG1iLTgiPlRoaXMgc2lnbmFsIG9yIHBhZ2UgZG9lc24mYXBvczt0IGV4aXN0LjwvcD4KICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJiZy1bIzFFMzY1MV0gdGV4dC13aGl0ZSBweC02IHB5LTIgcm91bmRlZC1sZyB0ZXh0LXNtIGZvbnQtYm9sZCBob3ZlcjpiZy1bI0I4ODQyQV0gdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgIEJhY2sgdG8gT3ZlcnZpZXcKICAgICAgPC9MaW5rPgogICAgPC9kaXY+CiAgKTsKfQo="}
+import Link from "next/link";
+
+export default function NotFound() {
+  return (
+    <div className="flex flex-col items-center justify-center py-32 text-center">
+      <p className="text-6xl font-bold text-[#E0DDD6] mb-4">404</p>
+      <h1 className="text-xl font-bold text-[#1E3651] mb-2">Page not found</h1>
+      <p className="text-sm text-[#666] mb-8">This signal or page doesn&apos;t exist.</p>
+      <Link href="/" className="bg-[#1E3651] text-white px-6 py-2 rounded-lg text-sm font-bold hover:bg-[#B8842A] transition-colors">
+        Back to Overview
+      </Link>
+    </div>
+  );
+}

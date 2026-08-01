@@ -1,1 +1,77 @@
-{"data":"aW1wb3J0IHR5cGUgeyBTaWduYWwsIEFsZXJ0TGV2ZWwgfSBmcm9tICIuL3R5cGVzIjsKaW1wb3J0IHsgZ2V0QWxlcnRMZXZlbCB9IGZyb20gIi4vc2NvcmluZyI7Cgpjb25zdCBFTU9KSTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBDcml0aWNhbDogIvCflLQiLAogIEhpZ2g6ICAgICAi8J+foCIsCiAgTWVkaXVtOiAgICLwn5+hIiwKICBMb3c6ICAgICAgIvCfn6IiLAp9OwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNlbmRTbGFja0FsZXJ0KHNpZ25hbDogU2lnbmFsKTogUHJvbWlzZTxib29sZWFuPiB7CiAgY29uc3Qgd2ViaG9va1VybCA9IHByb2Nlc3MuZW52LlNMQUNLX1dFQkhPT0tfVVJMOwogIGlmICghd2ViaG9va1VybCkgewogICAgY29uc29sZS53YXJuKCJTTEFDS19XRUJIT09LX1VSTCBub3Qgc2V0IOKAlCBza2lwcGluZyBTbGFjayBhbGVydCIpOwogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgY29uc3QgZW1vamkgPSBFTU9KSVtzaWduYWwucHJpb3JpdHlMYWJlbF0gPz8gIuKaqiI7CiAgY29uc3QgbGV2ZWwgPSBnZXRBbGVydExldmVsKHNpZ25hbC5wcmlvcml0eUxhYmVsKTsKCiAgY29uc3QgcGF5bG9hZCA9IHsKICAgIGJsb2NrczogWwogICAgICB7CiAgICAgICAgdHlwZTogImhlYWRlciIsCiAgICAgICAgdGV4dDogewogICAgICAgICAgdHlwZTogInBsYWluX3RleHQiLAogICAgICAgICAgdGV4dDogYCR7ZW1vaml9IEJ1cmdlcm1laXN0ZXIgRXhwYW5zaW9uIFNpZ25hbCDigJQgJHtsZXZlbH1gLAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICB0eXBlOiAic2VjdGlvbiIsCiAgICAgICAgZmllbGRzOiBbCiAgICAgICAgICB7IHR5cGU6ICJtcmtkd24iLCB0ZXh0OiBgKkNhdGVnb3J5OipcbiR7c2lnbmFsLmNhdGVnb3J5fWAgfSwKICAgICAgICAgIHsgdHlwZTogIm1ya2R3biIsIHRleHQ6IGAqSnVyaXNkaWN0aW9uOipcbiR7c2lnbmFsLmp1cmlzZGljdGlvbn1gIH0sCiAgICAgICAgICB7IHR5cGU6ICJtcmtkd24iLCB0ZXh0OiBgKlByaW9yaXR5OipcbiR7c2lnbmFsLnByaW9yaXR5TGFiZWx9YCB9LAogICAgICAgICAgeyB0eXBlOiAibXJrZHduIiwgdGV4dDogYCpPdXRzaWRlIENvdW5zZWw6KlxuJHtzaWduYWwub3V0c2lkZUNvdW5zZWxOZWVkZWQgPyAiWWVzIOKaoO+4jyIgOiAiTm8ifWAgfSwKICAgICAgICBdLAogICAgICB9LAogICAgICB7CiAgICAgICAgdHlwZTogInNlY3Rpb24iLAogICAgICAgIHRleHQ6IHsgdHlwZTogIm1ya2R3biIsIHRleHQ6IGAqU2lnbmFsOipcbiR7c2lnbmFsLnRpdGxlfWAgfSwKICAgICAgfSwKICAgICAgewogICAgICAgIHR5cGU6ICJzZWN0aW9uIiwKICAgICAgICB0ZXh0OiB7IHR5cGU6ICJtcmtkd24iLCB0ZXh0OiBgKlN1bW1hcnk6KlxuJHtzaWduYWwuc3VtbWFyeX1gIH0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICB0eXBlOiAic2VjdGlvbiIsCiAgICAgICAgZmllbGRzOiBbCiAgICAgICAgICB7IHR5cGU6ICJtcmtkd24iLCB0ZXh0OiBgKlJlY29tbWVuZGVkIEFjdGlvbjoqXG4ke3NpZ25hbC5yZWNvbW1lbmRlZEFjdGlvbn1gIH0sCiAgICAgICAgICB7IHR5cGU6ICJtcmtkd24iLCB0ZXh0OiBgKlNvdXJjZSAoVGllciAke3NpZ25hbC5zb3VyY2VUaWVyfSk6KlxuJHtzaWduYWwuc291cmNlTmFtZX1gIH0sCiAgICAgICAgXSwKICAgICAgfSwKICAgICAgewogICAgICAgIHR5cGU6ICJjb250ZXh0IiwKICAgICAgICBlbGVtZW50czogWwogICAgICAgICAgewogICAgICAgICAgICB0eXBlOiAibXJrZHduIiwKICAgICAgICAgICAgdGV4dDogIuKalu+4jyBOb3QgbGVnYWwgYWR2aWNlIMK3IEJ1cmdlcm1laXN0ZXIgRXhwYW5zaW9uIEludGVsIMK3IEJ1aWx0IGJ5IFJOIENvbGxpbnMgwrcgQWxvaGEgQUkgQ29uc3VsdGluZyIsCiAgICAgICAgICB9LAogICAgICAgIF0sCiAgICAgIH0sCiAgICBdLAogIH07CgogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCh3ZWJob29rVXJsLCB7CiAgICAgIG1ldGhvZDogIlBPU1QiLAogICAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkocGF5bG9hZCksCiAgICB9KTsKICAgIHJldHVybiByZXMub2s7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCJTbGFjayBhbGVydCBmYWlsZWQ6IiwgZXJyKTsKICAgIHJldHVybiBmYWxzZTsKICB9Cn0K"}
+import type { Signal, AlertLevel } from "./types";
+import { getAlertLevel } from "./scoring";
+
+const EMOJI: Record<string, string> = {
+  Critical: "🔴",
+  High:     "🟠",
+  Medium:   "🟡",
+  Low:      "🟢",
+};
+
+export async function sendSlackAlert(signal: Signal): Promise<boolean> {
+  const webhookUrl = process.env.SLACK_WEBHOOK_URL;
+  if (!webhookUrl) {
+    console.warn("SLACK_WEBHOOK_URL not set — skipping Slack alert");
+    return false;
+  }
+
+  const emoji = EMOJI[signal.priorityLabel] ?? "⚪";
+  const level = getAlertLevel(signal.priorityLabel);
+
+  const payload = {
+    blocks: [
+      {
+        type: "header",
+        text: {
+          type: "plain_text",
+          text: `${emoji} Burgermeister Expansion Signal — ${level}`,
+        },
+      },
+      {
+        type: "section",
+        fields: [
+          { type: "mrkdwn", text: `*Category:*\n${signal.category}` },
+          { type: "mrkdwn", text: `*Jurisdiction:*\n${signal.jurisdiction}` },
+          { type: "mrkdwn", text: `*Priority:*\n${signal.priorityLabel}` },
+          { type: "mrkdwn", text: `*Outside Counsel:*\n${signal.outsideCounselNeeded ? "Yes ⚠️" : "No"}` },
+        ],
+      },
+      {
+        type: "section",
+        text: { type: "mrkdwn", text: `*Signal:*\n${signal.title}` },
+      },
+      {
+        type: "section",
+        text: { type: "mrkdwn", text: `*Summary:*\n${signal.summary}` },
+      },
+      {
+        type: "section",
+        fields: [
+          { type: "mrkdwn", text: `*Recommended Action:*\n${signal.recommendedAction}` },
+          { type: "mrkdwn", text: `*Source (Tier ${signal.sourceTier}):*\n${signal.sourceName}` },
+        ],
+      },
+      {
+        type: "context",
+        elements: [
+          {
+            type: "mrkdwn",
+            text: "⚖️ Not legal advice · Burgermeister Expansion Intel · Built by RN Collins · Aloha AI Consulting",
+          },
+        ],
+      },
+    ],
+  };
+
+  try {
+    const res = await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    return res.ok;
+  } catch (err) {
+    console.error("Slack alert failed:", err);
+    return false;
+  }
+}
