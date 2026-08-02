@@ -32,11 +32,13 @@ export const keys = {
   signalIndex:    "bm:signals",
   sourceIndex:    "bm:sources",
   alertIndex:     "bm:alerts",
+  leadIndex:      "bm:leads",
 
   // Individual records
   signal: (id: string) => `bm:signal:${id}`,
   source: (id: string) => `bm:source:${id}`,
   alert:  (id: string) => `bm:alert:${id}`,
+  lead:   (id: string) => `bm:lead:${id}`,
 
   // Lookup sets (for filtering without scanning)
   byCategory:    (cat: string)  => `bm:signals:cat:${cat.replace(/\W+/g, "_")}`,
