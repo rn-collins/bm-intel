@@ -39,7 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {children}
         </main>
         <footer className="text-center text-xs text-[#999] py-4 border-t border-[#E0DDD6]">
-          Burgermeister Expansion Intel · Built by RN Collins · Aloha AI Consulting · Not Legal Advice ·{" "}<a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">linkedin.com/in/rn-collins</a>
+          Burgermeister Expansion Intel · Not Legal Advice · Built by{" "}<a href="https://aloha-ai-consulting.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">Aloha AI</a>. Explore all AI tools and projects at{" "}<a href="https://rn-portfolio-khaki.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">RN Builds</a>.
         </footer>
 
       <ContactArchitectModal />
