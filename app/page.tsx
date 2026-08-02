@@ -27,7 +27,12 @@ export default async function HomePage() {
 
       {/* Header + what this is */}
       <div className="bg-white rounded-lg border border-[#E0DDD6] p-6">
-        <h1 className="text-2xl font-bold text-[#1E3651] mb-2">Burgermeister Expansion Intelligence</h1>
+        <div className="flex items-center gap-2 mb-2">
+          <h1 className="text-2xl font-bold text-[#1E3651]">Burgermeister Expansion Intelligence</h1>
+          <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wide text-[#375623] bg-[#F0F7F0] border border-[#c8ddc0] rounded-full px-2 py-0.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#375623]"></span> Live data
+          </span>
+        </div>
         <p className="text-sm text-[#444] leading-relaxed mb-3">
           This dashboard tracks legal and regulatory risks relevant to Burgermeister&apos;s international expansion across the U.S., UK, Germany, Poland, and future markets. Each <strong>signal</strong> is a specific legal issue — a law, regulation, compliance obligation, or strategic risk — scored by how much it could affect the business, how legally complex it is, and how urgently it needs attention.
         </p>
