@@ -3,6 +3,7 @@ import { listSignals, createSignal } from "@/lib/signals";
 import { sendSlackAlert } from "@/lib/slack";
 import { sendEmailAlert } from "@/lib/email";
 import type { CreateSignalInput } from "@/lib/types";
+import { authorizeDashboardMutation } from "@/lib/dashboard-auth";
 
 export async function GET(req: NextRequest) {
   try {
@@ -18,6 +19,9 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+  const unauthorized = authorizeDashboardMutation(req);
+  if (unauthorized) return unauthorized;
+
   try {
     const body: CreateSignalInput & { sendAlert?: boolean } = await req.json();
 

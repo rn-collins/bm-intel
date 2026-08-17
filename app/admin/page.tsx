@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Category, Jurisdiction } from "@/lib/types";
 
@@ -81,6 +81,8 @@ function calcPriority(b: number, l: number, u: number) {
 
 export default function AdminPage() {
   const router = useRouter();
+  const [dashboardSecret, setDashboardSecret] = useState("");
+  const [unlocked, setUnlocked] = useState(false);
   const [saving, setSaving] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -98,6 +100,25 @@ export default function AdminPage() {
     outsideCounselNeeded:false, notes:"", sendAlert:false,
   });
 
+  useEffect(() => {
+    const existing = window.sessionStorage.getItem("bm-dashboard-secret");
+    if (existing) {
+      setDashboardSecret(existing);
+      setUnlocked(true);
+    }
+  }, []);
+
+  function unlockDashboard() {
+    const secret = dashboardSecret.trim();
+    if (!secret) {
+      setError("Enter the dashboard access key.");
+      return;
+    }
+    window.sessionStorage.setItem("bm-dashboard-secret", secret);
+    setUnlocked(true);
+    setError("");
+  }
+
   const priority = calcPriority(form.businessImpactScore, form.legalComplexityScore, form.urgencyScore);
   const set = (k: string, v: unknown) => setForm((f) => ({ ...f, [k]: v }));
 
@@ -110,18 +131,59 @@ export default function AdminPage() {
     try {
       const res = await fetch("/api/signals", {
         method:"POST",
-        headers:{ "Content-Type":"application/json" },
+        headers:{
+          "Content-Type":"application/json",
+          "x-dashboard-secret":dashboardSecret,
+        },
         body:JSON.stringify({
           ...form,
           dateFound:new Date(form.dateFound).toISOString(),
           datePublished:form.datePublished ? new Date(form.datePublished).toISOString() : undefined,
         }),
       });
+      if (res.status === 401) {
+        window.sessionStorage.removeItem("bm-dashboard-secret");
+        setUnlocked(false);
+        throw new Error("Access key rejected. Re-enter the current dashboard key.");
+      }
       if (!res.ok) throw new Error(await res.text());
       setSuccess(true);
       setTimeout(() => router.push("/signals"), 1500);
     } catch(e) { setError(String(e)); }
     finally { setSaving(false); }
+  }
+
+  if (!unlocked) {
+    return (
+      <div className="max-w-md mx-auto mt-12 bg-white rounded-lg border border-[#E0DDD6] p-6 shadow-sm">
+        <p className="text-[10px] font-bold uppercase tracking-widest text-[#B8842A] mb-2">Operator workspace</p>
+        <h1 className="text-2xl font-bold text-[#1E3651]">Unlock signal operations</h1>
+        <p className="text-sm text-[#666] mt-2 leading-relaxed">
+          Public intelligence remains readable. Creating, changing, or deleting signals requires the private dashboard access key.
+        </p>
+        <label htmlFor="dashboard-secret" className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mt-5 mb-1">
+          Dashboard access key
+        </label>
+        <input
+          id="dashboard-secret"
+          type="password"
+          autoComplete="current-password"
+          value={dashboardSecret}
+          onChange={(event) => setDashboardSecret(event.target.value)}
+          onKeyDown={(event) => { if (event.key === "Enter") unlockDashboard(); }}
+          className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]"
+        />
+        {error && <p role="alert" className="text-sm text-[#7B0000] bg-[#FDF0F0] px-3 py-2 rounded mt-3">{error}</p>}
+        <button
+          type="button"
+          onClick={unlockDashboard}
+          className="w-full mt-4 py-3 rounded-lg font-bold text-sm bg-[#1E3651] text-white hover:bg-[#B8842A] transition-colors"
+        >
+          Unlock operator workspace
+        </button>
+        <p className="text-[11px] text-[#888] mt-3">The key is kept only in this browser tab and is never embedded in the site.</p>
+      </div>
+    );
   }
 
   return (
