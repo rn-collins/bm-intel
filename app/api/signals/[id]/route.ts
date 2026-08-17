@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getSignal, updateSignal, deleteSignal } from "@/lib/signals";
 import { sendSlackAlert } from "@/lib/slack";
 import { sendEmailAlert } from "@/lib/email";
+import { authorizeDashboardMutation } from "@/lib/dashboard-auth";
 
 type Params = { params: Promise<{ id: string }> };
 
@@ -18,6 +19,9 @@ export async function GET(_req: NextRequest, { params }: Params) {
 }
 
 export async function PATCH(req: NextRequest, { params }: Params) {
+  const unauthorized = authorizeDashboardMutation(req);
+  if (unauthorized) return unauthorized;
+
   try {
     const { id } = await params;
     const body = await req.json();
@@ -40,7 +44,10 @@ export async function PATCH(req: NextRequest, { params }: Params) {
   }
 }
 
-export async function DELETE(_req: NextRequest, { params }: Params) {
+export async function DELETE(req: NextRequest, { params }: Params) {
+  const unauthorized = authorizeDashboardMutation(req);
+  if (unauthorized) return unauthorized;
+
   try {
     const { id } = await params;
     const deleted = await deleteSignal(id);
