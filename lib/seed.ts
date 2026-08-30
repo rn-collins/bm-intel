@@ -121,7 +121,7 @@ export const SEED_SIGNALS: CreateSignalInput[] = [
     title: "EU–UK Food Import Clearance Under UK Border Target Operating Model (BTOM)",
     summary:
       "All locations supplied from central Berlin Tempelhof production. Irish beef patties (animal products) require health certification (BTOM Phase 1, effective 31 Jan. 2024) and physical SPS checks at Border Control Posts (Phase 2, effective 30 Apr. 2024). CHED notifications required via IPAFFS.",
-    sourceUrl: "https://www.gov.uk/guidance/import-food-and-drink-from-the-eu-to-great-britain-from-1-january-2021",
+    sourceUrl: "https://www.gov.uk/government/publications/the-border-target-operating-model-august-2023",
     sourceName: "UK Gov / APHA — BTOM Import Guidance",
     sourceTier: 1,
     dateFound: new Date().toISOString(),
@@ -389,12 +389,12 @@ export const SEED_SIGNALS: CreateSignalInput[] = [
 export const SEED_SOURCES: CreateSourceInput[] = [
   { name:"FTC — Franchise Rule 16 C.F.R. § 436",                  url:"https://www.ftc.gov/business-guidance/resources/amended-franchise-rule-faqs",            jurisdiction:"US",     category:"Franchise / Market Entry",                tier:1, updateFrequency:"monthly"  },
   { name:"FDA — Menu Labeling Requirements 21 C.F.R. § 101.11",   url:"https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/menu-labeling-requirements", jurisdiction:"US", category:"Food Compliance / Labeling",              tier:1, updateFrequency:"monthly"  },
-  { name:"U.S. DOL — FLSA Restaurant Industry Guidance",           url:"https://www.dol.gov/agencies/whd/industries/restaurants",                                 jurisdiction:"US",     category:"Labor / Employment",                       tier:1, updateFrequency:"monthly"  },
+  { name:"U.S. DOL — FLSA Restaurant Industry Guidance",           url:"https://www.dol.gov/agencies/whd/fact-sheets/2-flsa-restaurants",                                 jurisdiction:"US",     category:"Labor / Employment",                       tier:1, updateFrequency:"monthly"  },
   { name:"USPTO — Trademark Basics",                               url:"https://www.uspto.gov/trademarks",                                                        jurisdiction:"US",     category:"Brand / IP Protection",                   tier:1, updateFrequency:"monthly"  },
   { name:"UK FSA — Starting a Food Business (28-day registration)",url:"https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business",    jurisdiction:"UK",     category:"Food Compliance / Labeling",              tier:1, updateFrequency:"monthly"  },
   { name:"UK FSA — Allergen Guidance (FIR 2014 + Natasha's Law)",  url:"https://www.food.gov.uk/business-guidance/allergen-guidance-for-food-businesses",        jurisdiction:"UK",     category:"Food Compliance / Labeling",              tier:1, updateFrequency:"monthly"  },
   { name:"UK FSA — Food Hygiene Rating Scheme",                    url:"https://www.food.gov.uk/safety-hygiene/food-hygiene-rating-scheme",                      jurisdiction:"UK",     category:"Food Compliance / Labeling",              tier:1, updateFrequency:"monthly"  },
-  { name:"UK Gov / APHA — BTOM Import Guidance",                   url:"https://www.gov.uk/guidance/import-food-and-drink-from-the-eu-to-great-britain-from-1-january-2021", jurisdiction:"UK", category:"Post-Brexit Supply Chain / Import Compliance", tier:1, updateFrequency:"weekly" },
+  { name:"UK Gov / APHA — BTOM Import Guidance",                   url:"https://www.gov.uk/government/publications/the-border-target-operating-model-august-2023", jurisdiction:"UK", category:"Post-Brexit Supply Chain / Import Compliance", tier:1, updateFrequency:"weekly" },
   { name:"UK legislation.gov.uk — Working Time Regulations 1998",  url:"https://www.legislation.gov.uk/uksi/1998/1833",                                           jurisdiction:"UK",     category:"Labor / Employment",                       tier:1, updateFrequency:"monthly"  },
   { name:"UK ICO — Data Protection Guidance",                      url:"https://ico.org.uk/for-organisations",                                                    jurisdiction:"UK",     category:"Data / AI / Privacy",                      tier:1, updateFrequency:"weekly"   },
   { name:"EU — GDPR Regulation 2016/679 Art. 83",                  url:"https://gdpr.eu/article-83-conditions-for-imposing-administrative-fines/",                jurisdiction:"EU",     category:"Data / AI / Privacy",                      tier:1, updateFrequency:"monthly"  },

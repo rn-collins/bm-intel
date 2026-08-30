@@ -3,9 +3,31 @@ import { listSources } from "@/lib/sources";
 
 export const revalidate = 60;
 
+const SOURCES_DESC =
+  "The register of official and industry authorities this tracker monitors, tiered by reliability and checked on a set cadence.";
+
 export const metadata: Metadata = {
   title: "Source Library",
-  description: "Monitored legal and regulatory sources for Burgermeister's international expansion intelligence.",
+  description: SOURCES_DESC,
+  alternates: { canonical: "/sources" },
+  openGraph: {
+    title: "Source Library | Burgermeister Expansion Intel",
+    description: SOURCES_DESC,
+    url: "/sources",
+    type: "website",
+    images: [{
+      url: "/og/sources.png",
+      width: 1200,
+      height: 630,
+      alt: "Source register — the authorities this tracker watches.",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Source Library | Burgermeister Expansion Intel",
+    description: SOURCES_DESC,
+    images: ["/og/sources.png"],
+  },
 };
 
 const TIER_CONFIG = {

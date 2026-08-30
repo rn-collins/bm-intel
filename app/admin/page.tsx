@@ -182,6 +182,43 @@ export default function AdminPage() {
           Unlock operator workspace
         </button>
         <p className="text-[11px] text-[#888] mt-3">The key is kept only in this browser tab and is never embedded in the site.</p>
+
+        <div className="mt-8 pt-6 border-t border-[#E0DDD6] text-sm text-[#444] leading-relaxed space-y-4">
+          <div>
+            <h2 className="text-base font-bold text-[#1E3651] mb-1">What sits behind this key</h2>
+            <p>
+              The operator workspace is the editorial side of the tracker. It is where a new
+              legal or regulatory development gets entered as a signal, scored on the four
+              dimensions the public pages display, assigned a jurisdiction and category, and
+              moved through review states as the position firms up. It also holds the source
+              register that decides which official feeds are watched and how often.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-base font-bold text-[#1E3651] mb-1">Why scoring is done here rather than in public</h2>
+            <p>
+              Every signal carries four scores &mdash; business impact, legal complexity,
+              urgency, and confidence &mdash; and the flag for whether outside counsel should
+              confirm it before anyone acts. Those are editorial judgements, and they change as
+              a story develops. Keeping the write path behind a key means the published record
+              moves deliberately, with one hand on it, rather than drifting.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-base font-bold text-[#1E3651] mb-1">Everything readable is already public</h2>
+            <p>
+              No analysis is hidden behind this gate. The full signal set, with scores, source
+              links and jurisdictions, is on the{" "}
+              <a href="/signals" className="text-[#B8842A] font-semibold hover:underline">signals</a>{" "}
+              page, and the register of monitored authorities is on the{" "}
+              <a href="/sources" className="text-[#B8842A] font-semibold hover:underline">sources</a>{" "}
+              page. The{" "}
+              <a href="/" className="text-[#B8842A] font-semibold hover:underline">overview</a>{" "}
+              summarises where the risk currently concentrates across the four markets. If you
+              arrived here looking for the research, those three pages are the whole of it.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

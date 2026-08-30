@@ -3,23 +3,46 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import ContactArchitectModal from "@/components/ContactArchitectModal";
 
+// Vercel appended "-ivory" because the plain name was taken: bm-intel.vercel.app
+// is a DIFFERENT deployment. Every absolute URL below must keep the -ivory host.
+export const SITE_URL = "https://bm-intel-ivory.vercel.app";
+
+const DESCRIPTION =
+  "Independent tracking of legal and regulatory risk signals across the US, UK, Germany and Poland for international market entry, scored by severity and sourced to official guidance. Published under RN Collins' own byline.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Burgermeister Expansion Intel",
     template: "%s | Burgermeister Expansion Intel",
   },
-  description: "Burgermeister Expansion Intel tracks legal and regulatory risk signals across US, UK, Germany, and Poland for international market entry. Built by RN Collins.",
+  description: DESCRIPTION,
+  alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/icon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   openGraph: {
-    title: "Burgermeister Expansion Intel | RN Collins",
-    description: "Burgermeister Expansion Intel tracks legal and regulatory risk signals across US, UK, Germany, and Poland for international market entry. Built by RN Collins.",
-    url: "https://bm-intel-ivory.vercel.app",
+    title: "Burgermeister Expansion Intel",
+    description: DESCRIPTION,
+    url: SITE_URL,
     siteName: "Burgermeister Expansion Intel",
     type: "website",
+    images: [{
+      url: "/og/index.png",
+      width: 1200,
+      height: 630,
+      alt: "Burgermeister Expansion Intel — legal and regulatory risk across four markets, with a severity ladder.",
+    }],
   },
   twitter: {
-    card: "summary",
-    title: "Burgermeister Expansion Intel | RN Collins",
-    description: "Burgermeister Expansion Intel tracks legal and regulatory risk signals across US, UK, Germany, and Poland for international market entry. Built by RN Collins.",
+    card: "summary_large_image",
+    title: "Burgermeister Expansion Intel",
+    description: DESCRIPTION,
+    images: ["/og/index.png"],
   },
 };
 

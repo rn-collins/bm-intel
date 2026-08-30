@@ -5,9 +5,31 @@ import Glossary from "@/components/Glossary";
 
 export const revalidate = 60;
 
+const SIGNALS_DESC =
+  "Browse, filter and search every tracked legal and regulatory signal across the four expansion markets, each scored for impact, complexity, urgency and confidence.";
+
 export const metadata: Metadata = {
   title: "All Signals",
-  description: "Browse, filter, and search all legal and regulatory signals for Burgermeister's international expansion.",
+  description: SIGNALS_DESC,
+  alternates: { canonical: "/signals" },
+  openGraph: {
+    title: "All Signals | Burgermeister Expansion Intel",
+    description: SIGNALS_DESC,
+    url: "/signals",
+    type: "website",
+    images: [{
+      url: "/og/signals.png",
+      width: 1200,
+      height: 630,
+      alt: "Signal register — every tracked signal, scored and sourced.",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "All Signals | Burgermeister Expansion Intel",
+    description: SIGNALS_DESC,
+    images: ["/og/signals.png"],
+  },
 };
 
 export default async function SignalsPage() {

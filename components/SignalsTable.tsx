@@ -49,28 +49,29 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-3">
           <input
             type="text"
+            aria-label="Search signals"
             placeholder="Search signals..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="col-span-2 border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A]"
           />
-          <select value={jur} onChange={(e) => setJur(e.target.value)}
+          <select aria-label="Filter by jurisdiction" value={jur} onChange={(e) => setJur(e.target.value)}
             className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
             <option value="All">All Jurisdictions</option>
             {JURISDICTIONS.map((j) => <option key={j} value={j}>{j}</option>)}
           </select>
-          <select value={pri} onChange={(e) => setPri(e.target.value)}
+          <select aria-label="Filter by priority" value={pri} onChange={(e) => setPri(e.target.value)}
             className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
             <option value="All">All Priorities</option>
             {PRIORITIES.map((p) => <option key={p} value={p}>{p}</option>)}
           </select>
-          <select value={oc} onChange={(e) => setOc(e.target.value)}
+          <select aria-label="Filter by whether outside counsel is needed" value={oc} onChange={(e) => setOc(e.target.value)}
             className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
             <option value="All">Outside Counsel: All</option>
             <option value="Yes">OC Needed</option>
             <option value="No">OC Not Needed</option>
           </select>
-          <select value={status} onChange={(e) => setStatus(e.target.value)}
+          <select aria-label="Filter by status" value={status} onChange={(e) => setStatus(e.target.value)}
             className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
             <option value="All">All Statuses</option>
             {["New","Needs Review","Monitor","Add to Playbook","Outside Counsel","Executive Briefing","Closed"].map((s) =>
@@ -78,7 +79,7 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
           </select>
         </div>
         <div className="mt-3">
-          <select value={cat} onChange={(e) => setCat(e.target.value)}
+          <select aria-label="Filter by category" value={cat} onChange={(e) => setCat(e.target.value)}
             className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white w-full md:w-auto">
             <option value="All">All Categories</option>
             {categories.map((c) => <option key={c} value={c}>{c}</option>)}

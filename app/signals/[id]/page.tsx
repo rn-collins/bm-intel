@@ -14,9 +14,30 @@ export async function generateMetadata({
   const { id } = await params;
   const signal = await getSignal(id);
   if (!signal) return { title: "Signal Not Found" };
+
+  const description =
+    signal.summary?.slice(0, 200) ??
+    `A tracked ${signal.jurisdiction} legal and regulatory signal, scored for business impact, legal complexity, urgency and confidence.`;
+
+  // og:image and twitter:image come from the sibling opengraph-image.tsx, which
+  // renders this signal's own jurisdiction, category and priority — so a shared
+  // link shows the signal, not one generic site card. Next injects those tags
+  // from the file convention; setting them here as well would duplicate them.
   return {
     title: signal.title,
-    description: signal.summary?.slice(0, 160),
+    description,
+    alternates: { canonical: `/signals/${id}` },
+    openGraph: {
+      title: signal.title,
+      description,
+      url: `/signals/${id}`,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: signal.title,
+      description,
+    },
   };
 }
 
