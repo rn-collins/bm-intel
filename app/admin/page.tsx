@@ -205,6 +205,18 @@ export default function AdminPage() {
             </p>
           </div>
           <div>
+            <h2 className="text-base font-bold text-[#1E3651] mb-1">How a signal gets from a source to a page</h2>
+            <p>
+              A development is picked up from one of the monitored authorities on the source
+              register, checked against the primary document rather than the reporting about it,
+              and written up as a summary that states what changed and who it binds. It is then
+              given a jurisdiction and a category, scored on the four dimensions, and marked for
+              outside counsel if acting on it would turn on a lawyer&apos;s judgement. Only after
+              that does it appear on the public pages, which is why the register moves in
+              considered steps rather than continuously.
+            </p>
+          </div>
+          <div>
             <h2 className="text-base font-bold text-[#1E3651] mb-1">Everything readable is already public</h2>
             <p>
               No analysis is hidden behind this gate. The full signal set, with scores, source

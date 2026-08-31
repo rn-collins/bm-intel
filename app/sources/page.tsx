@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { listSources } from "@/lib/sources";
+import { correctUrl } from "@/lib/url-corrections";
 
 export const revalidate = 60;
 
@@ -83,7 +84,7 @@ export default async function SourcesPage() {
                 <div key={source.id} className="bg-white rounded-lg border border-[#E0DDD6] p-4 hover:border-[#B8842A] hover:shadow-sm transition-all">
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <a
-                      href={source.url}
+                      href={correctUrl(source.url)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm font-bold text-[#1E3651] hover:text-[#B8842A] transition-colors leading-snug"

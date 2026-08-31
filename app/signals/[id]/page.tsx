@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import PriorityBadge from "@/components/PriorityBadge";
 import Link from "next/link";
 import { freshnessLabel } from "@/lib/scoring";
+import { correctUrl } from "@/lib/url-corrections";
 
 export const revalidate = 60;
 export async function generateMetadata({
@@ -209,7 +210,7 @@ export default async function SignalDetailPage({
           {/* Source */}
           <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
             <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">Source</h2>
-            <a href={signal.sourceUrl} target="_blank" rel="noopener noreferrer"
+            <a href={correctUrl(signal.sourceUrl)} target="_blank" rel="noopener noreferrer"
               className="text-sm text-[#B8842A] hover:underline font-bold block mb-1">
               {signal.sourceName} →
             </a>
@@ -246,6 +247,51 @@ export default async function SignalDetailPage({
             </div>
           )}
         </div>
+      </div>
+
+      {/* How this signal was produced — standing note, same on every signal */}
+      <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
+        <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">How to read this signal</h2>
+        <div className="grid md:grid-cols-3 gap-5 text-xs text-[#444] leading-relaxed">
+          <div>
+            <p className="font-bold text-[#1E3651] mb-1">Where it comes from</p>
+            <p>
+              Every signal starts from a named source, tiered by how close it sits to the
+              authority that actually decides the question. A Tier 1 source is the regulator,
+              legislature or court itself. Lower tiers are reporting about those bodies, useful
+              for noticing a development early but not for settling what the rule is. The source
+              is linked above so the underlying document can be read directly rather than taken
+              on trust.
+            </p>
+          </div>
+          <div>
+            <p className="font-bold text-[#1E3651] mb-1">What the four scores mean</p>
+            <p>
+              Business impact, legal complexity, urgency and confidence are scored separately
+              because they move independently. A settled rule can be high impact and low
+              complexity; a fast-moving proposal can be urgent and low confidence at once.
+              Confidence tracks how firmly the underlying position is established, so a low
+              confidence score is a statement about the state of the evidence rather than a
+              hedge about the analysis.
+            </p>
+          </div>
+          <div>
+            <p className="font-bold text-[#1E3651] mb-1">What the counsel flag is for</p>
+            <p>
+              The outside counsel flag marks signals where the next step turns on a judgement a
+              qualified lawyer in that jurisdiction should make: an obligation whose trigger is
+              genuinely contested, a deadline with consequences attached, or a question where
+              national implementation diverges from the headline rule. It is a routing
+              instruction, not a severity rating.
+            </p>
+          </div>
+        </div>
+        <p className="text-xs text-[#666] mt-4 pt-3 border-t border-[#E0DDD6]">
+          This tracker is independent analysis published under RN Collins&apos; own byline. It is
+          not commissioned or endorsed by any company named in it. Where an official source has
+          been moved or withdrawn by the body that published it, the link above points to that
+          body&apos;s current page for the same material.
+        </p>
       </div>
 
       {/* Legal disclaimer */}
