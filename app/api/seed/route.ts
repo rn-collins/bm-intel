@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createSignal } from "@/lib/signals";
-import { createSource } from "@/lib/sources";
+import { upsertSignal } from "@/lib/signals";
+import { upsertSource } from "@/lib/sources";
 import { SEED_SIGNALS, SEED_SOURCES } from "@/lib/seed";
 
 // Protected by a simple shared secret — set SEED_SECRET in env vars
@@ -14,17 +14,17 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const results: { signals: number; sources: number; errors: string[] } = {
-      signals: 0,
-      sources: 0,
-      errors: [],
+    const results = {
+      signals: 0, signalsUpdated: 0,
+      sources: 0, sourcesUpdated: 0,
+      errors: [] as string[],
     };
 
     if (mode === "all" || mode === "sources") {
       for (const sourceInput of SEED_SOURCES) {
         try {
-          await createSource(sourceInput);
-          results.sources++;
+          const { created } = await upsertSource(sourceInput);
+          if (created) results.sources++; else results.sourcesUpdated++;
         } catch (err) {
           results.errors.push(`Source "${sourceInput.name}": ${err}`);
         }
@@ -34,8 +34,8 @@ export async function POST(req: NextRequest) {
     if (mode === "all" || mode === "signals") {
       for (const signalInput of SEED_SIGNALS) {
         try {
-          await createSignal(signalInput);
-          results.signals++;
+          const { created } = await upsertSignal(signalInput);
+          if (created) results.signals++; else results.signalsUpdated++;
         } catch (err) {
           results.errors.push(`Signal "${signalInput.title}": ${err}`);
         }
@@ -45,7 +45,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({
       ok: true,
       seeded: results,
-      message: `Seeded ${results.signals} signals and ${results.sources} sources.`,
+      message:
+        `Created ${results.signals} signals and ${results.sources} sources; ` +
+        `updated ${results.signalsUpdated} signals and ${results.sourcesUpdated} sources in place.`,
     });
   } catch (err) {
     console.error("POST /api/seed error:", err);

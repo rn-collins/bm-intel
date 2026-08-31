@@ -4,9 +4,15 @@
  * Signal and source records live in Redis, so a URL captured when a signal was
  * logged keeps pointing wherever it pointed then. Government sites reorganise:
  * GOV.UK retires transition-period guidance, and DOL restructured its Wage and
- * Hour industry pages. Rewriting the stored records would need an operator with
- * the dashboard key, so the correction is applied at render instead — the
- * stored record is left intact and the reader is sent to the live page.
+ * Hour industry pages. The correction is applied at render, so the stored
+ * record is left intact and the reader is sent to the live page.
+ *
+ * This was originally the only option: /api/seed called createSource and
+ * createSignal, which always mint a new id, so re-seeding would have duplicated
+ * every record rather than correcting two. The seed route now upserts on a
+ * natural key, so running it does rewrite the stored records — this map stays
+ * as a safety net for records written before that, and for any URL that moves
+ * between seeds.
  *
  * Each entry below was checked from two different HTTP clients before the old
  * URL was treated as dead, because some hosts answer one client 403 and another

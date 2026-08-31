@@ -184,3 +184,36 @@ export async function getSignalStats() {
     newThisWeek: newThisWeek as number,
   };
 }
+
+/**
+ * Idempotent counterpart to createSignal, for seeding. A signal's identity is
+ * its sourceUrl plus its title. Preserves id, createdAt, status and alertSent
+ * so re-seeding never resets an operator's triage or re-fires an alert.
+ */
+export async function upsertSignal(input: CreateSignalInput): Promise<{ signal: Signal; created: boolean }> {
+  // listSignals defaults to 50; an upsert that only sees the first page would
+  // duplicate anything past it, which is the bug this function exists to stop.
+  const existing = (await listSignals({ limit: 10_000 })).find(
+    (s) => s.sourceUrl === input.sourceUrl && s.title === input.title
+  );
+  if (!existing) return { signal: await createSignal(input), created: true };
+  const priorityScore = calculatePriorityScore(
+    input.businessImpactScore,
+    input.legalComplexityScore,
+    input.urgencyScore
+  );
+  const priorityLabel = getPriorityLabel(priorityScore);
+  const signal: Signal = {
+    ...existing,
+    ...input,
+    id: existing.id,
+    createdAt: existing.createdAt,
+    status: existing.status,
+    alertSent: existing.alertSent,
+    priorityScore,
+    priorityLabel,
+    recommendedAction: getRecommendedAction(priorityLabel, input.outsideCounselNeeded),
+  };
+  await redis.set(keys.signal(signal.id), JSON.stringify(signal));
+  return { signal, created: false };
+}

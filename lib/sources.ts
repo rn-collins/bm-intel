@@ -50,3 +50,19 @@ export async function deleteSource(id: string): Promise<boolean> {
   ]);
   return true;
 }
+
+/**
+ * Seeding must be safe to re-run. createSource always mints a new nanoid, so
+ * re-seeding duplicated every record instead of correcting it — which meant a
+ * wrong URL in a stored record could only be fixed by hand-editing Redis.
+ *
+ * A source's identity is its URL: same URL, same source. Match on that, keep
+ * the existing id and createdAt, and overwrite the rest.
+ */
+export async function upsertSource(input: CreateSourceInput): Promise<{ source: Source; created: boolean }> {
+  const existing = (await listSources()).find((s) => s.url === input.url);
+  if (!existing) return { source: await createSource(input), created: true };
+  const source: Source = { ...existing, ...input, id: existing.id, createdAt: existing.createdAt };
+  await redis.set(keys.source(source.id), JSON.stringify(source));
+  return { source, created: false };
+}
