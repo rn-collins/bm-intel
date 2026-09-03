@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
+/* Burgermeister Expansion Intel — a counsel register, not a product dashboard.
+   What shipped before was create-next-app's default stylesheet: Geist variables
+   declared and then overridden with Arial, on the same #F6F3EC paper as a third
+   of this estate, with 31 rounded-lg cards, 9 shadows and 5 coloured left
+   borders. That is the stock SaaS idiom, and this is a legal and regulatory
+   risk dossier on a real operating company. It should read as work product.
+
+   Severity colour is deliberately NOT restyled here: red/amber/yellow/green
+   carry meaning on this site and are semantic, not decoration. */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfcfb;   /* document white, cool — off the estate cream */
+  --foreground: #17181b;
+  --rule: #d7d5d0;
+  --rule-soft: #e8e6e2;
+  --accent: #7a2e2e;       /* oxblood: no other build in the estate uses it */
+  --accent-soft: #f4ecec;
+  --muted: #55565c;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: "Lora", Georgia, serif;
+  --font-mono: "Inconsolata", ui-monospace, SFMono-Regular, Menlo, monospace;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* A register is ruled, not carded. Flattening the scale here re-forms every
+     rounded-lg and shadow-sm already written into the components, without
+     editing seven files and risking their behaviour. */
+  --radius-lg: 2px;
+  --radius-md: 2px;
+  --radius-sm: 1px;
+  --shadow-sm: 0 0 0 0 rgb(0 0 0 / 0);
+  --shadow-md: 0 0 0 0 rgb(0 0 0 / 0);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lora", Georgia, serif;
+  font-synthesis-weight: none;
+}
+
+/* Identifiers, scores, jurisdictions and dates are keys, not prose. */
+code, kbd, samp, pre, time, .tabular { font-family: var(--font-mono); }
+table { font-variant-numeric: tabular-nums; }
+
+/* Cards were doing the separating; rules do it now. */
+.shadow-sm { box-shadow: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
