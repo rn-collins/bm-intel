@@ -67,8 +67,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <main className="flex-1 w-full max-w-7xl mx-auto px-6 py-8">
           {children}
         </main>
-        <footer className="text-center text-xs text-[#999] py-4 border-t border-[#E0DDD6]">
-          Burgermeister Expansion Intel · Not Legal Advice · Built by{" "}<a href="https://aloha-ai-consulting.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">Aloha AI</a>. Explore all AI tools and projects at{" "}<a href="https://rn-portfolio-khaki.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#B8842A] transition-colors">RN Builds</a>.
+        <footer className="text-center text-xs text-[#6E6E6E] py-4 border-t border-[#E0DDD6]">
+          Burgermeister Expansion Intel · Not Legal Advice · Built by{" "}<a href="https://aloha-ai-consulting.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#8A6218] transition-colors">Aloha AI</a>. Explore all AI tools and projects at{" "}<a href="https://rn-portfolio-khaki.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#8A6218] transition-colors">RN Builds</a>.
         </footer>
 
       <ContactArchitectModal />

@@ -21,7 +21,7 @@ export default async function HomePage() {
     <div className="space-y-8">
 
       {/* Legal disclaimer */}
-      <div className="bg-[#FFF8E7] border-l-4 border-[#B8842A] rounded-r p-3 text-[13px] text-[#5A4000]">
+      <div className="bg-[#FFF8E7] border-l-4 border-[#8A6218] rounded-r p-3 text-[13px] text-[#5A4000]">
         <strong>Note:</strong> This tool is for informational purposes only and does not constitute legal advice. Consult a qualified legal professional before making decisions.
       </div>
 
@@ -78,7 +78,7 @@ export default async function HomePage() {
             <h2 className="text-base font-bold text-[#1E3651]">Critical & High Priority Signals</h2>
             <p className="text-xs text-[#666] mt-0.5">These signals require action before or during market entry. Click any signal to see the full analysis and recommended next step.</p>
           </div>
-          <Link href="/signals" className="text-xs text-[#B8842A] font-semibold hover:underline flex-shrink-0 ml-4">
+          <Link href="/signals" className="text-xs text-[#8A6218] font-semibold hover:underline flex-shrink-0 ml-4">
             View all {stats.totalSignals} signals →
           </Link>
         </div>
@@ -91,15 +91,15 @@ export default async function HomePage() {
 
       {/* Quick links */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Link href="/signals" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+        <Link href="/signals" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#8A6218] hover:shadow-sm transition-all">
           <p className="font-bold text-[#1E3651] mb-1">📋 All Signals</p>
           <p className="text-xs text-[#666] leading-relaxed">Browse, filter, and search all {stats.totalSignals} signals by jurisdiction, category, priority, and outside counsel need. Sortable and searchable.</p>
         </Link>
-        <Link href="/sources" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+        <Link href="/sources" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#8A6218] hover:shadow-sm transition-all">
           <p className="font-bold text-[#1E3651] mb-1">📚 Source Library</p>
           <p className="text-xs text-[#666] leading-relaxed">17 monitored legal sources — primary statutes, government guidance, and secondary authorities — with direct links and monitoring frequency.</p>
         </Link>
-        <Link href="/admin" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+        <Link href="/admin" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#8A6218] hover:shadow-sm transition-all">
           <p className="font-bold text-[#1E3651] mb-1">➕ Add Signal</p>
           <p className="text-xs text-[#666] leading-relaxed">Log a new legal or regulatory development. The priority score calculates automatically as you enter the risk scores. Optionally send a Slack and email alert.</p>
         </Link>
@@ -109,11 +109,11 @@ export default async function HomePage() {
       <div>
         <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">Related Tools</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <a href="https://transform-observatory.vercel.app" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+          <a href="https://transform-observatory.vercel.app" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#8A6218] hover:shadow-sm transition-all">
             <p className="font-bold text-[#1E3651] mb-1">Transform Drug Market Transition Observatory</p>
             <p className="text-xs text-[#666] leading-relaxed">A market-intelligence observatory tracking drug-policy market transitions — the same signal-scoring approach applied to a different regulatory space.</p>
           </a>
-          <a href="https://creator-brand-evidence.vercel.app" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#B8842A] hover:shadow-sm transition-all">
+          <a href="https://creator-brand-evidence.vercel.app" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg border border-[#E0DDD6] p-5 hover:border-[#8A6218] hover:shadow-sm transition-all">
             <p className="font-bold text-[#1E3651] mb-1">Evidence·Studio</p>
             <p className="text-xs text-[#666] leading-relaxed">Evidence-based brand and creator strategy for trust-sensitive markets — governance and disclosure, not guesswork.</p>
           </a>

@@ -33,16 +33,16 @@ export const metadata: Metadata = {
 
 const TIER_CONFIG = {
   1: { label: "Tier 1 — Primary Legal Source",    bg: "bg-[#1E3651]", text: "text-white" },
-  2: { label: "Tier 2 — Reputable Secondary",     bg: "bg-[#B8842A]", text: "text-white" },
+  2: { label: "Tier 2 — Reputable Secondary",     bg: "bg-[#8A6218]", text: "text-white" },
   3: { label: "Tier 3 — Business Intelligence",   bg: "bg-[#F6F3EC]", text: "text-[#666]" },
-  4: { label: "Tier 4 — Weak Signal",             bg: "bg-[#eee]",    text: "text-[#999]" },
+  4: { label: "Tier 4 — Weak Signal",             bg: "bg-[#eee]",    text: "text-[#6E6E6E]" },
 };
 
 const FREQ_COLOR: Record<string, string> = {
   daily:   "text-[#7B0000] font-semibold",
   weekly:  "text-[#8B4513] font-semibold",
   monthly: "text-[#2F5496]",
-  manual:  "text-[#888]",
+  manual:  "text-[#6E6E6E]",
 };
 
 export default async function SourcesPage() {
@@ -81,13 +81,13 @@ export default async function SourcesPage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {tierSources.map((source) => (
-                <div key={source.id} className="bg-white rounded-lg border border-[#E0DDD6] p-4 hover:border-[#B8842A] hover:shadow-sm transition-all">
+                <div key={source.id} className="bg-white rounded-lg border border-[#E0DDD6] p-4 hover:border-[#8A6218] hover:shadow-sm transition-all">
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <a
                       href={correctUrl(source.url)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm font-bold text-[#1E3651] hover:text-[#B8842A] transition-colors leading-snug"
+                      className="text-sm font-bold text-[#1E3651] hover:text-[#8A6218] transition-colors leading-snug"
                     >
                       {source.name} →
                     </a>
@@ -95,7 +95,7 @@ export default async function SourcesPage() {
                       T{tier}
                     </span>
                   </div>
-                  <div className="flex flex-wrap gap-2 text-[10px] text-[#888]">
+                  <div className="flex flex-wrap gap-2 text-[10px] text-[#6E6E6E]">
                     <span className="bg-[#F6F3EC] px-2 py-0.5 rounded">{source.jurisdiction}</span>
                     <span className="bg-[#F6F3EC] px-2 py-0.5 rounded truncate max-w-[200px]">{source.category}</span>
                     <span className={`${FREQ_COLOR[source.updateFrequency]}`}>
@@ -106,7 +106,7 @@ export default async function SourcesPage() {
                     <p className="text-xs text-[#666] mt-2 leading-relaxed">{source.notes}</p>
                   )}
                   {source.lastChecked && (
-                    <p className="text-[10px] text-[#aaa] mt-1">
+                    <p className="text-[10px] text-[#6E6E6E] mt-1">
                       Last checked: {new Date(source.lastChecked).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
                     </p>
                   )}

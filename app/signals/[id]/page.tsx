@@ -89,8 +89,8 @@ const STATUS_COLORS: Record<string, string> = {
   "Add to Playbook":   "bg-[#F0F7F0] text-[#375623]",
   "Outside Counsel":   "bg-[#FDF0F0] text-[#7B0000]",
   "Executive Briefing":"bg-[#1E3651] text-white",
-  "Closed":            "bg-[#eee] text-[#999]",
-  "Archived":          "bg-[#eee] text-[#999]",
+  "Closed":            "bg-[#eee] text-[#6E6E6E]",
+  "Archived":          "bg-[#eee] text-[#6E6E6E]",
 };
 
 const TIER_MEANING: Record<number, string> = {
@@ -114,7 +114,7 @@ export default async function SignalDetailPage({
 
   return (
     <div className="max-w-4xl space-y-5">
-      <Link href="/signals" className="text-xs text-[#B8842A] font-semibold hover:underline">
+      <Link href="/signals" className="text-xs text-[#8A6218] font-semibold hover:underline">
         ← Back to all signals
       </Link>
 
@@ -164,7 +164,7 @@ export default async function SignalDetailPage({
         {/* Risk Scores */}
         <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
           <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Risk Scores</h2>
-          <p className="text-xs text-[#888] mb-4">
+          <p className="text-xs text-[#6E6E6E] mb-4">
             Priority Score = Business Impact + Legal Complexity + Urgency. Maximum is 15.
             Confidence is not included in the score — it reflects how reliable the source is.
           </p>
@@ -181,10 +181,10 @@ export default async function SignalDetailPage({
                 <div key={key}>
                   <div className="flex justify-between mb-1">
                     <span className="text-xs font-semibold text-[#444]">{label}</span>
-                    <span className="text-xs font-bold text-[#B8842A]">{val}/5</span>
+                    <span className="text-xs font-bold text-[#8A6218]">{val}/5</span>
                   </div>
                   <div className="h-2 bg-[#F6F3EC] rounded-full mb-1">
-                    <div className="h-2 bg-[#B8842A] rounded-full" style={{ width:`${(val/5)*100}%` }} />
+                    <div className="h-2 bg-[#8A6218] rounded-full" style={{ width:`${(val/5)*100}%` }} />
                   </div>
                   <p className="text-[11px] text-[#666] leading-relaxed">{meaning}</p>
                 </div>
@@ -195,7 +195,7 @@ export default async function SignalDetailPage({
                 <span className="text-sm font-bold text-[#1E3651]">Total Priority Score</span>
                 <span className="text-xl font-bold text-[#1E3651]">{signal.priorityScore}/15</span>
               </div>
-              <p className="text-xs text-[#888] mt-1">
+              <p className="text-xs text-[#6E6E6E] mt-1">
                 {signal.priorityScore >= 13 ? "Critical — address immediately" :
                  signal.priorityScore >= 9  ? "High — plan before launch" :
                  signal.priorityScore >= 5  ? "Medium — monitor and build into playbook" :
@@ -211,7 +211,7 @@ export default async function SignalDetailPage({
           <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
             <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-3">Source</h2>
             <a href={correctUrl(signal.sourceUrl)} target="_blank" rel="noopener noreferrer"
-              className="text-sm text-[#B8842A] hover:underline font-bold block mb-1">
+              className="text-sm text-[#8A6218] hover:underline font-bold block mb-1">
               {signal.sourceName} →
             </a>
             <p className="text-xs font-semibold text-[#444] mb-1">Tier {signal.sourceTier} Source</p>
@@ -221,16 +221,16 @@ export default async function SignalDetailPage({
           {/* Signal Currency */}
           <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
             <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Signal Currency</h2>
-            <p className="text-xs text-[#888] mb-3">
+            <p className="text-xs text-[#6E6E6E] mb-3">
               How current is this signal? The gap between when it was published and when it was added here tells you whether you&apos;re looking at breaking news or established law.
             </p>
             <p className="text-sm font-semibold text-[#1E3651] mb-1">{freshness}</p>
-            <p className="text-xs text-[#888]">
+            <p className="text-xs text-[#6E6E6E]">
               Added to dashboard: {new Date(signal.dateFound).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}
               {" "}({daysSince === 0 ? "today" : daysSince === 1 ? "1 day ago" : `${daysSince} days ago`})
             </p>
             {signal.datePublished && (
-              <p className="text-xs text-[#888] mt-0.5">
+              <p className="text-xs text-[#6E6E6E] mt-0.5">
                 Originally published: {new Date(signal.datePublished).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}
               </p>
             )}
@@ -240,7 +240,7 @@ export default async function SignalDetailPage({
           {signal.notes && (
             <div className="bg-white rounded-lg border border-[#E0DDD6] p-5">
               <h2 className="text-xs font-bold uppercase tracking-widest text-[#666] mb-1">Citation & Practice Notes</h2>
-              <p className="text-xs text-[#888] mb-2">
+              <p className="text-xs text-[#6E6E6E] mb-2">
                 Specific statute, regulation, or case law supporting this signal, plus practical notes on sequencing, timing, or related obligations.
               </p>
               <p className="text-xs text-[#444] leading-relaxed font-mono bg-[#F6F3EC] p-3 rounded">{signal.notes}</p>

@@ -53,26 +53,26 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
             placeholder="Search signals..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="col-span-2 border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A]"
+            className="col-span-2 border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#8A6218]"
           />
           <select aria-label="Filter by jurisdiction" value={jur} onChange={(e) => setJur(e.target.value)}
-            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
             <option value="All">All Jurisdictions</option>
             {JURISDICTIONS.map((j) => <option key={j} value={j}>{j}</option>)}
           </select>
           <select aria-label="Filter by priority" value={pri} onChange={(e) => setPri(e.target.value)}
-            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
             <option value="All">All Priorities</option>
             {PRIORITIES.map((p) => <option key={p} value={p}>{p}</option>)}
           </select>
           <select aria-label="Filter by whether outside counsel is needed" value={oc} onChange={(e) => setOc(e.target.value)}
-            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
             <option value="All">Outside Counsel: All</option>
             <option value="Yes">OC Needed</option>
             <option value="No">OC Not Needed</option>
           </select>
           <select aria-label="Filter by status" value={status} onChange={(e) => setStatus(e.target.value)}
-            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
             <option value="All">All Statuses</option>
             {["New","Needs Review","Monitor","Add to Playbook","Outside Counsel","Executive Briefing","Closed"].map((s) =>
               <option key={s} value={s}>{s}</option>)}
@@ -80,14 +80,14 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
         </div>
         <div className="mt-3">
           <select aria-label="Filter by category" value={cat} onChange={(e) => setCat(e.target.value)}
-            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#B8842A] bg-white w-full md:w-auto">
+            className="border border-[#E0DDD6] rounded px-3 py-1.5 text-sm focus:outline-none focus:border-[#8A6218] bg-white w-full md:w-auto">
             <option value="All">All Categories</option>
             {categories.map((c) => <option key={c} value={c}>{c}</option>)}
           </select>
-          <span className="ml-3 text-xs text-[#888]">{filtered.length} of {signals.length} signals</span>
+          <span className="ml-3 text-xs text-[#6E6E6E]">{filtered.length} of {signals.length} signals</span>
           {(search || jur !== "All" || pri !== "All" || cat !== "All" || oc !== "All" || status !== "All") && (
             <button onClick={() => { setSearch(""); setJur("All"); setPri("All"); setCat("All"); setOc("All"); setStatus("All"); }}
-              className="ml-3 text-xs text-[#B8842A] font-semibold hover:underline">
+              className="ml-3 text-xs text-[#8A6218] font-semibold hover:underline">
               Clear filters
             </button>
           )}
@@ -112,7 +112,7 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
             <tbody>
               {filtered.length === 0 && (
                 <tr>
-                  <td colSpan={7} className="text-center py-12 text-[#888] text-sm">
+                  <td colSpan={7} className="text-center py-12 text-[#6E6E6E] text-sm">
                     No signals match your filters.
                   </td>
                 </tr>
@@ -121,8 +121,8 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
                 <tr key={s.id} className={`border-t border-[#F0EDE8] hover:bg-[#FDFBF8] transition-colors ${i % 2 === 0 ? "" : "bg-[#FAFAF8]"}`}>
                   <td className="px-4 py-3">
                     <Link href={`/signals/${s.id}`} className="block">
-                      <p className="font-semibold text-[#1E3651] hover:text-[#B8842A] transition-colors leading-snug">{s.title}</p>
-                      <p className="text-xs text-[#888] mt-0.5 line-clamp-1">{s.category}</p>
+                      <p className="font-semibold text-[#1E3651] hover:text-[#8A6218] transition-colors leading-snug">{s.title}</p>
+                      <p className="text-xs text-[#6E6E6E] mt-0.5 line-clamp-1">{s.category}</p>
                     </Link>
                   </td>
                   <td className="px-4 py-3">
@@ -137,12 +137,12 @@ export default function SignalsTable({ signals }: { signals: Signal[] }) {
                   <td className="px-4 py-3">
                     {s.outsideCounselNeeded
                       ? <span className="text-xs bg-[#FDF0F0] text-[#7B0000] px-2 py-0.5 rounded font-bold">Yes ⚠️</span>
-                      : <span className="text-xs text-[#888]">No</span>}
+                      : <span className="text-xs text-[#6E6E6E]">No</span>}
                   </td>
                   <td className="px-4 py-3">
                     <span className="text-xs text-[#666]">{s.status}</span>
                   </td>
-                  <td className="px-4 py-3 text-xs text-[#888]">
+                  <td className="px-4 py-3 text-xs text-[#6E6E6E]">
                     {new Date(s.createdAt).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}
                   </td>
                 </tr>

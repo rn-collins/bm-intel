@@ -156,7 +156,7 @@ export default function AdminPage() {
   if (!unlocked) {
     return (
       <div className="max-w-md mx-auto mt-12 bg-white rounded-lg border border-[#E0DDD6] p-6 shadow-sm">
-        <p className="text-[10px] font-bold uppercase tracking-widest text-[#B8842A] mb-2">Operator workspace</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-[#8A6218] mb-2">Operator workspace</p>
         <h1 className="text-2xl font-bold text-[#1E3651]">Unlock signal operations</h1>
         <p className="text-sm text-[#666] mt-2 leading-relaxed">
           Public intelligence remains readable. Creating, changing, or deleting signals requires the private dashboard access key.
@@ -171,17 +171,17 @@ export default function AdminPage() {
           value={dashboardSecret}
           onChange={(event) => setDashboardSecret(event.target.value)}
           onKeyDown={(event) => { if (event.key === "Enter") unlockDashboard(); }}
-          className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]"
+          className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218]"
         />
         {error && <p role="alert" className="text-sm text-[#7B0000] bg-[#FDF0F0] px-3 py-2 rounded mt-3">{error}</p>}
         <button
           type="button"
           onClick={unlockDashboard}
-          className="w-full mt-4 py-3 rounded-lg font-bold text-sm bg-[#1E3651] text-white hover:bg-[#B8842A] transition-colors"
+          className="w-full mt-4 py-3 rounded-lg font-bold text-sm bg-[#1E3651] text-white hover:bg-[#8A6218] transition-colors"
         >
           Unlock operator workspace
         </button>
-        <p className="text-[11px] text-[#888] mt-3">The key is kept only in this browser tab and is never embedded in the site.</p>
+        <p className="text-[11px] text-[#6E6E6E] mt-3">The key is kept only in this browser tab and is never embedded in the site.</p>
 
         <div className="mt-8 pt-6 border-t border-[#E0DDD6] text-sm text-[#444] leading-relaxed space-y-4">
           <div>
@@ -221,11 +221,11 @@ export default function AdminPage() {
             <p>
               No analysis is hidden behind this gate. The full signal set, with scores, source
               links and jurisdictions, is on the{" "}
-              <a href="/signals" className="text-[#B8842A] font-semibold hover:underline">signals</a>{" "}
+              <a href="/signals" className="text-[#8A6218] font-semibold hover:underline">signals</a>{" "}
               page, and the register of monitored authorities is on the{" "}
-              <a href="/sources" className="text-[#B8842A] font-semibold hover:underline">sources</a>{" "}
+              <a href="/sources" className="text-[#8A6218] font-semibold hover:underline">sources</a>{" "}
               page. The{" "}
-              <a href="/" className="text-[#B8842A] font-semibold hover:underline">overview</a>{" "}
+              <a href="/" className="text-[#8A6218] font-semibold hover:underline">overview</a>{" "}
               summarises where the risk currently concentrates across the four markets. If you
               arrived here looking for the research, those three pages are the whole of it.
             </p>
@@ -249,7 +249,7 @@ export default function AdminPage() {
         <button onClick={() => setShowGuide(o => !o)}
           className="w-full flex items-center justify-between px-5 py-3 text-sm font-bold text-[#1E3651] hover:bg-[#F6F3EC] transition-colors">
           <span>📊 Scoring guide — how to fill in the risk scores</span>
-          <span className="text-[#B8842A] text-lg">{showGuide ? "−" : "+"}</span>
+          <span className="text-[#8A6218] text-lg">{showGuide ? "−" : "+"}</span>
         </button>
         {showGuide && (
           <div className="border-t border-[#E0DDD6] px-5 py-4 space-y-4">
@@ -273,7 +273,7 @@ export default function AdminPage() {
       <div className={`rounded-lg border-l-4 p-4 ${priority.bg}`}>
         <p className="text-xs font-semibold uppercase tracking-widest text-[#666]">Live Priority Score</p>
         <p className={`text-3xl font-bold mt-1 ${priority.color}`}>{priority.score}/15 — {priority.label}</p>
-        <p className="text-xs text-[#888] mt-1">Updates as you move the sliders below. Score = Business Impact + Legal Complexity + Urgency.</p>
+        <p className="text-xs text-[#6E6E6E] mt-1">Updates as you move the sliders below. Score = Business Impact + Legal Complexity + Urgency.</p>
       </div>
 
       <div className="bg-white rounded-lg border border-[#E0DDD6] p-6 space-y-5">
@@ -282,10 +282,10 @@ export default function AdminPage() {
           <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">
             Title <span className="text-[#7B0000]">*</span>
           </label>
-          <p className="text-[11px] text-[#888] mb-1">A short, specific description of the legal or regulatory issue.</p>
+          <p className="text-[11px] text-[#6E6E6E] mb-1">A short, specific description of the legal or regulatory issue.</p>
           <input type="text" value={form.title} onChange={(e) => set("title", e.target.value)}
             placeholder="e.g. FDA Menu Labeling — 20-Location Chain Trigger (21 C.F.R. § 101.11)"
-            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218]" />
         </div>
 
         {/* Summary */}
@@ -293,27 +293,27 @@ export default function AdminPage() {
           <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">
             Summary <span className="text-[#7B0000]">*</span>
           </label>
-          <p className="text-[11px] text-[#888] mb-1">What is the issue, what triggers it, and why does it matter for Burgermeister&apos;s expansion?</p>
+          <p className="text-[11px] text-[#6E6E6E] mb-1">What is the issue, what triggers it, and why does it matter for Burgermeister&apos;s expansion?</p>
           <textarea value={form.summary} onChange={(e) => set("summary", e.target.value)}
             rows={3} placeholder="FDA requires calorie and nutrition disclosure on menus for chain restaurants with 20 or more locations under the same name..."
-            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] resize-none" />
+            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218] resize-none" />
         </div>
 
         {/* Source */}
         <div className="grid grid-cols-2 gap-4">
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Source URL <span className="text-[#7B0000]">*</span></label>
-            <p className="text-[11px] text-[#888] mb-1">Direct link to the statute, regulation, or publication.</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">Direct link to the statute, regulation, or publication.</p>
             <input type="url" value={form.sourceUrl} onChange={(e) => set("sourceUrl", e.target.value)}
               placeholder="https://www.fda.gov/..."
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218]" />
           </div>
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Source Name <span className="text-[#7B0000]">*</span></label>
-            <p className="text-[11px] text-[#888] mb-1">Name of the source as it should appear in citations.</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">Name of the source as it should appear in citations.</p>
             <input type="text" value={form.sourceName} onChange={(e) => set("sourceName", e.target.value)}
               placeholder="FDA — Menu Labeling Requirements"
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218]" />
           </div>
         </div>
 
@@ -321,9 +321,9 @@ export default function AdminPage() {
         <div className="grid grid-cols-3 gap-4">
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Source Tier</label>
-            <p className="text-[11px] text-[#888] mb-1">T1 = statute/regulation. T2 = law firm/association. T3 = trade press.</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">T1 = statute/regulation. T2 = law firm/association. T3 = trade press.</p>
             <select value={form.sourceTier} onChange={(e) => set("sourceTier", parseInt(e.target.value))}
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
               <option value={1}>Tier 1 — Primary Legal (statute, regulation, official guidance)</option>
               <option value={2}>Tier 2 — Secondary (law firm alert, professional association)</option>
               <option value={3}>Tier 3 — Business Intelligence (trade press, company announcement)</option>
@@ -332,17 +332,17 @@ export default function AdminPage() {
           </div>
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Jurisdiction</label>
-            <p className="text-[11px] text-[#888] mb-1">Which market does this apply to?</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">Which market does this apply to?</p>
             <select value={form.jurisdiction} onChange={(e) => set("jurisdiction", e.target.value)}
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
               {JURISDICTIONS.map((j) => <option key={j} value={j}>{j === "US" ? "US — United States" : j === "UK" ? "UK — United Kingdom" : j === "EU" ? "EU — European Union" : j === "DE" ? "DE — Germany" : j === "PL" ? "PL — Poland" : j === "CZ" ? "CZ — Czech Republic" : j === "NL" ? "NL — Netherlands" : j === "CH" ? "CH — Switzerland" : j === "UAE" ? "UAE — United Arab Emirates" : "Global — Multiple Markets"}</option>)}
             </select>
           </div>
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Category</label>
-            <p className="text-[11px] text-[#888] mb-1">Which area of law or business does this cover?</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">Which area of law or business does this cover?</p>
             <select value={form.category} onChange={(e) => set("category", e.target.value)}
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] bg-white">
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218] bg-white">
               {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
             </select>
           </div>
@@ -352,15 +352,15 @@ export default function AdminPage() {
         <div className="grid grid-cols-2 gap-4">
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Date Found</label>
-            <p className="text-[11px] text-[#888] mb-1">When you added this signal to the dashboard.</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">When you added this signal to the dashboard.</p>
             <input type="date" value={form.dateFound} onChange={(e) => set("dateFound", e.target.value)}
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218]" />
           </div>
           <div>
             <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Date Published (if known)</label>
-            <p className="text-[11px] text-[#888] mb-1">When the source originally published this information. Used to calculate signal currency.</p>
+            <p className="text-[11px] text-[#6E6E6E] mb-1">When the source originally published this information. Used to calculate signal currency.</p>
             <input type="date" value={form.datePublished} onChange={(e) => set("datePublished", e.target.value)}
-              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A]" />
+              className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218]" />
           </div>
         </div>
 
@@ -368,21 +368,21 @@ export default function AdminPage() {
         <div className="space-y-4">
           <div>
             <p className="text-xs font-bold text-[#1E3651] uppercase tracking-wider">Risk Scores (1–5)</p>
-            <p className="text-[11px] text-[#888] mt-1">Move each slider to score the signal. Priority Score = Business Impact + Legal Complexity + Urgency. Open the scoring guide above if you need help.</p>
+            <p className="text-[11px] text-[#6E6E6E] mt-1">Move each slider to score the signal. Priority Score = Business Impact + Legal Complexity + Urgency. Open the scoring guide above if you need help.</p>
           </div>
           {SCORE_GUIDE.map(({ key, label, what }) => (
             <div key={key}>
               <div className="flex justify-between mb-1">
                 <div>
                   <label className="text-xs font-semibold text-[#444]">{label}</label>
-                  <p className="text-[10px] text-[#aaa]">{what}</p>
+                  <p className="text-[10px] text-[#6E6E6E]">{what}</p>
                 </div>
-                <span className="text-xs text-[#B8842A] font-bold ml-4 flex-shrink-0">{SCORE_LABELS[form[key as keyof typeof form] as number]}</span>
+                <span className="text-xs text-[#8A6218] font-bold ml-4 flex-shrink-0">{SCORE_LABELS[form[key as keyof typeof form] as number]}</span>
               </div>
               <input type="range" min={1} max={5} step={1}
                 value={form[key as keyof typeof form] as number}
                 onChange={(e) => set(key, parseInt(e.target.value))}
-                className="w-full accent-[#B8842A]" />
+                className="w-full accent-[#8A6218]" />
             </div>
           ))}
         </div>
@@ -403,10 +403,10 @@ export default function AdminPage() {
         {/* Notes */}
         <div>
           <label className="block text-xs font-bold text-[#1E3651] uppercase tracking-wider mb-1">Citation & Practice Notes (optional)</label>
-          <p className="text-[11px] text-[#888] mb-1">Specific statute, regulation, or case citation, plus any practical notes on timing, sequencing, or related obligations. Example: &ldquo;16 C.F.R. § 436.2(f) — must be completed before any franchise sales activity in the U.S.&rdquo;</p>
+          <p className="text-[11px] text-[#6E6E6E] mb-1">Specific statute, regulation, or case citation, plus any practical notes on timing, sequencing, or related obligations. Example: &ldquo;16 C.F.R. § 436.2(f) — must be completed before any franchise sales activity in the U.S.&rdquo;</p>
           <textarea value={form.notes} onChange={(e) => set("notes", e.target.value)}
             rows={2} placeholder="16 C.F.R. § 436.2(f) — must be completed before any franchise sales activity in the U.S."
-            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#B8842A] resize-none font-mono" />
+            className="w-full border border-[#E0DDD6] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#8A6218] resize-none font-mono" />
         </div>
 
         {/* Alert */}
@@ -427,8 +427,8 @@ export default function AdminPage() {
         <button onClick={handleSubmit} disabled={saving || success}
           className={`w-full py-3 rounded-lg font-bold text-sm transition-colors ${
             success ? "bg-[#375623] text-white" :
-            saving  ? "bg-[#ccc] text-[#888] cursor-not-allowed" :
-                      "bg-[#1E3651] text-white hover:bg-[#B8842A]"
+            saving  ? "bg-[#ccc] text-[#6E6E6E] cursor-not-allowed" :
+                      "bg-[#1E3651] text-white hover:bg-[#8A6218]"
           }`}>
           {success ? "✓ Signal saved — redirecting to signals..." : saving ? "Saving..." : "Save Signal"}
         </button>

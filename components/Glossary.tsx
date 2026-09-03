@@ -66,7 +66,7 @@ export default function Glossary() {
         className="w-full flex items-center justify-between px-5 py-3 text-sm font-bold text-[#1E3651] hover:bg-[#F6F3EC] transition-colors"
       >
         <span>📖 How to read this dashboard — terms and definitions</span>
-        <span className="text-[#B8842A] text-lg">{open ? "−" : "+"}</span>
+        <span className="text-[#8A6218] text-lg">{open ? "−" : "+"}</span>
       </button>
 
       {open && (
@@ -78,7 +78,7 @@ export default function Glossary() {
             </div>
           ))}
           <div className="md:col-span-2 mt-2 pt-3 border-t border-[#F0EDE8]">
-            <p className="text-[10px] text-[#aaa]">
+            <p className="text-[10px] text-[#6E6E6E]">
               ⚖️ Not legal advice. This dashboard is a legal/regulatory intelligence and issue-spotting tool. It does not constitute legal advice and should not be relied upon as such. Items marked &quot;Outside Counsel Required&quot; require attorney confirmation before any action is taken.
             </p>
           </div>
