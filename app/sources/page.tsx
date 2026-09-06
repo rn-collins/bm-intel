@@ -35,7 +35,7 @@ const TIER_CONFIG = {
   1: { label: "Tier 1 — Primary Legal Source",    bg: "bg-[#1E3651]", text: "text-white" },
   2: { label: "Tier 2 — Reputable Secondary",     bg: "bg-[#8A6218]", text: "text-white" },
   3: { label: "Tier 3 — Business Intelligence",   bg: "bg-[#F6F3EC]", text: "text-[#666]" },
-  4: { label: "Tier 4 — Weak Signal",             bg: "bg-[#eee]",    text: "text-[#6E6E6E]" },
+  4: { label: "Tier 4 — Weak Signal",             bg: "bg-[#eee]",    text: "text-[#6A6A6A]" },
 };
 
 const FREQ_COLOR: Record<string, string> = {
