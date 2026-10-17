@@ -69,7 +69,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </main>
         <footer className="text-center text-xs text-[#6E6E6E] py-4 border-t border-[#E0DDD6]">
           Burgermeister Expansion Intel · Not Legal Advice · Built by{" "}<a href="https://aloha-ai-consulting.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#8A6218] transition-colors">Aloha AI</a>. Explore all AI tools and projects at{" "}<a href="https://rn-portfolio-khaki.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#8A6218] transition-colors">RN Builds</a>.
-        </footer>
+        <p><a href="https://github.com/rn-collins/bm-intel" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></p></footer>
 
       <ContactArchitectModal />
       </body>
